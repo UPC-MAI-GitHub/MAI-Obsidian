@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction and Planning Definition.md",
+                "file": "Introduction to Agents and MAS.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "3598869011307f8c",
+        "id": "992f47d10af70403",
         "type": "tabs",
         "children": [
           {
-            "id": "8237fbb4c796d459",
+            "id": "af86dc192d64a7d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction and Planning Definition.md",
+                "file": "Introduction to Agents and MAS.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction and Planning Definition.md",
+                "file": "Introduction to Agents and MAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction and Planning Definition.md",
+                "file": "Introduction to Agents and MAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction and Planning Definition.md"
+                "file": "Introduction to Agents and MAS.md"
               }
             }
           },
@@ -199,16 +199,29 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "8237fbb4c796d459",
+  "active": "0f7b3a8d77a1797e",
   "lastOpenFiles": [
-    "Excalidraw/Introduction and Planning Definition 2023-09-27 12.27.24.excalidraw.md",
+    "Introduction to Multi-agent Systems.md",
+    "Slides/IMAS/EvaluationGuide-IMAS-MIAMESIIA-23-24.pdf",
+    "Slides/IMAS/AssIMAS-23-24.pdf",
+    "Introduction to Agents and MAS.md",
+    "Opening Talk IMAS.md",
+    "Slides/IMAS/Lab/Readings/3.2.1.1.MultiagentSystemsinAutomotiveApplications_2017.pdf",
+    "Planning and Approximate Reasoning.md",
+    "Slides/IMAS/Lab/Readings/A Systematic Literature Review of Agents Applied in Healthcare.pdf",
+    "Slides/IMAS/Lect01-Intro_to_Agents (1).pdf",
+    "Slides/IMAS/Lab/Readings",
+    "Slides/IMAS/Lab",
+    "Master in Artificial Intelligence (MAI).md",
     "Introduction and Planning Definition.md",
+    "Computational Intelligence (CI).md",
+    "Opening Talk CI.md",
+    "Excalidraw/Introduction and Planning Definition 2023-09-27 12.27.24.excalidraw.md",
     "Pasted image 20230927123126.png",
     "Excalidraw/Introduction and Planning Definition 2023-09-27 12.07.03.excalidraw.md",
     "Pasted image 20230927120516.png",
     "Pasted image 20230927120448.png",
     "Excalidraw/Introduction and Planning Definition 2023-09-27 11.38.21.excalidraw.md",
-    "Planning and Approximate Reasoning.md",
     "Opening Talk PAR.md",
     "Blocks Worlds.md",
     "General Readings.md",
@@ -218,14 +231,6 @@
     "Slides/IML/Lab/Session1_Support_Work1_2023.pdf",
     "Slides/PAR/1- lecture 1.pdf",
     "Opening Talk IML.md",
-    "Slides/PAR/EvaluationGuide-PAR-MIA-MESIIApresential-23-24.pdf",
-    "Slides/PAR/Lab/Planning software tools.pdf",
-    "Slides/PAR/Lab/1- Reading-PDDL.pdf",
-    "Slides/PAR/Readings/1- lecture 1-Reading 1 AI_Planning_Systems_and_Techniques.pdf",
-    "Slides/PAR/Readings/1- lecture 1-Reading 1-Planning_for_Interactions_among_Autonomous_Agents.pdf",
-    "Slides/PAR/Readings",
-    "Slides/PAR/Lab",
-    "Master in Artificial Intelligence (MAI).md",
     "Morphology, Finite States Automata.md",
     "What is computer vision.md",
     "Introduction to Human Language Technologies (IHLT).md",
@@ -234,12 +239,7 @@
     "Excalidraw/Neural Networks - Multilayer Percentrons 2023-09-21 10.24.25.excalidraw.md",
     "Computational Vision.md",
     "Pasted image 20230919145143.png",
-    "Computational Intelligence (CI).md",
     "CV Lab Session 1.md",
-    "Digital images, image properties & linear filters.md",
-    "Opening Talk CV.md",
-    "Excalidraw/IML Lab 1 notes 2023-09-19 13.16.30.excalidraw.md",
-    "Introduction to ML.md",
     "Pasted image 20230914170339.png"
   ]
 }

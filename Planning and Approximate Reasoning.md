@@ -15,7 +15,7 @@ For more information about ACIA ask to Dr. Aida Valls
 	* **Readings**
 		* [[1- lecture 1-Reading 1 AI_Planning_Systems_and_Techniques.pdf|AI Planning Systems and Techniques]]
 		* [[1- lecture 1-Reading 1-Planning_for_Interactions_among_Autonomous_Agents.pdf|Planning for Interactions among Autonomous Agents]]
-## Lab Session
+## Lab Sessions
 - [[General Readings]]
 - [[Blocks Worlds]]
 - 

@@ -94,6 +94,10 @@
 		if empty(fringe) then return failure
 		node -<- selectFrom(fringe, strategy) 
 		if problem.goalTest(node.state) then return pathTo(node) 
-		fringe <- fringe + expand(problem, node)```
-```
-
+		fringe <- fringe + expand(problem, node)
+	```
+	- **Search or control strategy**: efective method for scheduling te successor function to expand nodes.
+		- Select the next node to be expanded
+		- Determines the order of expansion
+		- Reach the goal as quickly as possible
+		- Ex: LIFO-FIFO
