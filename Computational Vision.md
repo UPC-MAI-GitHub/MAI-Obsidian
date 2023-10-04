@@ -4,6 +4,8 @@ This is the start of the Computational Vision class at UB. Here you can find the
 ## Topics
 - [[What is computer vision]]
 - [[Digital images, image properties & linear filters]]
+- [[Image gradients and edges]]
 ## Lab Sessions
-* [[CV Lab Session 1]]
+- [[CV Lab Intro]]
+* [CV Lab Session 1](https://github.com/MarioROT/CV-MAI/tree/main/Session%201)
 * 

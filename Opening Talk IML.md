@@ -1,4 +1,4 @@
-![[T0_OverviewIML-2023_v1.pdf#height=770]]
+![[T0_OverviewIML-2023_v1_all.pdf]]
 
 ## Notes
 - Just the basic algorithms in ML

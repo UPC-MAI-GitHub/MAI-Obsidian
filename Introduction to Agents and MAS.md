@@ -2,9 +2,53 @@
 
 ## Notes
 - Trends in computer science
-	- Ubiquity: reduction in size and cost of computing capability
+	- *Ubiquity*: reduction in size and cost of computing capability
 	- Interconnection devices today are networked into large distributed systems.
-	- Intelligence
-	- Delegation
-	- Human-orientation in programming methodologies
-- 
+	- *Intelligence*: increase of the knowledge domain and inference capabilities to provide better user experiences.
+	- *Delegation*: computers doing more for us without our intervention. (Giving control to computers)
+	- *Human-orientation in programming methodologies*: Implement concepts and metaphors to reflect the way we understand the world.
+- Programming progress
+	- ![[Introduction to Agents and MAS 2023-09-29 00.50.15.excalidraw]]
+- **Goal?** --> a intelligent computer system that can act on our behalf
+	- *Independently*
+	- In a way that *represents our* best *interests*
+	- Interconnection and distribution to *cooperate*, *reach agreements* or *compete*
+- **Agent**
+	- *Computer system* able to *interact independently* in a *dynamic environment*.
+	- Assumed to be *autonomous*, *synchronize* and *coordinate* their activities at run time.
+	- **Agent technologies**
+		- *Agent-level*: refer to the individuals
+		- *Interaction-level*: communication between agents
+		- *Organization-level*: agent societies (structure, trust, norms, obligations, etc.)
+	- *Systems taking the initiative when necessary*
+	- Agents *cooperating to solve a task*
+	- Take into account *social aspects*, these are important part of *intelligent activity in real-world*-settings.
+	- **Agents vs Objects**
+		- *Object*
+			- Encapsulates some state, 
+			- Communicates via message passing 
+			- Has methods (operations to be performed on a given state)
+			- *A method is always executed when called*.
+		- *Agent*
+			- Notion of autonomy (*decides whether to act or not on request from another agent*)
+			- Intelligent
+			- Flexible
+			- Reactive
+			- *Proactive*
+			- Social
+	- **Considerations**
+		- Balance *reaction-deliberation*
+		- *Learning* from an about other agents in the environment
+		- Electing upon user *preferences*
+		- Find ways to *negotiate* and *cooperate (coalitions)*
+		- Agents are no expert systems, but sometimes somo expert systems are agntified.
+	- **Some uses**
+		- Complex and dynamic real-world environments simulations
+		- A tool to get some light in the understanding  on various kinds of social processes.
+		- *Agent-oriented software engineering* allows to structure applications with autonomous components.
+- **Multi-agent system**
+	- X number of agents interacting with each other. usually, each has a different goal and motivation.
+	- *Cooperate*
+	- *Negotiate*
+	- *Coordinate*
+	- ![[Introduction to Agents and MAS 2023-09-29 01.05.06.excalidraw]]

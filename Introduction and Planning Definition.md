@@ -1,6 +1,7 @@
 ![[1- lecture 1.pdf]]
 
 ## Notes
+- *Professor notes -->* [[1- lecture 1-notes.pdf]]
 
 - Planning involves thinking
 - Acting 
@@ -37,7 +38,7 @@
 		- False
 		- True
 		- True
-		- False
+		- True
 - **Conceptual model**
 	- Definition -> *representation of a system* to *know, understand or simulate* an instances of the model
 		- Theoretical method for describing the elements of a problem
@@ -49,7 +50,7 @@
 	- A: set of actions
 	- $\gamma$: transition function
 	- *Ontology (logical)* to define a environment a set of actions that can be performed
-		- Anything note stated is assumed to be false
+		- *Anything not stated is* assumed to be *false*
 	- **Defining actions**
 		- Name (can have arguments)
 		- Pre-condition list (all conditions need to be true to apply the action)
@@ -101,3 +102,5 @@
 		- Determines the order of expansion
 		- Reach the goal as quickly as possible
 		- Ex: LIFO-FIFO
+## Questions
+1. Why does the examples on the slide 47(45) are continuous, hybrid and discrete respectively?

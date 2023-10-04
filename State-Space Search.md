@@ -1,0 +1,165 @@
+![[2- lecture 2.pdf]]
+
+## Summary
+- **Planning**: *selecting one sequence of actions* (operators) that transform (apply to) an *initial state to a final state* where the goal statement is true. 
+- **Means-ends analysis**: *identify and reduce*, as soon as possible, differences between state and goals. 
+- **Linear planning**: backward chaining with means-ends analysis using a stack of goals - *potentially efficient, possibly suboptimal, incomplete; GPS, STRIPS*. 
+- *Nonlinear planning* with means-ends analysis: backward chaining using a set of goals; reason about when “to reduce the differences;” Prodigy4.0.
+## Notes
+- *Professor notes -->* [[2- lecture 2-notes.pdf]]
+- **AI planning**
+	- *State-Space Search process*
+		- Initialization
+		-  Set current state
+		- *if* the *current is* the *goal* state
+			- *return* the *solution*
+		- *else*
+			- *for* *state* in all reachable states
+				- *if state* not *visited*
+					- set *state* as current
+				- *else*
+					-  skip
+- **Heuristic Search Strategies**
+
+| **Parameters**      | **Informed Search**                              | **Uninformed Search**                                             |
+| ------------------- | ------------------------------------------------ | ----------------------------------------------------------------- |
+| *Known as*        | It is also known as Heuristic Search             | Search. It is also known as Blind Search.                         |
+| *Using Knowledge* | It uses knowledge for the searching process.     | It doesn’t use knowledge for the searching process                |
+| *Performance*     | It finds a solution more quickly.                | quickly. It finds solution slow as compared to an informed search |
+| *Completion*      | It may or may not be complete.                   | It is always complete.                                            |
+| *Cost Factor*     | Cost is low.                                     | Cost is high.                                                     |
+| *Time*            | It consumes less time because of quick searching | It consumes moderate time because of slow searching               |
+- **Heuristic Search Strategies**
+	- **Heuristic functions**
+		- Heuristic function $h:\text{state space}\rightarrow \mathbb{R}$
+		- $h(n) =$ estimated cost of the cheapest path from node $n$ to a goal node
+		- if $n$ is a goal node then $h(n)$ must be $0$ 
+		- *Heuristic function encodes problem-specific knowledge* in a problem-independent way
+	- **Best First Search (BFS)**
+		- *Strategy*: 
+			- Select next node based on an evaluation function $h:\text{state space}\rightarrow \mathbb{R}$
+			- Select node with lowest value f(n)
+		- *Implementation:*
+			- selectFrom(fringe, strategy)
+				- priority queue: maintain fringe in ascending order of f-values
+	- **Greedy Best-first Search**
+		- Use heuristic function as evaluation function $$f(n)=h(n)$$
+			- $h(n)$ is the heuristic function (e.g. the straight-line distance to the goal)
+		- Always expands the node that is closest to the goal node
+		- Eats the largest chunk out the remaining distance hence "greedy"
+		- ![[State-Space Search 2023-10-04 14.07.54.excalidraw]]
+- **The $A^*$ Algorithm (for Tree Search)
+	- Best-first search where $$f(n) = h(n) + g(n)$$
+		- $h(n)$ the heuristic function (as before) 
+		- $g(n)$ the cost to reach the node n 
+	- evaluation function: $f(n) =$ estimated cost of the cheapest solution through $n$
+	- **Admissible**: *If a solution exists* for the given problem, *the first* solution *found by* $A*$ is an *optimal* solution.
+	- **Complete**: $A*$ is also complete algorithm, meaning *if a solution exists*, the answer is bound to be *found in a finite amount of time*. 
+	- **Optimal**: A* is optimally efficient for a given heuristic, it can be shown that no other optimal algorithm will expand fewer nodes and find a solution.
+	- $A^*$ search is optimal if $h(n)$ is admissible
+	- ![[State-Space Search 2023-10-04 14.39.54.excalidraw]]
+	- *Exercise*
+		- Considering the graph
+			- The numbers written on *edges* represent the *distance between the nodes*.
+			- The numbers written on *nodes* represent the *heuristic value*. 
+		- Find the most cost-effective path to reach from *start state A* to *final state J* using *$A^*$ Algorithm*.
+		- ![[State-Space Search 2023-10-04 16.43.49.excalidraw]]
+		- $A*$ Algorithm is *one of the best path finding algorithms*. 
+		- But it does *not* produce the *shortest path always*. 
+		- This is because it *heavily depends on heuristics*.
+	- *Exercise 2*
+		- Find the most cost-effective path to reach the final state from initial state using A* Algorithm. 
+			- $g(n) =$ Depth of node and 
+			- $h(n)$ = Number of misplaced tiles.
+			- ![[State-Space Search 2023-10-04 17.09.17.excalidraw]]
+	- *Advantages*
+		- It is *optimal search algorithm in terms of heuristics*.
+		- It is *one of the best heuristic search techniques in AI*.
+		- It is used to solve *complex search problems*. 
+		- There is *no other optimal algorithm guaranteed to expand fewer nodes than* $A^*$.
+	- *Disadvantages*: 
+		- This algorithm is *complete if the branching factor is finite* and every action has fixed cost. 
+		- The *performance of $A*$ search is dependent on accuracy of heuristic* algorithm used to compute the function $h(n)$.
+- **Graph Search with $A^*$
+	- A* has worst case time and space complexity of $O(b^l)$ 
+	- exponential growth of the fringe is normal 
+		- *Exponential time* complexity may be *acceptable* 
+		- *Exponential space* complexity *exhaust any computer’s resources* all too quickly
+		- ![[Pasted image 20231004174740.png]]
+- **Heuristics**
+	- Heuristics are *criteria, methods, or principles for deciding* which among several alternative *courses of action promises* to be the *most effective* in order to achieve some *goal* 
+		- Ex: Use this information to decide which of the courses that were available you want to take.
+	- *Good heuristics*:  
+		- *Reduce* the number of *states to be evaluated* 
+		- Solutions within *reasonable time* constraints
+		- *Simple ways of discriminating* between choices
+		- Not necessarily the best but *sufficiently accurate*
+		- ![[State-Space Search 2023-10-04 18.00.06.excalidraw]]
+		- *Relaxed problem*: a problem with fewer restrictions on the actions than the original problem 
+		- The cost of an optimal solution for a relaxed problem is an admissible and consistent heuristic for the original problem.
+- **Classical planning**
+	- *Progression*: forward state-space search
+	- *Regression*: backward state-space search
+	- **Characteristics**
+		- *Soundness* 
+			- If* all solutions are legal plans* 
+				- All preconditions, goals, and any additional *constraints are satisfied*
+		- *Completeness*
+			- *Complete* if a solution *can be found whenever* one actually *exists*
+			- *Strictly complete* if *all solutions are included in the search space* 
+		- *Optimality* 
+			- *Maximizes a predefined measure* of plan quality
+	- **Linear planning**
+		- Work on *one goal until completely solved* before *moving on to the next goal*
+		- Search by *reducing the difference between the state and the goals* 
+		- What means (*operators*) are *available* to achieve the desired ends (goal)
+	- **GPS Algorithm**
+		- *GPS*(state, goals, plan) 
+			- If *goals ⊆ state*
+				- return (state, plan) (The symbol ⊆ is used to denote containment of sets.) 
+			- Choose a *difference d ∈ goals between state and goals*
+			- Choose an *operator $o$ to reduce the difference* $d$ 
+			- If *no applicable operators*
+				- return False 
+			- (state, plan) = GPS (state, preconditions(o), plan) 
+			- If *state*
+				- return GPS (apply (o, state), goals, [plan, o]) 
+		- *Advantages* 
+			- *Reduced search space*, since *goals are solved one at a time*, and not all possible goal orderings are considered 
+			- Advantageous if *goals* are (mainly) *independent*
+			- Linear planning is sound 
+		- *Disadvantages*
+			- Linear planning may produce *suboptimal solutions* (based on the number of operators in the plan) 
+			- Planner's *efficiency is sensitive to goal orderings*
+				- Control knowledge for the “right” ordering 
+				- *Random restarts* 
+				- Iterative deepening 
+			- Completeness? *NO*
+	- **The Sussman Anomaly**
+		- *Nonlinear planning* is used to a *goal set instead of a goal stack* 
+		- It is *included in the search space* of all possible *subgoal orderings*. 
+		- It handles the goal interactions by *interleaving method*.
+		- *Advantages*
+			- Non-linear planning may be an optimal solution with respect to plan length
+		- *Disadvantages*
+			- It *takes larger search space*, since all possible goal orderings are taken into consideration. 
+			- *Complex algorithm* to understand.
+- **Why is planning hard?**
+	- Planning involves a complex search: 
+		- *Alternative operators* to achieve a goal 
+		- *Multiple goals* that interact 
+		- Solution optimality, quality 
+		- Planning efficiency, soundness, completeness 
+	- *State representation* 
+		- The frame problem 
+		- The *“choice” of predicates* 
+			- On-table (x), On (x, table), On-table-A, On-table-B,… 
+	- *Action representation* 
+		- Many alternative definitions
+		- Reduce to “needed” definition 
+		- Conditional effects 
+		- Uncertainty 
+		- Quantification 
+		- Functions 
+		- Generation 
+		- Planning algorithm(S)

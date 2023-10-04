@@ -4,34 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "f5e0e0adbb869768",
+        "id": "ec9adece7382a702",
         "type": "tabs",
         "children": [
           {
-            "id": "0f7b3a8d77a1797e",
+            "id": "3d39d6e908dc768e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Introduction to Agents and MAS.md",
-                "mode": "source",
-                "source": false
+                "file": "Slides/PAR/2- lecture 2-notes.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "992f47d10af70403",
+        "id": "ba9b9cea998cef69",
         "type": "tabs",
         "children": [
           {
-            "id": "af86dc192d64a7d2",
+            "id": "fe7a5df008afe2e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Agents and MAS.md",
+                "file": "State-Space Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.50152587890625,
+    "width": 407.51103591918945,
     "collapsed": true
   },
   "right": {
@@ -104,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Agents and MAS.md",
+                "file": "Slides/PAR/2- lecture 2-notes.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Agents and MAS.md",
+                "file": "Slides/PAR/2- lecture 2-notes.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Agents and MAS.md"
+                "file": "Slides/PAR/2- lecture 2-notes.pdf"
               }
             }
           },
@@ -199,47 +197,87 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "0f7b3a8d77a1797e",
+  "floating": {
+    "id": "a64232bf4ad02512",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8fc768a040de6c2c",
+        "type": "window",
+        "children": [
+          {
+            "id": "22e6f8a927cdfc19",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "07540af95ef26725",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/State-Space Search 2023-10-04 17.09.17.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2816,
+        "y": 86,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "3d39d6e908dc768e",
   "lastOpenFiles": [
-    "Introduction to Multi-agent Systems.md",
-    "Slides/IMAS/EvaluationGuide-IMAS-MIAMESIIA-23-24.pdf",
-    "Slides/IMAS/AssIMAS-23-24.pdf",
-    "Introduction to Agents and MAS.md",
-    "Opening Talk IMAS.md",
-    "Slides/IMAS/Lab/Readings/3.2.1.1.MultiagentSystemsinAutomotiveApplications_2017.pdf",
+    "State-Space Search.md",
     "Planning and Approximate Reasoning.md",
-    "Slides/IMAS/Lab/Readings/A Systematic Literature Review of Agents Applied in Healthcare.pdf",
-    "Slides/IMAS/Lect01-Intro_to_Agents (1).pdf",
-    "Slides/IMAS/Lab/Readings",
-    "Slides/IMAS/Lab",
-    "Master in Artificial Intelligence (MAI).md",
+    "Excalidraw/State-Space Search 2023-10-04 18.00.06.excalidraw.md",
+    "Pasted Image 20231004180021_364.png",
+    "Pasted image 20231004175958.png",
+    "Pasted image 20231004175928.png",
+    "Pasted image 20231004174740.png",
+    "Excalidraw/State-Space Search 2023-10-04 17.09.17.excalidraw.md",
+    "Pasted Image 20231004171546_054.png",
+    "Pasted Image 20231004171341_596.png",
+    "Pasted Image 20231004171120_571.png",
+    "Pasted Image 20231004170948_563.png",
+    "Excalidraw/State-Space Search 2023-10-04 16.43.49.excalidraw.md",
+    "Pasted Image 20231004164450_506.png",
+    "Excalidraw/State-Space Search 2023-10-04 14.39.54.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-04 15.24.34.excalidraw.md",
+    "Pasted Image 20231004144003_825.png",
+    "Excalidraw/State-Space Search 2023-10-04 14.07.54.excalidraw.md",
     "Introduction and Planning Definition.md",
-    "Computational Intelligence (CI).md",
-    "Opening Talk CI.md",
-    "Excalidraw/Introduction and Planning Definition 2023-09-27 12.27.24.excalidraw.md",
-    "Pasted image 20230927123126.png",
-    "Excalidraw/Introduction and Planning Definition 2023-09-27 12.07.03.excalidraw.md",
-    "Pasted image 20230927120516.png",
-    "Pasted image 20230927120448.png",
-    "Excalidraw/Introduction and Planning Definition 2023-09-27 11.38.21.excalidraw.md",
-    "Opening Talk PAR.md",
+    "Slides/PAR/2- lecture 2-notes.pdf",
+    "Slides/PAR/2- lecture 2.pdf",
+    "Puzzle Game.md",
     "Blocks Worlds.md",
-    "General Readings.md",
-    "Slides/PAR/Lab/1-Lab 1.pdf",
-    "Introduction to Machine Learning.md",
-    "IML Lab 1 notes.md",
-    "Slides/IML/Lab/Session1_Support_Work1_2023.pdf",
-    "Slides/PAR/1- lecture 1.pdf",
-    "Opening Talk IML.md",
-    "Morphology, Finite States Automata.md",
-    "What is computer vision.md",
-    "Introduction to Human Language Technologies (IHLT).md",
-    "Neural Networks - Multilayer Percentrons.md",
-    "Excalidraw/Neural Networks - Multilayer Percentrons 2023-09-21 10.28.01.excalidraw.md",
-    "Excalidraw/Neural Networks - Multilayer Percentrons 2023-09-21 10.24.25.excalidraw.md",
+    "Slides/PAR/Readings/2- PRODIGY 4.0 Arch.pdf",
+    "Image gradients and edges.md",
+    "Master in Artificial Intelligence (MAI).md",
     "Computational Vision.md",
-    "Pasted image 20230919145143.png",
+    "Slides/PAR/Readings/2- lecture 2-Reading 1-planning as heuristic search.pdf",
+    "Slides/PAR/Lab/2-Lab2.pdf",
+    "CV Lab Intro.md",
+    "Slides/CV/LAB/VC22-23 Academic Calendar.pdf",
     "CV Lab Session 1.md",
-    "Pasted image 20230914170339.png"
+    "Excalidraw/Image gradients and edges 2023-10-04 11.04.47.excalidraw.md",
+    "Excalidraw/Image gradients and edges 2023-10-04 10.46.18.excalidraw.md",
+    "Excalidraw/Image gradients and edges 2023-10-04 10.39.02.excalidraw.md",
+    "Excalidraw/Image gradients and edges 2023-10-04 10.39.39.excalidraw.md",
+    "Excalidraw/Image gradients and edges 2023-10-04 10.02.36.excalidraw.md",
+    "Excalidraw/Image gradients and edges 2023-10-04 10.00.18.excalidraw.md",
+    "Excalidraw/Image gradients and edges 2023-10-04 09.13.39.excalidraw.md",
+    "Excalidraw/Image gradients and edges 2023-10-04 00.38.46.excalidraw.md",
+    "Excalidraw/Image gradients and edges 2023-10-03 23.46.37.excalidraw.md",
+    "Slides/CV/CV-2324_Class2_Edges.pdf",
+    "Slides/IML/Lab/Session1_Support_Work1_2023.pdf",
+    "Slides/IML/Lab/Session2_Support_Work1_2023.pdf",
+    "Slides/CI/slides-ConvolutionalNeuralNetworks.pdf"
   ]
 }

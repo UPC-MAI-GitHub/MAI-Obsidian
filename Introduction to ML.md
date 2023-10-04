@@ -1,4 +1,4 @@
-![[T1_2023.pdf#height=770]]
+![[T1_2023.pdf]]
 
 ## Notes
 ### Introduction
@@ -28,8 +28,67 @@
 	- *Improve* something previously *learned*
 - *Helbert Simon* **(Learning)**: system improve performance from experience.
 
+### Concepts
+- **Task**
+	- Classification (defined finite set of categories)
+	- Regression (open range to predict)
+	- Problem solving / planning / control (little bit complex tasks divided to provide step by step solutions)
+- **Evaluate performance**
+	- According to the nature of the task
+		- Classification accuracy
+		- Solution correctness
+		- Solution quality
+		- Speed of performance
+- **Model representation**
+	- Neuron, trees, case based, etc.
+### Influences in ML
+- Cognitive psychology
+- Neurobiology
+- Mathematical Logic
+- Statistic
+- Information theory
+### Machine learning process
+![[Introduction to ML 2023-10-03 10.23.47.excalidraw]]
 
+### Paradigms of ML
+- *Supervised learning*
+- *Unsupervised Learning*
+- *Semi-supervised learning*
+- Others: Reinforcement learning, Active learning, Recommender Systems
+![[Introduction to ML 2023-10-03 10.28.57.excalidraw]]
 
+### Applications
+- Speech recognition
+- Information retrieval
+- Computer vision
+- Natural Language Processing
+- Robotic control
+- Evolution
+- Games
+- etc
+### History of ML
+- 50's
+	- Samuels checker player
+- 60's
+	- Neural networks: perceptron (Minsky proved limitations)
+	- Pattern recognition
+- 70's
+	- Expert systems
+- 80's
+	- Learning, planning and problem solving
+	- Cognitive architectures
+	- NN (connectionism, backpropagation)
+- 90's
+	- Data minning
+	- Text learning
+	- Software agents
+	- Reinforcement Learning
+	- Bayes networks
+- 2000's
+	- Support vector machines
+	- Statistical relational learning
+	- Transfer learning
+	- Beginning of DL
 
 
 

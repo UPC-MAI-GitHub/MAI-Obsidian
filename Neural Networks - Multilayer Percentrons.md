@@ -1,5 +1,4 @@
-- ## [[Introduction (Neura Networks CI)]]
-![[slides-MultilayerPerceptrons.pdf#height=970]]
+![[slides-MultilayerPerceptrons.pdf]]
 
 ## Notes
 ### Introduction

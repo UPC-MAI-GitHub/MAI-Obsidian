@@ -13,3 +13,10 @@ Here can be found the slides of the [[AssIMAS-23-24.pdf|IMAS Course Presentation
 		- [M.Wooldridge: Objects and agents](youtube.com/watch?v=oqFwZ2xitUE)
 ## Lab Sessions
 
+- [[IMAS Course Labs Intro]]
+
+## Class bibliography
+- [Book: Multiagent systems. Algorithmic, game-theoretic, and logical foundations (Y.Shoham, K.Leyton-Brown)](https://campusvirtual.urv.cat/mod/url/view.php?id=3595034)
+- [Book: Multiagent systems: a modern approach to Distributed Artificial Intelligence (Ed: G.Weiss)](https://campusvirtual.urv.cat/mod/url/view.php?id=3595033)
+- [Book: Agentes Software y Sistemas Multiagente: Conceptos, Arquitecturas y Aplicaciones (several authors)](https://campusvirtual.urv.cat/mod/url/view.php?id=3595032)
+- [Book: An Introduction to Multiagent Systems (M.Wooldridge)](https://campusvirtual.urv.cat/mod/url/view.php?id=3595031)
