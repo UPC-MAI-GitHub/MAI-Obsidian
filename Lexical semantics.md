@@ -1,0 +1,31 @@
+![[05-LexSemantics.pdf]]
+
+## Notes
+- **Semantics**
+	- Is about dealing with the *meaning*
+	- *Lexical*: meaning of individual words
+	- *Compositional*: construction of meaning in high concordance with syntax
+	-  gloss=definition
+	- **Examples of uses**:
+		- *Semantic patters*: bombarded, bombard, etc.
+		- *Discourse relations*: 
+			- Explanations: 
+				- \[Anna will show up *later*.\] 
+				- \[She has *missed the train*.\] 
+			- Contrast
+				- \[Mathew is good cooking.\] 
+				- \[Albert fails making every dish\]
+		- *Twitter sentiment analysis*
+	- **Resources for lexical semantics**
+		- *Knowledge-based* (Graphs)
+			- *WordNet* (english lexical ontology)
+			-  *SentiWordNet* (sentiment polarity into WordNet)
+			- Etc.
+		- *Corpus-based resources* (Contextual use of words)
+			- *Latent sentiment analysis*
+			- *Word embeddings*
+	- **Similarities in WordNet**
+		- Wu&Palmer is the best generally
+	- **Supervised setiment analysis**
+		- MLE = Maximum likelihood estimation
+		- 

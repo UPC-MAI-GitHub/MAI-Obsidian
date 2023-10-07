@@ -15,7 +15,7 @@ For more information about ACIA ask to Dr. Aida Valls
 	* **Readings**
 		* [[1- lecture 1-Reading 1 AI_Planning_Systems_and_Techniques.pdf|AI Planning Systems and Techniques]]
 		* [[1- lecture 1-Reading 1-Planning_for_Interactions_among_Autonomous_Agents.pdf|Planning for Interactions among Autonomous Agents]]
-* [[State-Space Search]]
+* [[State-Space Search and Classical Planning]]
 	* **Readings**
 		* [[2- PRODIGY 4.0 Arch.pdf|Integrating Planning and Learning: The PRODIGY Architecture]]
 		* [[2- lecture 2-Reading 1-planning as heuristic search.pdf|Planning as Heuristic Search]]

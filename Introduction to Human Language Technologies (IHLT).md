@@ -12,4 +12,5 @@ All theoretical content materials for this class can be found at:
 - [[Introduction HLT definition, drawbacks, applications]]
 - [[Text selection, Tokenization, Sentence Splitting, Language Identification]]
 - [[Morphology, Finite States Automata]]
-- 
+- [[POS Tagging]]
+- [[Lexical semantics]]

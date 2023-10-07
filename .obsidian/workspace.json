@@ -8,28 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d39d6e908dc768e",
+            "id": "245fbb0fc4eb7c89",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Slides/PAR/2- lecture 2-notes.pdf"
+                "file": "Intelligent Agents - Properties & Abstract Architecture.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ]
       },
       {
-        "id": "ba9b9cea998cef69",
+        "id": "1e9b4abfd93226aa",
         "type": "tabs",
         "children": [
           {
-            "id": "fe7a5df008afe2e0",
+            "id": "44c553ce6234da2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "State-Space Search.md",
+                "file": "Intelligent Agents - Properties & Abstract Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.51103591918945,
+    "width": 222.51103591918945,
     "collapsed": true
   },
   "right": {
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slides/PAR/2- lecture 2-notes.pdf",
+                "file": "Intelligent Agents - Properties & Abstract Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slides/PAR/2- lecture 2-notes.pdf",
+                "file": "Intelligent Agents - Properties & Abstract Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slides/PAR/2- lecture 2-notes.pdf"
+                "file": "Intelligent Agents - Properties & Abstract Architecture.md"
               }
             }
           },
@@ -197,51 +199,40 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "floating": {
-    "id": "a64232bf4ad02512",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8fc768a040de6c2c",
-        "type": "window",
-        "children": [
-          {
-            "id": "22e6f8a927cdfc19",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "07540af95ef26725",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/State-Space Search 2023-10-04 17.09.17.excalidraw.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2816,
-        "y": 86,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "3d39d6e908dc768e",
+  "active": "44c553ce6234da2f",
   "lastOpenFiles": [
-    "State-Space Search.md",
+    "Pasted image 20231007131735.png",
+    "Excalidraw/Intelligent Agents - Properties & Abstract Architecture 2023-10-06 23.13.53.excalidraw.md",
+    "Intelligent Agents - Properties & Abstract Architecture.md",
+    "Introduction to Multi-agent Systems.md",
+    "Introduction to Agents and MAS.md",
+    "IMAS Course Labs Intro.md",
+    "Master in Artificial Intelligence (MAI).md",
+    "Slides/IMAS/MAS_Lec2-IntelligentAgents.pdf",
+    "Slides/IMAS/Readings/chapter02.pdf",
+    "Slides/IMAS/Readings/agentorprogram.pdf",
     "Planning and Approximate Reasoning.md",
+    "Blocks Worlds.md",
+    "Puzzle Game.md",
+    "State-Space Search and Classical Planning.md",
+    "Excalidraw/Drawing 2023-10-06 19.50.50.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-06 13.17.18.excalidraw.md",
+    "Slides/PAR/Lab/2-Lab2.pdf",
+    "Slides/PAR/Lab/Planning software tools.pdf",
+    "Slides/PAR/Lab/1- Reading-PDDL.pdf",
+    "Pasted Image 20231006131749_760.png",
+    "Slides/PAR/2- lecture 2-notes.pdf",
+    "Introduction to Human Language Technologies (IHLT).md",
+    "Lexical semantics.md",
+    "Slides/IHLT/04-POS-tagging.pdf",
+    "Slides/IHLT/05-LexSemantics.pdf",
+    "Introduction HLT definition, drawbacks, applications.md",
+    "Excalidraw/State-Space Search 2023-10-04 17.09.17.excalidraw.md",
     "Excalidraw/State-Space Search 2023-10-04 18.00.06.excalidraw.md",
     "Pasted Image 20231004180021_364.png",
     "Pasted image 20231004175958.png",
     "Pasted image 20231004175928.png",
     "Pasted image 20231004174740.png",
-    "Excalidraw/State-Space Search 2023-10-04 17.09.17.excalidraw.md",
     "Pasted Image 20231004171546_054.png",
     "Pasted Image 20231004171341_596.png",
     "Pasted Image 20231004171120_571.png",
@@ -250,34 +241,11 @@
     "Pasted Image 20231004164450_506.png",
     "Excalidraw/State-Space Search 2023-10-04 14.39.54.excalidraw.md",
     "Excalidraw/Drawing 2023-10-04 15.24.34.excalidraw.md",
-    "Pasted Image 20231004144003_825.png",
     "Excalidraw/State-Space Search 2023-10-04 14.07.54.excalidraw.md",
     "Introduction and Planning Definition.md",
-    "Slides/PAR/2- lecture 2-notes.pdf",
     "Slides/PAR/2- lecture 2.pdf",
-    "Puzzle Game.md",
-    "Blocks Worlds.md",
-    "Slides/PAR/Readings/2- PRODIGY 4.0 Arch.pdf",
     "Image gradients and edges.md",
-    "Master in Artificial Intelligence (MAI).md",
     "Computational Vision.md",
-    "Slides/PAR/Readings/2- lecture 2-Reading 1-planning as heuristic search.pdf",
-    "Slides/PAR/Lab/2-Lab2.pdf",
-    "CV Lab Intro.md",
-    "Slides/CV/LAB/VC22-23 Academic Calendar.pdf",
-    "CV Lab Session 1.md",
-    "Excalidraw/Image gradients and edges 2023-10-04 11.04.47.excalidraw.md",
-    "Excalidraw/Image gradients and edges 2023-10-04 10.46.18.excalidraw.md",
-    "Excalidraw/Image gradients and edges 2023-10-04 10.39.02.excalidraw.md",
-    "Excalidraw/Image gradients and edges 2023-10-04 10.39.39.excalidraw.md",
-    "Excalidraw/Image gradients and edges 2023-10-04 10.02.36.excalidraw.md",
-    "Excalidraw/Image gradients and edges 2023-10-04 10.00.18.excalidraw.md",
-    "Excalidraw/Image gradients and edges 2023-10-04 09.13.39.excalidraw.md",
-    "Excalidraw/Image gradients and edges 2023-10-04 00.38.46.excalidraw.md",
-    "Excalidraw/Image gradients and edges 2023-10-03 23.46.37.excalidraw.md",
-    "Slides/CV/CV-2324_Class2_Edges.pdf",
-    "Slides/IML/Lab/Session1_Support_Work1_2023.pdf",
-    "Slides/IML/Lab/Session2_Support_Work1_2023.pdf",
-    "Slides/CI/slides-ConvolutionalNeuralNetworks.pdf"
+    "CV Lab Intro.md"
   ]
 }

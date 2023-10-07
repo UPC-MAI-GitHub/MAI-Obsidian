@@ -53,6 +53,8 @@
 		- $h(n)$ the heuristic function (as before) 
 		- $g(n)$ the cost to reach the node n 
 	- evaluation function: $f(n) =$ estimated cost of the cheapest solution through $n$
+	- If in the $n$ depth level all values are greater than the not chosen values at the previous level all the algorithm does a back step to reconsider another path
+	- If two nodes on the next level of depth have the same $f(n)$ value, you have to predefine from the beginning if to use LIFO of FIFO technique (e.g. first calculated-first evaluated or last-calculated-last-evaluated).
 	- **Admissible**: *If a solution exists* for the given problem, *the first* solution *found by* $A*$ is an *optimal* solution.
 	- **Complete**: $A*$ is also complete algorithm, meaning *if a solution exists*, the answer is bound to be *found in a finite amount of time*. 
 	- **Optimal**: A* is optimally efficient for a given heuristic, it can be shown that no other optimal algorithm will expand fewer nodes and find a solution.
@@ -72,6 +74,16 @@
 			- $g(n) =$ Depth of node and 
 			- $h(n)$ = Number of misplaced tiles.
 			- ![[State-Space Search 2023-10-04 17.09.17.excalidraw]]
+			- Here the heuristic function could be defined in 2 different waysÑ
+				- The number of misplaced tiles (missplaced: 2,8,1,6)
+				- Manhattan distance: he sum of the distance between the initial place of each number from its target place
+				- | number | distance |
+				- | 2            | 1        |
+				- | 8            | 2        |
+				- | 1            | 1        |
+				- | 6            | 1        |
+				- |total       | 5         |
+				
 	- *Advantages*
 		- It is *optimal search algorithm in terms of heuristics*.
 		- It is *one of the best heuristic search techniques in AI*.
@@ -82,6 +94,8 @@
 		- The *performance of $A*$ search is dependent on accuracy of heuristic* algorithm used to compute the function $h(n)$.
 - **Graph Search with $A^*$
 	- A* has worst case time and space complexity of $O(b^l)$ 
+		- $b$ the number of successes per node on average
+		- $l$ the length of the path we are looking for
 	- exponential growth of the fringe is normal 
 		- *Exponential time* complexity may be *acceptable* 
 		- *Exponential space* complexity *exhaust any computer’s resources* all too quickly
@@ -97,22 +111,28 @@
 		- ![[State-Space Search 2023-10-04 18.00.06.excalidraw]]
 		- *Relaxed problem*: a problem with fewer restrictions on the actions than the original problem 
 		- The cost of an optimal solution for a relaxed problem is an admissible and consistent heuristic for the original problem.
+		- *ABSOLVER*: *program* that *generates heuristics based on the relaxed problem* method; •Found best heuristic for 8-puzzle and first useful heuristic for Rubik’s cube;
 - **Classical planning**
 	- *Progression*: forward state-space search
 	- *Regression*: backward state-space search
 	- **Characteristics**
-		- *Soundness* 
-			- If* all solutions are legal plans* 
+		- *Soundness*:  anytime it returns an answer, that answer is true. 
+			- If *all solutions are legal plans* 
 				- All preconditions, goals, and any additional *constraints are satisfied*
 		- *Completeness*
 			- *Complete* if a solution *can be found whenever* one actually *exists*
 			- *Strictly complete* if *all solutions are included in the search space* 
-		- *Optimality* 
+		- *Optimality*: asymptotically solve the problem in less time 
 			- *Maximizes a predefined measure* of plan quality
 	- **Linear planning**
 		- Work on *one goal until completely solved* before *moving on to the next goal*
 		- Search by *reducing the difference between the state and the goals* 
 		- What means (*operators*) are *available* to achieve the desired ends (goal)
+	- **Means(actions)-Ends(Goals) analysis**
+		-  To achieve a goal, we consider an action that would achieve it under some specified circumstances (conditions) and then try to find a way of putting ourselves in those circumstances (conditions) in order to achieve the goal by performing the action. 
+		- Putting ourselves in those circumstances becomes a subgoal. 
+		- The idea is to work backward from the goal through subgoals until we arrive at subgoals that are already achieved. 
+		- The resulting sequence of actions constitutes a plan for achieving the goal
 	- **GPS Algorithm**
 		- *GPS*(state, goals, plan) 
 			- If *goals ⊆ state*
@@ -136,11 +156,11 @@
 				- Iterative deepening 
 			- Completeness? *NO*
 	- **The Sussman Anomaly**
-		- *Nonlinear planning* is used to a *goal set instead of a goal stack* 
+		- **Nonlinear planning** is used to a *goal set instead of a goal stack* 
 		- It is *included in the search space* of all possible *subgoal orderings*. 
 		- It handles the goal interactions by *interleaving method*.
 		- *Advantages*
-			- Non-linear planning may be an optimal solution with respect to plan length
+			- Non-linear planning, is *complete* and *sound*, and *may be an optimal* solution with respect to plan length
 		- *Disadvantages*
 			- It *takes larger search space*, since all possible goal orderings are taken into consideration. 
 			- *Complex algorithm* to understand.
