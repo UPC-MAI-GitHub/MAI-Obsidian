@@ -4,7 +4,7 @@
 ## Notes
 ### Document Structure
 ![[Text selection, Tokenization, Sentence Splitting, Language Identification 2023-09-14 14.30.42.excalidraw]]
-#### First Excercise
+#### First Exercise
 1. Punkt failed because any punctuation sign mark apart from **period** is considered as a sentence boundary
 2. Two posibilities: because of the lenght, because **abbrev** is no a collocation in english
 3.  Because **mr** is a collocation
@@ -21,3 +21,16 @@
 | he sent a mail                | -1.6121   | -1.5069   | -1.6159   | -1.5141   |
 | he sent a mail to a mordorian | -1.2461   | -1.2933   | -1.2499   | -1.3005   |
 
+| Datset      | Type      | Balanced | Size   | MV  |
+| ----------- | --------- | -------- | ------ | --- |
+| Adult       | Mixed     | No       | Large  | 1%  |
+| Vowel       | Mixed     | Yes      | Small  | 0%  |
+| Hypothyroid | Mixed     | No       | Medium | 6%  |
+| Vote        | Nominal   | No       | Small  | 6%  |
+| Connect-4   | Nominal   | No       | Large  | 0%  |
+| Mushroom    | Nominal   | Yes      | Medium | 1%  |
+| Kr-vs-kp    | Nominal   | Yes      | Medium | 0%  |
+| Kropt       | Nominal   | No       | Large  | 0%  |
+| Pen-based   | Numerical | Yes      | Medium | 0%  |
+| Waveform    | Numerical | Yes      | Medium | 0%  |
+| TA O-Grid   | Numerical | Yes      | Medium | 0%  |

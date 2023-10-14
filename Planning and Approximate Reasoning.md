@@ -19,9 +19,18 @@ For more information about ACIA ask to Dr. Aida Valls
 	* **Readings**
 		* [[2- PRODIGY 4.0 Arch.pdf|Integrating Planning and Learning: The PRODIGY Architecture]]
 		* [[2- lecture 2-Reading 1-planning as heuristic search.pdf|Planning as Heuristic Search]]
+* [[Plan-Space Search and Hierarchical Planning]]
+	* **Readings**
+		* [[3- lecture 3-Reading 1- plan space search.pdf|Context: Plan-Space Planning]]
+		* [[3- lecture 3-Reading 2- an overview of HTN planning.pdf|An Overview of Hierarchical Task Network Planning]]
+		* [[DifferentCellDecomposition.pdf|Different Cell Decomposition Path Planning Methods for Unmanned Air Vehicles-A Review]]
+		* [Motion Planning in Robotics](https://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/robotics/basicmotion.html)
 ## Lab Sessions
 - [[General Readings]]
 - [[Blocks Worlds]]
 	- [Reading 1: PDDL Examples: Logistics: a simple running example of PDDL](https://github.com/yarox/pddl-examples)
 	- [Reading 1: PDDL Examples: ChallengesURL](https://github.com/potassco/pddl-instances)
 - [[Puzzle Game]]
+- [[Wumpus World]]
+## Practical Assignments
+1. [[Cleaner Robot Task]]

@@ -18,11 +18,12 @@ Here can be found the slides of the [[AssIMAS-23-24.pdf|IMAS Course Presentation
 	- **Videos**
 		- [M.Wooldridge: Agent and environment: the sense-decide-act loop](https://www.youtube.com/watch?v=_iPMIU6jbio)
 		- [M.Wooldridge: All about an agent's environment](https://www.youtube.com/watch?v=Tu72LCyJKdU)
-		-[M.Wooldridge: Perception, action and state](https://www.youtube.com/watch?v=Ua_TpT6AF9I)
+		- [M.Wooldridge: Perception, action and state](https://www.youtube.com/watch?v=Ua_TpT6AF9I)
+- [[Deductive Reasoning Agents]]
 ## Lab Sessions
 
 - [[IMAS Course Labs Intro]]
-
+- [[Maven, Git and OSM]]
 ## Class bibliography
 - [Book: Multiagent systems. Algorithmic, game-theoretic, and logical foundations (Y.Shoham, K.Leyton-Brown)](https://campusvirtual.urv.cat/mod/url/view.php?id=3595034)
 - [Book: Multiagent systems: a modern approach to Distributed Artificial Intelligence (Ed: G.Weiss)](https://campusvirtual.urv.cat/mod/url/view.php?id=3595033)

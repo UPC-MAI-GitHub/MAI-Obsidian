@@ -6,6 +6,7 @@
       {
         "id": "ec9adece7382a702",
         "type": "tabs",
+        "dimension": 49.385605617320074,
         "children": [
           {
             "id": "245fbb0fc4eb7c89",
@@ -13,31 +14,94 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intelligent Agents - Properties & Abstract Architecture.md",
+                "file": "Deductive Reasoning Agents.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "1e9b4abfd93226aa",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "44c553ce6234da2f",
+            "id": "f5241acf7ea048b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intelligent Agents - Properties & Abstract Architecture.md",
+                "file": "Work 1 Clustering Exercise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61b8eec01c606207",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cleaner Robot Task.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "b85d4e846afcc365",
+        "type": "tabs",
+        "dimension": 50.614394382679926,
+        "children": [
+          {
+            "id": "db54605f22e82064",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Text selection, Tokenization, Sentence Splitting, Language Identification.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32ef3266997f487e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blocks Worlds.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83844c4622e0d568",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital images, image properties & linear filters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c78edbce74d810d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Puzzle Game.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945,
+    "width": 325.50152587890625,
     "collapsed": true
   },
   "right": {
@@ -104,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intelligent Agents - Properties & Abstract Architecture.md",
+                "file": "Cleaner Robot Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intelligent Agents - Properties & Abstract Architecture.md",
+                "file": "Cleaner Robot Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intelligent Agents - Properties & Abstract Architecture.md"
+                "file": "Cleaner Robot Task.md"
               }
             }
           },
@@ -199,53 +263,53 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "44c553ce6234da2f",
+  "active": "61b8eec01c606207",
   "lastOpenFiles": [
-    "Pasted image 20231007131735.png",
-    "Excalidraw/Intelligent Agents - Properties & Abstract Architecture 2023-10-06 23.13.53.excalidraw.md",
-    "Intelligent Agents - Properties & Abstract Architecture.md",
-    "Introduction to Multi-agent Systems.md",
-    "Introduction to Agents and MAS.md",
-    "IMAS Course Labs Intro.md",
-    "Master in Artificial Intelligence (MAI).md",
-    "Slides/IMAS/MAS_Lec2-IntelligentAgents.pdf",
-    "Slides/IMAS/Readings/chapter02.pdf",
-    "Slides/IMAS/Readings/agentorprogram.pdf",
+    "Slides/PAR/Lab/PlannerExercise1.pdf",
     "Planning and Approximate Reasoning.md",
-    "Blocks Worlds.md",
+    "Cleaner Robot Task.md",
+    "Wumpus World.md",
     "Puzzle Game.md",
-    "State-Space Search and Classical Planning.md",
-    "Excalidraw/Drawing 2023-10-06 19.50.50.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-06 13.17.18.excalidraw.md",
-    "Slides/PAR/Lab/2-Lab2.pdf",
-    "Slides/PAR/Lab/Planning software tools.pdf",
-    "Slides/PAR/Lab/1- Reading-PDDL.pdf",
-    "Pasted Image 20231006131749_760.png",
-    "Slides/PAR/2- lecture 2-notes.pdf",
-    "Introduction to Human Language Technologies (IHLT).md",
-    "Lexical semantics.md",
-    "Slides/IHLT/04-POS-tagging.pdf",
-    "Slides/IHLT/05-LexSemantics.pdf",
-    "Introduction HLT definition, drawbacks, applications.md",
-    "Excalidraw/State-Space Search 2023-10-04 17.09.17.excalidraw.md",
-    "Excalidraw/State-Space Search 2023-10-04 18.00.06.excalidraw.md",
-    "Pasted Image 20231004180021_364.png",
-    "Pasted image 20231004175958.png",
-    "Pasted image 20231004175928.png",
-    "Pasted image 20231004174740.png",
-    "Pasted Image 20231004171546_054.png",
-    "Pasted Image 20231004171341_596.png",
-    "Pasted Image 20231004171120_571.png",
-    "Pasted Image 20231004170948_563.png",
-    "Excalidraw/State-Space Search 2023-10-04 16.43.49.excalidraw.md",
-    "Pasted Image 20231004164450_506.png",
-    "Excalidraw/State-Space Search 2023-10-04 14.39.54.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-04 15.24.34.excalidraw.md",
-    "Excalidraw/State-Space Search 2023-10-04 14.07.54.excalidraw.md",
-    "Introduction and Planning Definition.md",
-    "Slides/PAR/2- lecture 2.pdf",
-    "Image gradients and edges.md",
+    "Master in Artificial Intelligence (MAI).md",
+    "Slides/PAR/Lab/3-Lab 3.pdf",
+    "Work 1 Clustering Exercise.md",
+    "Deductive Reasoning Agents.md",
+    "Digital images, image properties & linear filters.md",
     "Computational Vision.md",
-    "CV Lab Intro.md"
+    "What is computer vision.md",
+    "Text selection, Tokenization, Sentence Splitting, Language Identification.md",
+    "Introduction to Machine Learning.md",
+    "Excalidraw/Text selection, Tokenization, Sentence Splitting, Language Identification 2023-09-14 14.30.42.excalidraw.md",
+    "Introduction to Human Language Technologies (IHLT).md",
+    "solve.md",
+    "Blocks Worlds.md",
+    "Introduction to Multi-agent Systems.md",
+    "Slides/IMAS/MAS_Lec3-IntelligentAgents.pdf",
+    "Plan-Space Search and Hierarchical Planning.md",
+    "Pasted image 20231011113917.png",
+    "State-Space Search and Classical Planning.md",
+    "Slides/IML/Lab/Session1_Support_Work1_2023.pdf",
+    "Slides/PAR/Readings/DifferentCellDecomposition.pdf",
+    "Slides/PAR/Readings/3- lecture 3-Reading 2- an overview of HTN planning.pdf",
+    "Slides/PAR/Readings/3- lecture 3-Reading 1- plan space search.pdf",
+    "Slides/PAR/3- lecture 3.pdf",
+    "Slides/PAR/3- lecture 3-notes.pdf",
+    "Image Features.md",
+    "Pasted image 20231010143902.png",
+    "Pasted image 20231010142417.png",
+    "Pasted image 20231010142346.png",
+    "Slides/CV/CV-2324_Class3_HOG.pdf",
+    "CV Lab Intro.md",
+    "Slides/IML/Lab/Work1_IML_2023.pdf",
+    "Introduction to unsupervised learning and cluster analysis (part II).md",
+    "Opening Talk IML.md",
+    "Maven, Git and OSM.md",
+    "Intelligent Agents - Properties & Abstract Architecture.md",
+    "Pasted image 20231009003711.png",
+    "Pasted image 20231008232919.png",
+    "Pasted image 20231007192147.png",
+    "Pasted image 20231007131735.png",
+    "Pasted Image 20231006131749_760.png",
+    "Pasted Image 20231004180021_364.png"
   ]
 }

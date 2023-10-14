@@ -5,4 +5,4 @@
 ### Fifteen puzzle
 ![[Drawing 2023-10-06 19.50.50.excalidraw]]
 ## Solution
-The solution can be found at the [folder Session 2 in the Github repository](https://github.com/MarioROT/PAR-MAI/tree/main/Session%202).
+The solution can be found at the [folder Session 2 in the Github repository](https://github.com/MarioROT/PAR-MAI/tree/main/Session%202)

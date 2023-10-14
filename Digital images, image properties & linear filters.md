@@ -1,5 +1,10 @@
 ![[CV-2324_Class1_3IntroFilters.pdf]]
-
+```python
+def linear_contrast_strech(image, bin_count):
+	minV = image.min()
+	maxV = image.max()
+	return ((image - min) / (max - min)) * bin_count
+```
 ## Notes
 ### Digital images
 - *Light carries coded information* about the world and we can perceive it with our sight

@@ -84,4 +84,36 @@
 - **Tasks for agents**
 	- How to tell agents what to do without telling them how to do it.
 	- *Utility functions:*
-		- 
+		- *Associate rewards with  states* that maximize utility. A task specification is a function which associates a real number with every environment state $$u:E\rightarrow \mathbb{R}$$
+			- *Local utility functions*
+				- Goal: select actions to maximize future rewards. Reward could be immediate or delayed. It may be better to sacrifice immediate reward to gain more long-term reward.
+		- *Associate utility with runs*, instead of only to individual states. $$u:R\rightarrow\mathbb{R}$$
+			- So, at the end of the run a metric is measured and it produces less or more reward in term of the results of the actions taken by the agent(s).
+			- *Ex1:* Agents in a 2-dimensional grid world. They have to fill as many holes as they can with the available tiles. So at the end of the run, the *utility function* indicates that more holes filled is a higher utility $$u(r) = \frac{\text{number of holes filled in r}}{\text{number of holes that appeared in r}} \longrightarrow \begin{cases} 1 & \text{agent fills all holes} \\ 0 & \text{agent fills no holes} \end{cases}$$
+		- *Expected Utility*
+			-  Let $P(r|Ag,Env)$ be the probability that run $r$ occurs when agent $Ag$ is placed in environment $Env$ $$\sum\limits_{r\in R(Ag,Env)} P(r|Ag,Env) = 1$$
+			- The expected utility ($EU$) of agent $Ag$ in environment $Env$ (given $P$, $u$), is then: $$\sum\limits_{r\in R(Ag,Env)} u(r) P(r|Ag,Env)$$
+		- *Optimal agents*: 
+			- The optimal agent $Ag_{opt}\in AG$ in an environment $Env$ is the one that maximizes expected utility, $𝐸𝑈$ $$Ag_{opt} =  max_{Ag\in AG} EU(Ag,Env)$$
+		- *Ex1:* 
+			- ![[Pasted image 20231007192147.png]]
+			- Expected utilities: 
+				- $Ag_{1}= 9.8$
+				- $Ag_2 = 15.8$
+		- *Ex2:* 
+			- ![[Pasted image 20231008232919.png]]
+			- Expected utilities
+				- $Ag_1=10.5$
+				- $Ag_{2=}5.5$
+		- *Predicate task specification*: A special case of assigning utilities to histories is to assign $0$ (false) or $1$ (true) to a run. If a run is assigned *1*, then *the agent succeeds* on that run, *otherwise* it *fails*. 
+			- Denote predicate task specification by $\Psi$ $$\Psi:R\rightarrow\{0,1\}$$
+			- It generalizes 2 types of tasks:
+				-  *Achievement task:* specified by "good" or goal states $G\subseteq E$. Agents succeeds if it reaches at least one of these states.
+				- *Maintenance task:*  specified by "bad" or "undesirable states" $B\subseteq E$. agent succeeds if it avoids all states in $B$.
+			- *Task environment* denoted as $\langle Env,\Psi\rangle$, set of all task environment by $TE$, task environment *specifies the properties of the system* for the agent, and the *criteria to judge if the agent fails or succeeds*. 
+			-  Set of *all runs* of the agent $Ag$ in environment $Env$ *that satisfy $\Psi$* $$R_{\Psi}(Ag,Env)=\{r|r\in R(Ag,Env)\text{ and }\Psi(r) = 1\}$$ 
+			- An *agent $Ag$ succeeds* in task environment$$R_{\Psi}(Ag,Env) = R(Ag, Env)$$
+			- If the environment is *non-deterministic*, the $\tau$ returns a set of possible states. 
+				-  Let $P(r|Ag,Env))$ denote probability that run $r$ occurs if agent $Ag$ is placed in environment $Env$. 
+				- The probability $P(\Psi|Ag,Env)$ that $\Psi$ is satisfied by $Ag$ in $Env$ would then simply be: $$P(\Psi|Ag,Env)=\sum\limits_{r\in R_{\Psi}(Ag,Env)} P(r|Ag,Env)$$
+			

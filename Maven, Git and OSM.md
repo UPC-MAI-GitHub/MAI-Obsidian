@@ -1,0 +1,32 @@
+![[01 - Maven, Git and OSM.pdf]]
+
+## Notes
+- *Maven:* java tool to
+	- Managing dependencies
+	- Compiling source code
+	- Packaging the code into deployable artifacts
+	- Executing artifacts
+	- It works describing settings in a XML file, you can configure
+		- Repositores
+		- Dependencies
+		- Build
+		- Profiles: to define build configs
+		- Etc
+	- Goals:
+		- Provide a life-cycle consisting on several phases
+			- Each *phase* is a sequence of goals, and each goal is *responsible* for a specific task.
+		- *Useful goals (commands)*
+			- *Clean*: `mvn clean`
+			- *Build*: `mvn install`
+			- *Run profile:*  `mvn -P profile-name exec:java`
+		- Everytime the code is modified the project must be build using `mvn install`
+- *Teamwork:* use Git to *document all changes* on the practical work code, you can use *Github*, *Gitlab*, or *Bitbucket*. Teacher must have read-only access to the repository.
+- *OpenStreetMaps (OSM)*
+	- A tool to extract maps, we need one for the project.
+	- Link to download a map: https://overpass-turbo.eu/
+- *Extra resources:*
+	-  [Maven in 5 minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+	- [Maven introduction to the Build Lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Built-in_Lifecycle_Bindings)
+	- [Maven in IntelliJ](https://jetbrains.com/help/idea/maven-support.html)
+	- [Git documentation](https://git-scm.com/docs)
+	- [Dedale gs-geography](https://dedale.gitlab.io/page/sisterprojects/gs-geography/)

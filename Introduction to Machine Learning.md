@@ -9,9 +9,16 @@ To register at the *campus virtual (**tj4n**)* of **UB** you can follow the step
 	- **Readings**
 		- [[ch8_IntroductionClustering.pdf|Cluster Analysis: Basic Concepts and Algorithms]]
 		- [[Overview_distance_functions.pdf|An overview of distance and similarity functions for structured data]]
+- [[Introduction to unsupervised learning and cluster analysis (part II)]]
+	- **Readings**
+		- [[cannon1986.pdf|Efficient Implementation of the Fuzzy c-Means Clusteng Algornthms]]
 ## Lab Sessions
 * [[Session1_Support_Work1_2023.pdf|IML Lab Session 1]]
 	* [[IML Lab 1 notes|Notes]]
 * [[Session2_Support_Work1_2023.pdf|IML Lab Session 2]]
 	* [[IML Lab 2 notes|Notes]]
+## Project deliveries
+* [[Work 1 Clustering Exercise]]
+
+
 
