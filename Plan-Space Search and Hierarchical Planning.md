@@ -1,7 +1,7 @@
 ![[3- lecture 3.pdf]]
 ## Summary
 ## Notes
-- *Professor notes -->* [[2- lecture 2-notes.pdf]]
+- *Professor notes -->* [[3- lecture 3-notes.pdf]]
 - *Plan space planners* (PSP)
 - **Search states: Partial Plans**
 	- *State space vs Plan space search*

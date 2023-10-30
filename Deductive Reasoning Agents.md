@@ -1,4 +1,4 @@
-![[MAS_Lec3-IntelligentAgents.pdf#height=400]]
+![[MAS_Lec3-IntelligentAgents.pdf]]
 
 ## Notes
 ### Agent Architectures

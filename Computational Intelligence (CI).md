@@ -3,5 +3,12 @@ Welcome to the Computational Intelligence course. The course begins on Thursday 
 ## Topics
 - [[Neural Networks - Multilayer Percentrons]]
 - [[Convolutional Neural Networks]]
-- 
+- [[Neural Networks - Experimental Issues]]
+- [[Introduction to Evolutionary Computation]]
+
+## Lab Sessions
+- [[Lab-NN-Class-2023-24.pdf|Laboratory Neural Networks]]
+
+## Lab Assignments
+- [[Lab Assignment 1]]
 

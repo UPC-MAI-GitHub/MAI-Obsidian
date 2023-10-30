@@ -1,0 +1,2 @@
+# Notes
+- Only doubts session

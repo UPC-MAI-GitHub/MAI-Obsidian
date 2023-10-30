@@ -6,7 +6,26 @@ This is the start of the Computational Vision class at UB. Here you can find the
 - [[Digital images, image properties & linear filters]]
 - [[Image gradients and edges]]
 - [[Image Features]]
+- [[Face Detection]]
+- [[Face Recognition]]
+- 
 ## Lab Sessions
 - [[CV Lab Intro]]
 * [CV Lab Session 1](https://github.com/MarioROT/CV-MAI/tree/main/Session%201)
-* 
+* [CV Lab Session 2](https://github.com/MarioROT/CV-MAI/tree/main/Session%202)
+* [CV Lab Session 3](https://github.com/MarioROT/CV-MAI/tree/main/Session%203)
+* [CV Lab Session 4](https://github.com/MarioROT/CV-MAI/tree/main/Session%204)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

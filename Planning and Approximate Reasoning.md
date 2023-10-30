@@ -25,6 +25,16 @@ For more information about ACIA ask to Dr. Aida Valls
 		* [[3- lecture 3-Reading 2- an overview of HTN planning.pdf|An Overview of Hierarchical Task Network Planning]]
 		* [[DifferentCellDecomposition.pdf|Different Cell Decomposition Path Planning Methods for Unmanned Air Vehicles-A Review]]
 		* [Motion Planning in Robotics](https://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/robotics/basicmotion.html)
+* [[Graph plan and Advanced Heuristics]]
+	* **Readings**
+		* [[4- lecture 4-Reading 1- Graphplan.pdf|Fast Planning Through Planning Graph Analysis]]
+		* [[4- lecture 4-Reading 2- FF planner.pdf|FF: The Fast-Forward Planning System]]
+* [[Planning under uncertainty]]
+	* **Readings**
+		* [[Planning under uncertainty.pdf|An Overview of Planning Under Uncertainty]]
+		* [[3-doorplanner_icra10.pdf|Planning for Autonomous Door Opening with a Mobile Manipulato]]
+		* [[5-Reading-06aamas-policy-reuse.pdf|Probabilistic Policy Reuse in a Reinforcement Learning Agen]]
+		* [[5-Reading-Playing Atari with Deep Reinforcement Learning.pdf|Playing Atari with Deep Reinforcement Learning]]
 ## Lab Sessions
 - [[General Readings]]
 - [[Blocks Worlds]]
@@ -32,5 +42,8 @@ For more information about ACIA ask to Dr. Aida Valls
 	- [Reading 1: PDDL Examples: ChallengesURL](https://github.com/potassco/pddl-instances)
 - [[Puzzle Game]]
 - [[Wumpus World]]
+- [[Lunar Lockout Game]]
+- [[A robot to catch a moving target implementation]]
 ## Practical Assignments
 1. [[Cleaner Robot Task]]
+2. [[Waiter Robotic Task]]

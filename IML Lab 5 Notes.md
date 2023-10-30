@@ -1,0 +1,29 @@
+- *Unsupervised learning* ->modeling underlying structure os distribution of "unlabeled" data.
+- We have to try to look at the big picture
+- *Work 2 goal*
+	- PCA -> own code
+	- TruncatedSVD -> SKlearn
+	- Analyze K-means and Birch with and without dimensionality reduction
+	- Analyze different low dimensional space algorithms
+	- Compare visualization between PCA and ISOMAP
+- *Dimensionality reduction* -> reduce the number of attributes in a dataset while keeping as much of the variation in the original dataset as possible.
+	- *Components* / *Factor-based*: modelling the manifold on which the training instance lie. Assume that most real-world high-dimensional datasets lie close to a much lower-dimensional manifold.
+		- Factor analysis
+		- PCA
+		- ICA
+	- *Projection based*: projecting every data point which is in high dimension, onto a subspace suitable *lower-dimensional* space in a way which approximately *preserves the distances*
+		- ISOMAP
+		- UMAP
+		- T-SNE
+	- *Linear Method*
+		- PCA (preserve the variance)
+		- MDS (preserve the inter-point distance)
+	- *Non-linear method*: 
+		- ISOMAP (preserves the intrinsic geometry of the data)
+		- LLE
+	- *PCA*: identify the hyperplane which lies closest to the data and then projects the data on that hyperplane while retaining most of the variation in the data set. Transforms a number of (possibly) correlated variables into a (smaller) number of uncorrelated variables called principal components
+	- *Truncated SVD*: Singular value decomposition (reduce a matrix into its components). the truncated version, maintain the resulting matrices in a lower rank. It factorizes data matrix where the number of columns is equal to the truncation.
+	- *ISOMAP*: Combination of the Floyd-Warshall algorithm with classical MDS.
+		- Many datasets contain essential *nonlinear structures* that are invisible to PCA and MDS
+		- MDS *preserve all squared distances*, but sacrifice preservation of large distances in favor of *preserving small ones.*
+		- Euclidean distance between two points corresponds to the length of the line connecting the points. The line usually does not follow the manifold of the data. Euclidean distance can “jump” across the manifold, while the “ideal” distance goes along the manifold. For these reasons we replace it by the geodesic distance.
