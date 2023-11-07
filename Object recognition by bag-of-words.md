@@ -1,3 +1,86 @@
 ![[CV-2223_Class6_Object_Recognition_by_BOW.pdf]]
 
 ## Notes
+- **Bag of features**
+	- *Caltech-101 Dataset*: Object recognition in Caltech-101 About 40 to 800 images per category, 9K in total. Most categories have about 50 images. Images are of variable sizes, with typical edge lengths of 200-300 pixels.
+	- **Origina of Bags of ...**
+		- *Document classification*: 
+			- Classify a text by the words it contains
+			- Orderless document representation: frequencies of words from a dictionary
+		- *Texture recognition*
+			- Texture is characterized by the repetition of basic elements or textons 
+			- For stochastic textures, it is the identity of the textons, not their spatial arrangement, that matters
+				- ![[Pasted image 20231107141839.png]]
+			- ![[Pasted image 20231107142041.png]]
+	- **Bag-of-Words**
+		- *Process*
+			- Extract features
+			- Learn a dictionary: frequency of similar features in our bag
+			- Image representations: Quantize features using visual vocabulary and represent images by frequencies of “visual words”
+			- Classification
+		- *Feature extraction*
+			- Detect *points of interests* *or* just *regular points* over the image (grid)
+			- Using *SIFT* to detect keypoints or a pyramid histrogram of visual words (*PHOW*)
+			- Dense SIFT: extract all points detected
+		- *Construct the visual vocabulary (dictionary)*
+			- Apply clustering to group similar visual features
+			- The cluster center is the one selected as the codeword
+			- With this we can construct the histogram of  visual words (codewords)
+		- *Quantizing with the codebook*
+			- Having a new input image to test
+			- Encode the descriptors obtained from the image
+			- Compare the encodings with the codewords in the visual dictionary
+			- ![[Pasted image 20231107144007.png]]
+		- *How to choose de vocabulary (dictionary) size?*
+			- Too small: visual words not representative of all patches 
+			- Too large: quantization artifacts, overfitting, more than one cluster representing the same
+			- Care about computational efficiency
+		- *Spatial histograms*: Contruct the histrogram trying to keep spatial information from the image, saving patches encoding more than just features
+			- ![[Pasted image 20231107144405.png]]
+	- **Support Vector Machine**
+		- *Linear classifiers*
+			- A linear function (hyperplane) to separate positive and negative examples
+		- Defining which is the margin between positive and negative example
+		- Instead of fitting all points, focus on boundary points.
+		- ![[Pasted image 20231107144924.png]]
+		- Using Lagrangian multipliers to find the  minimum of a convex function with linear constraints
+		- Applicate the optimal hyperplane
+		- Solve the dual problem
+		- Recovering the optimal hyperplane
+		- Select alphas that are not almost zero, and this are the suport vectors
+		- ![[Pasted image 20231107145825.png]]
+		- You have to allow some miss-classifications called as soft-margin, and the parameter C control the amount of outliers you allow, trade off between robustness and correcteness
+		- *Apply SVM in non linear separable data*
+			- Apply the kernel trick $\rightarrow$ map data from its original feature space to another dimensional space where it is linearly separable.
+			- ![[Pasted image 20231107150527.png]]
+			- *Kernel*: For a given mapping from the space of objects to some feature space, the kernel of two objects and is the inner product of their images in the features space
+			- If you change the kernel (transformed in dimension), then you don't need to use the transformed data, so you don't need to know explicitly to which space transform the data.
+				- Kernel benefits
+					- Allow SVMs to handle nonlinearly separable data sets 
+					- Incorporate prior knowledge
+					- Can be defined on inputs that are not vectors (such as strings, graphs...) 
+					- Provide a mathematical formalism for combining different types of data (critical in biological applications).
+				- Kernel dangers
+					- As the number of variables under consideration increases, the number of possible solutions also increases, but exponentially. 
+					- Consequently, it becomes harder for any algorithm to select a correct solution.
+		- *Multi-class classification*
+			- You create multiple binary classifiers isolating one of each specific class, technique one vs. the rest or multiple one vs. one
+		- *Algorithm: SVMs for image classification *
+			1. Pick an image representation (in our case, bag of features) 
+			2. Pick a kernel function for that representation 
+			3. Compute the matrix of kernel values between every pair of training examples 
+			4. Feed the kernel matrix into your favorite SVM solver to obtain support vectors and weights 
+			5. At test time: compute kernel values for your test example and each support vector, and combine them with the learned weights to get the value of the decision function
+	- **Continuing te process**
+		- ![[Pasted image 20231107152022.png]]
+	- **Practical difficulties**
+		- One would like to use a kernel function that 
+			- Is likely to allow the data to be separated 
+			- But without introducing too many irrelevant dimensions. 
+		- How is such a function best chosen? 
+			- The only realistic answer is trial and error.
+			- Typically, begin with a simple SVM, and then experiment with a variety of ‘standard’ kernel functions.
+	- *Cross validation*
+-  *Results of Bags of Words for Object Recognition*
+	- ![[Pasted image 20231107160915.png]]
+	- 
