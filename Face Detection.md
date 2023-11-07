@@ -1,3 +1,5 @@
+
+![[CV-2324_Class5_Face_detection.pdf]]
 ## Notes
 - Face detection is easy for humans but difficult for computers
 - *Viola & Jones Method*

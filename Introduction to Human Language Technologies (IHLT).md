@@ -29,3 +29,5 @@ All theoretical content materials for this class can be found at:
 * [Session 3](https://github.com/MarioROT/IHLT-MAI/blob/main/Session3_MarioRosas_AlamLopez.ipynb)
 * [Session 4](https://github.com/MarioROT/IHLT-MAI/blob/main/Session4_MarioRosas_AlamLopez.ipynb)
 * [Session 5](https://github.com/MarioROT/IHLT-MAI/blob/main/Session5_MarioRosas_AlamLopez.ipynb)
+* [Session 6](https://github.com/MarioROT/IHLT-MAI/blob/main/Session6_MarioRosas_AlamLopez.ipynb)
+* [Session 7](https://github.com/MarioROT/IHLT-MAI/blob/main/Session7_MarioRosas_AlamLopez.ipynb)
