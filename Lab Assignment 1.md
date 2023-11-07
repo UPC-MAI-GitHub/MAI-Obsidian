@@ -1,5 +1,5 @@
 ### Convolutional Neural Networks
-![[LAB-EXERCISE1-CNN.pdf]]
+![[PRACTICA-2b-CNN.pdf]]
 
 ### Multilayer Perceptrons 
 

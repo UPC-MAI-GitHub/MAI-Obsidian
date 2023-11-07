@@ -33,6 +33,9 @@ Here can be found the slides of the [[AssIMAS-23-24.pdf|IMAS Course Presentation
 - [[Introduction to JADE]]
 - [[JADE Agents and behaviors]]
 - [[JADE messaging and special agents]]
+
+## Practical Work
+* [[MAS-practical_work_23-24.pdf|MAS Practical Work]]
 ## Class bibliography
 - [[DEIM_Report_05_001.pdf|Guia de programació de Sistemes Multiagent en JADE 3.3]]
 - [[programmersguide.pdf|JADE Programmers Guide]]

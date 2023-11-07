@@ -6,6 +6,7 @@
       {
         "id": "b85d4e846afcc365",
         "type": "tabs",
+        "dimension": 57.19616204690831,
         "children": [
           {
             "id": "e8e6c1f33061791e",
@@ -18,12 +19,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc4e8476646b1b2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A robot to catch a moving target implementation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee23117a1ff77f4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Features.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f1402348cc84ae17",
         "type": "tabs",
+        "dimension": 42.80383795309169,
         "children": [
           {
             "id": "335028a372feb958",
@@ -104,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Evolutionary Computation.md",
+                "file": "A robot to catch a moving target implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Evolutionary Computation.md",
+                "file": "A robot to catch a moving target implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Evolutionary Computation.md"
+                "file": "A robot to catch a moving target implementation.md"
               }
             }
           },
@@ -184,6 +211,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "notion-like-tables:Create loom": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -193,31 +223,75 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "notion-like-tables:Create new loom": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "335028a372feb958",
+  "floating": {
+    "id": "a63a1880903ea27a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6064cb27a0975050",
+        "type": "window",
+        "children": [
+          {
+            "id": "87d9f6df999b019d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8f6ec2db6d5d3822",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Lunar Lockout Game 2023-11-06 11.37.04.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2065,
+        "y": 151,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "bc4e8476646b1b2d",
   "lastOpenFiles": [
-    "Excalidraw/Introduction to Evolutionary Computation 2023-10-26 12.26.16.excalidraw.md",
+    "Excalidraw/A robot to catch a moving target implementation 2023-11-06 18.47.35.excalidraw.md",
+    "Pasted Image 20231106185201_587.png",
+    "Pasted Image 20231106185100_498.png",
+    "A robot to catch a moving target implementation.md",
+    "Planning and Approximate Reasoning.md",
+    "Lunar Lockout Game.md",
+    "Excalidraw/Lunar Lockout Game 2023-11-06 11.37.04.excalidraw.md",
+    "Image Features.md",
+    "Computational Vision.md",
+    "Image gradients and edges.md",
+    "Master in Artificial Intelligence (MAI).md",
+    "Wumpus World.md",
     "Introduction to Evolutionary Computation.md",
+    "Graph plan and Advanced Heuristics.md",
+    "Planning under uncertainty.md",
+    "Introduction to Multi-agent Systems.md",
+    "Intelligent Agents - Properties & Abstract Architecture.md",
+    "Deductive Reasoning Agents.md",
+    "Reactive & Hybrid Agents.md",
+    "Practical Reasoning Agents.md",
+    "JADE Agents and behaviors.md",
+    "Excalidraw/Introduction to Evolutionary Computation 2023-10-26 12.26.16.excalidraw.md",
     "Excalidraw/Introduction to Evolutionary Computation 2023-10-26 11.12.59.excalidraw.md",
     "Computational Intelligence (CI).md",
     "Slides/CI/IntroEC.pdf",
-    "Master in Artificial Intelligence (MAI).md",
     "Introduction to Human Language Technologies (IHLT).md",
     "Exercises about Coreference Resolution.md",
     "Coreference Resolution.md",
-    "Exercises about Syntactic Parsers.md",
-    "Syntactic Parsing - Parsers.md",
     "Slides/IHLT/09-syntactic-parsers.pdf",
-    "Exercises about CFGs.md",
-    "Syntactic Parsing - Grammars.md",
-    "Named Entity Recognition and Classification, Noun Phrase Recognition.md",
-    "Word Sense Disambiguation.md",
-    "Lexical Semantics, Semantic Resources.md",
     "Slides/IHLT/07-word-sequences.pdf",
     "Slides/IHLT/06-WSD.pdf",
     "Slides/IHLT/10-Coreference-resolution-exercises.pdf",
@@ -225,18 +299,7 @@
     "Slides/IHLT/09-syntactic-parsers-exercises.pdf",
     "Slides/IHLT/08-syntactic-grammars-exercises.pdf",
     "Slides/IHLT/08-syntactic-grammars.pdf",
-    "POS Tagging, Hidden Markov Model.md",
-    "Lab Assignment 1.md",
     "LAB-EXERCISE1-MLP.pdf",
-    "Neural Networks - Experimental Issues.md",
-    "Convolutional Neural Networks.md",
-    "solve.md",
-    "Computational Vision.md",
-    "Image Features.md",
-    "Opening Talk CV.md",
-    "Introduction to Machine Learning.md",
-    "Work 2 Dimensionality Reduction and Visualization.md",
-    "Work 1 Clustering Exercise.md",
     "Pasted Image 20231016144054_000.png",
     "Excalidraw/Cleaner Robot Task 1.excalidraw.png",
     "Pasted Image 20231016144021_002.png",
@@ -244,8 +307,6 @@
     "Pasted image 20231010143902.png",
     "Pasted image 20231010142417.png",
     "Pasted image 20231010142346.png",
-    "Pasted image 20231009003711.png",
-    "Pasted image 20231008232919.png",
-    "Pasted image 20231007192147.png"
+    "Pasted image 20231009003711.png"
   ]
 }

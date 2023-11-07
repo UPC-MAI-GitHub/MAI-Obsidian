@@ -1,3 +1,5 @@
+
+![[CV-2324_Class5_Face_recognition.pdf]]
 ## Notes
 * *How to define facial features?*
 	* Eigenfaces

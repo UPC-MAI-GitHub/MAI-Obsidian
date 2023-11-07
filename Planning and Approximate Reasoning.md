@@ -32,14 +32,14 @@ For more information about ACIA ask to Dr. Aida Valls
 * [[Planning under uncertainty]]
 	* **Readings**
 		* [[Planning under uncertainty.pdf|An Overview of Planning Under Uncertainty]]
-		* [[3-doorplanner_icra10.pdf|Planning for Autonomous Door Opening with a Mobile Manipulato]]
+		* [[3-doorplanner_icra10.pdf|Planning for Autonomous Door Opening with a Mobile Manipulator]]
 		* [[5-Reading-06aamas-policy-reuse.pdf|Probabilistic Policy Reuse in a Reinforcement Learning Agen]]
 		* [[5-Reading-Playing Atari with Deep Reinforcement Learning.pdf|Playing Atari with Deep Reinforcement Learning]]
 ## Lab Sessions
 - [[General Readings]]
 - [[Blocks Worlds]]
 	- [Reading 1: PDDL Examples: Logistics: a simple running example of PDDL](https://github.com/yarox/pddl-examples)
-	- [Reading 1: PDDL Examples: ChallengesURL](https://github.com/potassco/pddl-instances)
+	- [Reading 1: PDDL Examples: Challenges](https://github.com/potassco/pddl-instances)
 - [[Puzzle Game]]
 - [[Wumpus World]]
 - [[Lunar Lockout Game]]
