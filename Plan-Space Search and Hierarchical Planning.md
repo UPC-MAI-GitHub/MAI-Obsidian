@@ -2,13 +2,82 @@
 ## Summary
 ## Notes
 - *Professor notes -->* [[3- lecture 3-notes.pdf]]
-- *Plan space planners* (PSP)
+- *Plan space planners (PSP)*: an approach to automated planning that maintains a partial ordering between actions and only commits ordering between actions when forced to that is, ordering of actions is partial.
 - **Search states: Partial Plans**
-	- *State space vs Plan space search*
-		- *State space search*: search through a graph (tree) of nodes representing world states. 
+	- *State space vs Plan space search* 
+		- *State space search*: search through a graph (tree) of nodes representing world states. *Always in total order
 		- *Plan space search*: search through a graph of partial pants
 			-  nodes: partially specified plans
 			- arcs: plan refinement operations
-			- solutions: partial-order plans
-		- ![[Pasted image 20231011113917.png]]
-		- 
+			- solutions: partial-order plans $\rightarrow$ set of actions + sets of orderings. *Not necessarily in total order*
+		-  ![[Pasted image 20231107232935.png]]
+	- *Plan:* set of actions organized into some structure
+	- *Partial plan:* subset of actions -- subset of the organizational structure
+		- $\pi$ is a partial plan
+		- $A$ is ths set of the partial instantiated planning operators
+		- $\prec$ is the set of ordering constraints
+		- $B$ is the set of binding contraints
+		- $L$ is the set of causal links where we have $p$ the result of action $a_i$ and a precondition for $a_j$ 
+		- Then $\pi=(A,\prec,B,L)$
+		- Partial plans, a set of plans that can be refined with constraints to a total order
+- **Plan Refinement Operations**
+	- *Partial plans* contains:
+		- *actions*
+			- Initial state, goal conditions, operators with different variables
+			- *Operators indicate what action to perform with which variables*
+		- *Causal links*:
+			- from provider
+				- An *effect of an action* or an *atom that holds in the initial state*
+			- to the consumer
+				- A *precondition for an action* or a *goal condition*
+			- *Causal links* prevent interference with other actions (they imply ordering constraints)
+			- In the example below the operators 1 and 2 don't have a sequential dependency between them. Operator 1 (move) depends on the conditions of the initial state, but operator 2 (load) does not. The goal depeds on both operator 1 and 2. This given by the *causal links*.
+			- ![[Pasted image 20231108000501.png]]
+		- *Variable bindings*
+			- Keep tracks of possible variable and co-designation
+			- They *tuen operators into actions*.
+			- *Unify* and *effect* with the precondition it supports.
+			- ![[Pasted image 20231108001408.png]]
+			- Is like adding rules, or constraints about the objects or variables
+		- *Ordering constraints*
+			- Binary relations *specifying temporal order between actions*
+			- Important for:
+				- *All actions after initial state*
+				- *All actions before goal*
+				- *Causal links* implies *ordering constraints*
+				- ![[Pasted image 20231108013306.png]]
+- **Plan Space Search Problem**
+	- *Initial search state*: initial state and goal as gummy actions, empty plan, no more actions no constraints,no variable bindings or causal links
+	- *Successor function:* States are partial plans, generate successors through plan refinement operators adding $A,\prec,B,L$ 
+	- *Sub-problems*: which actions need to be performed, how to organize these actions. refinement operation reduces the set to smaller subset
+	- *Total vs Partial order*: partial order corresponds to total order in which all partial order constraints are respecte
+	- A *partial plan* is a *solution* of a planning problem *if*: its constraints ans binding constraints are consistent and respected, it satisfies the goal. 
+- **Flawless partial plan**
+	- *About test the goal*
+	- *Threats* of causal links are events that if happens introduce inconsistency to the plan, to solve we can add ordering constraints.
+	- *Flaws* un-satisfied subgoals (i.e. a precondition of an action without a causal link that supports it)
+	- *Flawless plan*, a plan $\pi=(\Sigma,s_{i},g)$, if: $\pi$ has no flaw, ordering constraints are not circular, variable bindings are consistent.  
+- **PSP algorithm**
+	-  Generic plan-space search planning algorithm
+	- Given a planning problem
+		- *Iteratively refine partial plan $\pi$ while maintaining $\prec$ and $B$ consistent until no more flaws*
+		- All flaws need to be resolved before a plan become a solution
+		- *Order* is not *important* for completeness, but for *efficiency*
+- **Hierarchical Task Network**
+	- Introduces to all previous concepts: *Tasks to be performed*, *metods to deescribe tasks to be performed, tasks networks (organized collections of tasks)*
+	- *Tasks*: $T_s=\{t_1,...,t_n\}$ 
+	- $r$ terms manipulated by the tasks $t(r_1,...,r_n)$ 
+	- *Simple Task Network*: a simple acyclic directed graph that the node set $U=\{t1,..,t_n\}$ is the set of tasks. The edges in $E$ define the partial order of tasks in $U$. 
+		-  STN is m=(name(m),task(m),precond(m),network(m))
+		- A task network $w$ is ground/primitive if all tasks $t_u\in U$ are ground/primitive, otherwise it is 
+		- action a = (name(a), precond(a), effects(a))
+		- unground/non-primitive.
+		- STN $w$ is totally ordered iff $E$ defines a total order on $U$
+	- HTN vs STRIPS
+		- *SHTN is generalization of STN Planning*, and STN problems can encode undecidable problems, but 
+		- STRIPS cannot encode such problems: 
+		- STN/HTN formalism is more expressive •non-recursive STN can be translated into equivalent STRIPS problem 
+		- but exponentially larger in worst case 
+		- “regular” STN is equivalent to STRIPS 
+		- non-recursive 
+		- at most one non-primitive subtask per method •non-primitive sub-task must be last in sequence

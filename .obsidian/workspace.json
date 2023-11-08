@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "f1402348cc84ae17",
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planning and Approximate Reasoning.md",
+                "file": "Plan-Space Search and Hierarchical Planning.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Features (SIFT).md",
+                "file": "Plan-Space Search and Hierarchical Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Features (SIFT).md",
+                "file": "Plan-Space Search and Hierarchical Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Features (SIFT).md"
+                "file": "Plan-Space Search and Hierarchical Planning.md"
               }
             }
           },
@@ -224,6 +224,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "notion-like-tables:Create loom": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -235,17 +236,23 @@
       "obsidian-advanced-slides:Show Slide Preview": false,
       "templater-obsidian:Templater": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "notion-like-tables:Create new loom": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "95600e72d6ad7950",
+  "active": "0c156d16bfbad49d",
   "lastOpenFiles": [
-    "Excalidraw/Waiter Robotic Task 2023-11-07 12.43.41.excalidraw.md",
-    "Image Features (SIFT).md",
     "Planning and Approximate Reasoning.md",
-    "Graph plan and Advanced Heuristics.md",
     "Plan-Space Search and Hierarchical Planning.md",
+    "Slides/PAR/3- lecture 3-notes.pdf",
+    "Pasted image 20231108013306.png",
+    "Pasted image 20231108001408.png",
+    "Pasted image 20231108001341.png",
+    "Pasted image 20231108000501.png",
+    "Pasted image 20231107232935.png",
+    "Pasted image 20231107232859.png",
+    "Image Features (SIFT).md",
+    "Excalidraw/Waiter Robotic Task 2023-11-07 12.43.41.excalidraw.md",
+    "Graph plan and Advanced Heuristics.md",
     "State-Space Search and Classical Planning.md",
     "Introduction and Planning Definition.md",
     "Introduction to Evolutionary Computation.md",
@@ -255,18 +262,12 @@
     "Pasted image 20231107152022.png",
     "Pasted image 20231107150527.png",
     "Pasted image 20231107145825.png",
-    "Pasted image 20231107144924.png",
-    "Pasted image 20231107144405.png",
-    "Pasted image 20231107144007.png",
-    "Pasted image 20231107142041.png",
-    "Pasted image 20231107141839.png",
     "Computational Vision.md",
     "Master in Artificial Intelligence (MAI).md",
     "A Gentle Introduction to Supervised Machine Learning.md",
     "Work 2 Dimensionality Reduction and Visualization.md",
     "Introduction to Machine Learning.md",
     "Excalidraw/A Gentle Introduction to Supervised Machine Learning 2023-11-07 11.43.59.excalidraw.md",
-    "Pasted image 20231107113754.png",
     "Excalidraw/A Gentle Introduction to Supervised Machine Learning 2023-11-07 10.13.36.excalidraw.md",
     "Slides/IMAS/Lab/MAS-practical_work_23-24.pdf",
     "Slides/CV/CV-2223_Class6_Object_Recognition_by_BOW.pdf",
@@ -283,9 +284,7 @@
     "Slides/CI/IntroEC.pdf",
     "Introduction to Human Language Technologies (IHLT).md",
     "Exercises about Coreference Resolution.md",
-    "Coreference Resolution.md",
     "Slides/IHLT/09-syntactic-parsers.pdf",
-    "Slides/IHLT/07-word-sequences.pdf",
-    "Slides/IHLT/06-WSD.pdf"
+    "Slides/IHLT/07-word-sequences.pdf"
   ]
 }
