@@ -1,0 +1,148 @@
+![[IntroGAs_DEF.pdf]]
+
+## Notes
+- Genetic Algorithms (*bitstrings*) 
+- **Genetic Algorithms**
+	- *Canonical Genetic Algorithms (CGAs)*: Evolutionary Algorithms for which individuals are bitstrings of length n and: 
+		- Strategy is usually (μ , λ) with μ = λ 
+		- Selection is usually proportional to fitness 
+		- Mutation is seen as “transcription error” (secondary discovery force) 
+		- Recombination is called “crossover” (primary discovery force)
+	- *Different strategies*:
+		- *Selection* completely at *random* (no benefit for being better than others) $\rightarrow$ *little or no exploitation* 
+		- Always *select (only) the bes*t (very high selective pressure) $\rightarrow$ *little or no exploration *
+		- *Stochastic selection* (better fitness →higher chance of reproduction) (leads to fitness-proportional diversity) $\rightarrow$ *more balanced exploitation-exploration searches*
+			- *The roulette wheel*
+				- Each solution gets a region on a roulette wheel according to its fitness
+				- Spin the wheel, select solution marked by roulette pointer 
+				- (better fitness = higher chance of reproduction)
+				- ![[Pasted image 20231109103613.png]]
+			- *Variations of the roulette wheel*
+				- Spin wheel once with as many equally-spaced pointers as individuals (stochastic universal sampling)
+				- Give a sure number of copies for the above-average individuals and perform standard SRW with remainder (remainder stochastic sampling), or 
+				- Rank selection (probability of selection is proportional to rank), which can be used to cope with: 
+					- High selective pressure in the first few generations 
+					- Low selective pressure due to a decrease in fitness variance as the search proceeds
+		- *Selection/Replacement: Elitism*
+			- The best A individuals from the last B generations are passed on unchanged for the next generation
+		- *Selection: Tournament*
+			- Randomly select k individuals (with replacement) 
+			- Select the individual with best fitness among these k individuals
+		- *Niching*
+			- Start with a single population P 
+			- Split it into parts (niches) around promising parts of the search space (eg. A,B,C,D) 
+			- Reproduction takes place within each niche, but letting them interchange information and merge back
+			- ![[Pasted image 20231109105858.png]]
+		- *Crossover: 
+			- *One-Point crossover*
+				- ![[Pasted image 20231109105932.png]]
+			- *Two-Point Crossover*
+				- ![[Pasted image 20231109110016.png]]
+			- *Uniform Crossover*
+				- UX evaluates each bit in the parent strings for exchange with a probability of 0.5 
+				- HUX (Half-Uniform Crossover) is as UX, but exactly half of the non-matching bits are swapped
+				- ![[Pasted image 20231109110248.png]]
+		- *Mutation*
+			- Mutations occur with some small probability every time a chromosome is duplicated
+			- Binomial = independent Bernoulli “transcription errors” Default choice is Bin (n, 1/n)
+			- ![[Pasted image 20231109110427.png]]
+		- *When to stop*
+			-  Limit the number of generations or fitness evaluations
+			- Detect convergence: 
+				- No relative improvement in mean/max fitness 
+				- No change in best (watch out elitism!) 
+				- Low diversity of fitness evaluations or individuals 
+				- Fitness evaluation beyond a predefined value 
+				- Closeness to optimum (if the optimal fitness is known)
+	- *Premature convergence*
+		- Population almost converged to (very) suboptimal solution, and 
+		- Not being able to generate better offspring anymore
+		- Prevention is best option. Detect and counteract (eg. injecting new genetic material, modifying population size, mutation rate,
+	- *Replacement strategies*
+		- *Generational genetic algorithms* (GGA)
+			- Replace all parents with their offspring, (μ , λ) with μ = λ
+			- No overlap between populations of different generations
+		- *Steady-state* (SSGA)
+			- Offspring is used to replace some parents in the old generation 
+			- Some overlap exists between populations of different generations
+			- Different techniques
+				- the offspring *replace the* *worst* individuals of the current population (*elitism*) 
+				- the offspring *replace random* individuals of the current population 
+				- the individuals to be replaced are selected using *«reverse» tournament selection* (now for the worst one) 
+				- the offspring *replace the oldest* individuals of the current population
+	- *Schools of thought*
+		- *Michigan*:individuals represent parts of the solution; the whole population represents a full solution
+		- *Pittsburg*: each individual represents a full solution
+	- *Binary representations*
+		- The (variables in the) optimization problem may: 
+		- admit a natural binary representation ● be given by nominal-valued variables (aka polychotomous) 
+		- be given by a discrete structure (tree, graph, …) 
+		- be given by integer or rational-valued variables  
+		- be given by continuous information (real numbers)
+		- ![[Pasted image 20231109114549.png]]
+		- Example: *$85.125 = 1010101.001 = 1.010101001 \times 2{^6}$* 
+		- biased exponent 127+6 = 133 = 10000101 
+		- Normalised mantisa = 010101001, sign = 0 add
+		- 0's to complete the 23 bits 
+		- The IEEE 754 Single precision for 85.125 is: 0 10000101 01010100100000
+	- **How GA might work**
+		- *Schema theory*
+			- A *schema $S$* is a template describing a subset of individuals:
+			- ![[Pasted image 20231109122105.png]]
+			- order $\gamma (S) =$  *# fixed positions defining length*
+			- (S) = *distance between first and last fixed positions*
+			- here are 3n possible schemata 
+			- there are $Choose(\delta,\omega)\cdot 2^{\omega}$ schemata of order ω and defining length 
+			- a *schema* $S$ includes (represents) $2^{n - \omega(S)}$ individuals 
+			- an individual of length n belongs to (i.e. represents) $2^n$ schemata (this result does not depend on the alphabet being binary)
+			- *Schema as hyperplane*
+				- A schema is a string in the ternary alphabet {0,1,\*} representing a hyperplane in the search space
+				- ![[Pasted image 20231109122134.png]]
+			- *Implicit parallelism*
+				- In a population of $\mu$ individuals of length $n$: $$2^n\leq\text{number of processed schemata}\leq\mu\cdot2^n$$ 
+				- number of processed schemata 
+				- $\mu\cdot2^n\longrightarrow$ far more schemata than individuals are implicitly processed (not disrupted by crossover and mutation) [Holland 1989]
+				- Lower bound of the order of $\frac{\mu{^{3}}}{\sqrt{log_2\mu}}$ 
+			- *Schemata Interpretations*
+				- *Geometric view*: hyperplanes in $\{0,1\}^n$ 
+				- *Evolutionary view*: what survives is not the individuals, but their genetic stuff (the schemata) 
+				- Thus the *GA is a schema processor*
+			- *The schema theorem*
+				- Short, low-order, above-average schemata receive exponentially increasing trials (individuals represented by the schema) in subsequent generations.
+				- Theoretical work on GAs includes: 
+					- Markov chains as an alternative formalism 
+					- Synthetic search problems (e.g. Walsh functions) 
+					- Effects of genetic operators on exploration/exploitation 
+					- Studies on (kinds and effect of) deceptive problems
+		- *The building blocks hypothesis*
+			- Genetic Algorithms work by discovering and exploiting building blocks --groups of closely interacting genes-- and then combining these blocks (via crossover) to produce successively larger blocks until the problem is solved
+			- *Deception*
+				- A problem is said to be *deceptive if the building blocks identified actually lead the GA away from the global optima*.
+		- *Function optimization*
+			- Let f(x) = cos(x) – sin(2x) (to be maximized in $[0,2\pi]$)
+				- ![[Pasted image 20231109123809.png]]
+			- Let $f(x) = (x+0.2)\cdot x + cos(14.5\cdot x-0.3)$
+				- ![[Pasted image 20231109123958.png]]
+			- Finding the roots of a polynomial $p(x)$ in an interval 
+			- Fitness function: maximize $F(x) = −p(x)\cdot p(x)$ 
+			- Example: $p(x) = x^4-7x^3+8x^2+2x-1$ in $[0,10]$
+				- ![[Pasted image 20231109124144.png]]
+			- *Converting minimization into maximization problem*
+				- Most methods need a range for the possible values 
+				- Example: $p(x) = x^4-7x^3+8x^2+2^x-1$ in $[0,10]$ can be constrained to within [1/9, 9]:
+				- ![[Pasted image 20231109124351.png]]
+			- *Example of an optimization function:*
+				- ![[Pasted image 20231109124418.png]]
+- **Key ideas**
+	- The *encoding should respect the schemata*: it must allow discovery of small building blocks from which larger, more *complete solutions* can be formed 
+	- The *encoding should reflect functional interaction*s, as proximity on the genome (linkage bias) 
+	- You should devise *appropriate genetic operators*: – all individuals correspond to feasible solutions and vice versa – genetic operators preserve feasibility
+	- High *flexibility* and *adaptability* because of many options: 
+		- Problem *representation* 
+		- *Genetic operators* with parameters 
+		- Mechanism of *selection* 
+		- *Size* of the *population* 
+		- *Fitness function* 
+	- These *decisions* are highly *problem-dependent* 
+	- *Parameters are not independent*: you cannot optimize them one by one 
+	- *Parameters can be adaptable*, e.g. *high in the beginning (more exploration), going down (more exploitation)*, or even be subject to evolution themselves!
