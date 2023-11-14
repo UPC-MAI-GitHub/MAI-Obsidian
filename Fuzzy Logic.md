@@ -1,0 +1,3 @@
+![[IntroLinguisticVariables- MESIIA.pdf]]
+
+## Notes

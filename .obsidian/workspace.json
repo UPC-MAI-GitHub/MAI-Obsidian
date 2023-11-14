@@ -6,10 +6,9 @@
       {
         "id": "b85d4e846afcc365",
         "type": "tabs",
-        "dimension": 51.651254953764855,
         "children": [
           {
-            "id": "98a31ab6733113a5",
+            "id": "8477e00af615cbfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,6 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Image Features (SIFT).md",
+                "file": "Introduction to Human Language Technologies (IHLT).md",
                 "mode": "source",
                 "source": false
               }
@@ -101,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.50152587890625,
-    "collapsed": true
+    "width": 393.5
   },
   "right": {
     "id": "37f4be134a81ff57",
@@ -119,6 +118,7 @@
               "type": "backlink",
               "state": {
                 "file": "Introduction to Genetic Algorithms.md",
+                "file": "Introduction to Human Language Technologies (IHLT).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +136,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "Introduction to Genetic Algorithms.md",
+                "file": "Introduction to Human Language Technologies (IHLT).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +160,7 @@
               "type": "outline",
               "state": {
                 "file": "Introduction to Genetic Algorithms.md"
+                "file": "Introduction to Human Language Technologies (IHLT).md"
               }
             }
           },
@@ -213,7 +215,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "0c156d16bfbad49d",
+  "active": "8477e00af615cbfc",
   "lastOpenFiles": [
     "Pasted image 20231109124418.png",
     "Pasted image 20231109124351.png",
@@ -261,5 +263,50 @@
     "Excalidraw/A robot to catch a moving target implementation 2023-11-06 18.47.35.excalidraw.md",
     "Excalidraw/Introduction to Evolutionary Computation 2023-10-26 12.26.16.excalidraw.md",
     "Excalidraw/Introduction to Evolutionary Computation 2023-10-26 11.12.59.excalidraw.md"
+    "Master in Artificial Intelligence (MAI).md",
+    "Computational Intelligence (CI).md",
+    "Planning and Approximate Reasoning.md",
+    "A robot to catch a moving target implementation.md",
+    "Linguistic variables.md",
+    "Slides/PAR/Lab/Linguistic vars with Matlab.pdf",
+    "Fuzzy Logic.md",
+    "Probability Model.md",
+    "Introduction to Approximate Reasoning.md",
+    "Slides/PAR/Probabilistic model -MESIIA.pdf",
+    "Slides/PAR/IntroLinguisticVariables- MESIIA.pdf",
+    "Slides/PAR/Introd-ApproxReas - MESIIA.pdf",
+    "Slides/PAR/Readings/razaprox.pdf",
+    "Slides/PAR/Readings/978-3-319-51370-6.pdf",
+    "Slides/IMAS/Exams/prova1 2022-23 -2call .pdf",
+    "Slides/IMAS/Exams/prova1 2022-23.pdf",
+    "Slides/IMAS/Exams/Planning Exam-the second round 24-01.pdf",
+    "Slides/IMAS/Exams/Exam1 2019-20.pdf",
+    "Nov 2022.md",
+    "Planning under uncertainty.md",
+    "Introduction to Multi-agent Systems.md",
+    "Ontologies & Communication.md",
+    "Introduction to Machine Learning.md",
+    "Lazy Learning.md",
+    "Computational Vision.md",
+    "Opening Talk CV.md",
+    "CNNs.md",
+    "Convolutional Neural Networks.md",
+    "IML Lab Session 4.md",
+    "Introduction to Evolutionary Computation.md",
+    "Image Features (SIFT).md",
+    "Work 2 Dimensionality Reduction and Visualization.md",
+    "General Readings.md",
+    "Excalidraw/Waiter Robotic 3.excalidraw 1.md",
+    "Excalidraw/Waiter Robotic 3.excalidraw.md",
+    "Excalidraw/Waiter Robotic Task 2023-11-07 12.43.41.excalidraw.md",
+    "Pasted Image 20231110144857_569.png",
+    "Pasted Image 20231110144757_556.png",
+    "Pasted Image 20231110144641_554.png",
+    "Pasted Image 20231110143849_345.png",
+    "Pasted Image 20231110143818_293.png",
+    "Pasted Image 20231110143733_292.png",
+    "Pasted Image 20231110143218_202.png",
+    "Pasted Image 20231110142946_099.png",
+    "Pasted Image 20231110142814_093.png",
+    "Pasted Image 20231110142744_091.png"
   ]
-}

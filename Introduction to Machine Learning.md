@@ -23,6 +23,10 @@ To register at the *campus virtual (**tj4n**)* of **UB** you can follow the step
 - [[A Gentle Introduction to Supervised Machine Learning]]
 	- **Readings**
 		- [[A Gentle Introduction to Supervised Machine Learning.pdf| Reading: A Gentle Introduction to Machine Learning]]
+- [[Lazy Learning]]
+	- **Readings**
+		- [[Aha1991_Article_Instance-basedLearningAlgorith.pdf|Instance-Based Learning Algorithms]]
+		- [[CBR_chapter.pdf|Case-Based Reasoning: Foundational Issues, Methodological Variations, and System Approaches]]
 ## Lab Sessions
 * [[Session1_Support_Work1_2023.pdf|IML Lab Session 1]]
 	* [[IML Lab 1 notes|Notes]]
