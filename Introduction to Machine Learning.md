@@ -27,6 +27,9 @@ To register at the *campus virtual (**tj4n**)* of **UB** you can follow the step
 	- **Readings**
 		- [[Aha1991_Article_Instance-basedLearningAlgorith.pdf|Instance-Based Learning Algorithms]]
 		- [[CBR_chapter.pdf|Case-Based Reasoning: Foundational Issues, Methodological Variations, and System Approaches]]
+- [[Feature Selection]]
+	- **Readings**
+		- [[guyon03a-2.pdf|An Introduction to Variable and Feature Selection]]
 ## Lab Sessions
 * [[Session1_Support_Work1_2023.pdf|IML Lab Session 1]]
 	* [[IML Lab 1 notes|Notes]]
@@ -53,10 +56,14 @@ To register at the *campus virtual (**tj4n**)* of **UB** you can follow the step
 * [[IML Lab Session 4]]
 * [[Support_Work2_2023_2024_students.pdf|IML Lab Session 5]]
 	* [[IML Lab 5 Notes|Notes]]
+* [[SuportWork3_2023_session1.pdf|IML Lab Session 6]]
+	* **Readings**
+		* [[Demsar_2006.pdf|Statistical Comparisons of Classifiers over Multiple Data Set]]
 ## Project deliveries
 * [[Work 1 Clustering Exercise]]
 	* [[How to deliver.pdf|How to deliver Work 1]]
 * [[Work 2 Dimensionality Reduction and Visualization]]
+* [[Work3_IML_2023_v1.pdf|Work 3 Lazy Learning]]
 
 
 
