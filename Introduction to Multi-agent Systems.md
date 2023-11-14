@@ -26,6 +26,13 @@ Here can be found the slides of the [[AssIMAS-23-24.pdf|IMAS Course Presentation
 	- **Videos**
 		- [Practical Reasoning Agents](https://www.youtube.com/watch?v=6rJmpgBjGxU)
 - [[Reactive & Hybrid Agents]]
+- [[Ontologies & Communication]]
+	- **Readings**
+		- [[ontology-tutorial-noy-mcguinness.pdf|Ontology Development 101 A Guide to Creating Your First Ontology]]
+	- **Videos**
+		- [FIPA website](http://www.fipa.org/)
+		- [OWL 2 web Ontology Language Quick Reference Guide](https://www.w3.org/TR/owl2-quick-reference/)
+		- [An introduction to OWL](https://videolectures.net/iswc08_hendler_ittsw/)
 ## Lab Sessions
 
 - [[IMAS Course Labs Intro]]

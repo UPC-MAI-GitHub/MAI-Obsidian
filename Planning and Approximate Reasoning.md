@@ -35,6 +35,13 @@ For more information about ACIA ask to Dr. Aida Valls
 		* [[3-doorplanner_icra10.pdf|Planning for Autonomous Door Opening with a Mobile Manipulator]]
 		* [[5-Reading-06aamas-policy-reuse.pdf|Probabilistic Policy Reuse in a Reinforcement Learning Agen]]
 		* [[5-Reading-Playing Atari with Deep Reinforcement Learning.pdf|Playing Atari with Deep Reinforcement Learning]]
+* [[Introduction to Approximate Reasoning]]
+* [[Probability Model]]
+* [[Fuzzy Logic]]
+	* **Readings**
+		* [Book: Artificial Intelligence: A modern approach](https://aima.cs.berkeley.edu/)
+		* [[978-3-319-51370-6.pdf|Book: Uncertain Rule-based Fuzzy Systems]]
+		* [[razaprox.pdf|Book:Introducción al razonamiento aproximado]]
 ## Lab Sessions
 - [[General Readings]]
 - [[Blocks Worlds]]
@@ -44,6 +51,14 @@ For more information about ACIA ask to Dr. Aida Valls
 - [[Wumpus World]]
 - [[Lunar Lockout Game]]
 - [[A robot to catch a moving target implementation]]
+- [[Linguistic variables]]
+	- [Fuzzy Logic Designer](https://es.mathworks.com/help/fuzzy/fuzzylogicdesigner-app.html)
 ## Practical Assignments
 1. [[Cleaner Robot Task]]
 2. [[Waiter Robotic Task]]
+
+## Example exams
+- [[Exam1 2019-20.pdf|Planning Exam Nov 2019]]
+- [[Planning Exam-the second round 24-01.pdf|Planning Exam Jan 2022]]
+- [[prova1 2022-23.pdf|Planning Exam Nov 2022]]
+- [[prova1 2022-23 -2call .pdf|Planning Exam Jan 2023]]
