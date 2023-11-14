@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Genetic Algorithms.md",
+                "file": "Syntactic Parsing - Grammars.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Genetic Algorithms.md",
+                "file": "Syntactic Parsing - Grammars.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Genetic Algorithms.md",
+                "file": "Syntactic Parsing - Grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Genetic Algorithms.md",
+                "file": "Syntactic Parsing - Grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Genetic Algorithms.md"
+                "file": "Syntactic Parsing - Grammars.md"
               }
             }
           },
@@ -215,22 +215,24 @@
   },
   "active": "0c156d16bfbad49d",
   "lastOpenFiles": [
+    "Exercises about CFGs.md",
+    "Syntactic Parsing - Grammars.md",
+    "Pasted image 20231109153431.png",
+    "Introduction to Human Language Technologies (IHLT).md",
+    "Pasted image 20231109150540.png",
+    "Pasted image 20231109145543.png",
+    "Pasted image 20231109145533.png",
+    "Pasted image 20231109142115.png",
+    "Pasted image 20231109142039.png",
+    "Pasted image 20231109141615.png",
+    "Master in Artificial Intelligence (MAI).md",
+    "Introduction to Genetic Algorithms.md",
     "Pasted image 20231109124418.png",
     "Pasted image 20231109124351.png",
     "Pasted image 20231109124259.png",
-    "Pasted image 20231109124144.png",
-    "Pasted image 20231109123958.png",
-    "Pasted image 20231109123809.png",
-    "Pasted image 20231109122148.png",
-    "Pasted image 20231109122134.png",
-    "Pasted image 20231109122105.png",
-    "Pasted image 20231109114549.png",
-    "Pasted image 20231109110427.png",
     "Introduction to Evolutionary Computation.md",
-    "Introduction to Genetic Algorithms.md",
     "Computational Intelligence (CI).md",
     "Slides/PAR/Exams/prova1 2022-23.pdf",
-    "Master in Artificial Intelligence (MAI).md",
     "Computational Vision.md",
     "Slides/CI/IntroGAs_DEF.pdf",
     "Slides/PAR/4- lecture 4-notes.pdf",
@@ -257,9 +259,6 @@
     "Excalidraw/A Gentle Introduction to Supervised Machine Learning 2023-11-07 11.43.59.excalidraw.md",
     "Excalidraw/A Gentle Introduction to Supervised Machine Learning 2023-11-07 10.13.36.excalidraw.md",
     "Image Features (HoG).md",
-    "Excalidraw/Lunar Lockout Game 2023-11-06 11.37.04.excalidraw.md",
-    "Excalidraw/A robot to catch a moving target implementation 2023-11-06 18.47.35.excalidraw.md",
-    "Excalidraw/Introduction to Evolutionary Computation 2023-10-26 12.26.16.excalidraw.md",
-    "Excalidraw/Introduction to Evolutionary Computation 2023-10-26 11.12.59.excalidraw.md"
+    "Excalidraw/Lunar Lockout Game 2023-11-06 11.37.04.excalidraw.md"
   ]
 }
