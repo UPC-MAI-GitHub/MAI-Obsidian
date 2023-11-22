@@ -42,6 +42,8 @@ For more information about ACIA ask to Dr. Aida Valls
 		* [Book: Artificial Intelligence: A modern approach](https://aima.cs.berkeley.edu/)
 		* [[978-3-319-51370-6.pdf|Book: Uncertain Rule-based Fuzzy Systems]]
 		* [[razaprox.pdf|Book:Introducción al razonamiento aproximado]]
+* [[Fuzzy Experts Systems]]
+	* [[Excercise Washing Machine Rules]]
 ## Lab Sessions
 - [[General Readings]]
 - [[Blocks Worlds]]

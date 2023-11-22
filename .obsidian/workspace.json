@@ -64,9 +64,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d2c979dfe853aaca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fuzzy Experts Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45cfe7631df446fe",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Slides/PAR/FuzzyES- MESIIA - MatLab.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "41289eea233bd5d2",
@@ -107,9 +129,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d8b984aef81dcd2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fuzzy Experts Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -184,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
+                "file": "Fuzzy Experts Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
+                "file": "Fuzzy Experts Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md"
+                "file": "Fuzzy Experts Systems.md"
               }
             }
           }
@@ -262,14 +296,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "afe0a4420dae5b02",
+  "active": "d8b984aef81dcd2d",
   "lastOpenFiles": [
+    "Pasted image 20231122130843.png",
+    "Pasted image 20231122130321.png",
+    "Excalidraw/Fuzzy Experts Systems 2023-11-22 12.18.51.excalidraw.md",
+    "Fuzzy Experts Systems.md",
+    "Excalidraw/Fuzzy Experts Systems 2023-11-22 12.16.15.excalidraw.md",
+    "Excalidraw/Fuzzy Experts Systems 2023-11-22 11.58.01.excalidraw.md",
+    "Pasted image 20231122115113.png",
+    "Planning and Approximate Reasoning.md",
+    "Slides/PAR/FuzzyES- MESIIA - MatLab.pdf",
+    "Fuzzy Logic.md",
+    "Probability Model.md",
+    "Introduction to Approximate Reasoning.md",
+    "Linguistic variables.md",
+    "Excercise Washing Machine Rules.md",
+    "Slides/PAR/Readings/Exercise-FuzzyES matlab.pdf",
+    "Master in Artificial Intelligence (MAI).md",
+    "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
     "Pasted image 20231121150622.png",
     "Pasted image 20231121150527.png",
     "Pasted image 20231121145948.png",
     "Computational Vision.md",
-    "Master in Artificial Intelligence (MAI).md",
-    "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
     "Feature Selection.md",
     "Slides/CV/2023-2024_Class8_Visualization_and_Interpretability.pdf",
     "Pasted image 20231121103033.png",
@@ -289,25 +338,11 @@
     "Introduction to Human Language Technologies (IHLT).md",
     "Exercises about Coreference Resolution.md",
     "Pasted image 20231116152742.png",
-    "Maven, Git and OSM.md",
-    "Introduction to Multi-agent Systems.md",
-    "IMAS Course Labs Intro.md",
-    "Introduction to JADE.md",
-    "JADE messaging and special agents.md",
-    "Fuzzy Logic.md",
     "Pasted image 20231115125943.png",
     "Pasted image 20231115125914.png",
-    "Pasted image 20231115123321.png",
-    "Planning and Approximate Reasoning.md",
-    "Introduction to Approximate Reasoning.md",
-    "Excalidraw/Fuzzy Logic 2023-11-15 12.20.06.excalidraw.md",
-    "Probability Model.md",
     "Slides/PAR/Introd-ApproxReas - MESIIA.pdf",
     "Slides/IML/Lab/SuportWork3_2023_session1.pdf",
     "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
-    "Slides/IML/Lab/Lab Readings/Demsar_2006.pdf",
-    "Slides/IML/Readings/guyon03a-2.pdf",
-    "Pasted image 20231114113603.png",
-    "Pasted image 20231114105057.png"
+    "Slides/IML/Lab/Lab Readings/Demsar_2006.pdf"
   ]
 }
