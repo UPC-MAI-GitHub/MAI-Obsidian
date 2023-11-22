@@ -103,7 +103,17 @@
 		*  When dimensionality increases, the volume of the space increases so fast that the available data becomes sparse. 
 		* The number of features is too large relative to the number of training samples
 * **Case Based Reasoning**
-	* *CBR* is an* advanced instance-based learning* applied to more complex instance objects 
+	* *CBR summary*
+		* CBR is a technique for *solving problems based on experience* 
+		* CBR problem solving involves *four phases* 
+			* *Retrieval, Reuse, Revise, and Retain* 
+		* Different techniques for: 
+			* *Representing the knowledge*, in particular, the cases 
+			* Realizing the four phases 
+		* CBR has several *advantages over tradition Knowledge-based Systems* 
+		* Several *applications* 
+			* *Classification, diagnosis, decision support, planning, configuration, design, ...*
+	* *CBR* is an *advanced instance-based learning* applied to more complex instance objects 
 	* A methodology to model human reasoning and thinking
 	* Objects may include *complex structural descriptions* of cases and adaptation rules 
 	* The power comes from the *organisation and content of the cases* themselves 
@@ -123,7 +133,7 @@
 			* Reuse the experience in the context of the new situation : complete or partial reuse, or adapt according to differences 
 			* Store new experience in memory (learning)
 			* ![[Pasted image 20231114113603.png]]
-	* *Process with 4 cases*
+	* *Process with 4 phases*
 		* A *new problem* to be solved is *introduced in the problem space* 
 		* During retrieval, a *new problem is matched against problems of the previous cases* by computing a* similarity function*, and the most similar problem and its stored solution are found
 		* *If the proposed solution does not meet the necessary requirements of a new* problem situation, *adaptation occurs* (reuse phase) and a new solution is created 
@@ -188,6 +198,40 @@
 		* Generative 
 			* replays the method of deriving the retrieved solution on the new problem 
 			* most complex form of adaptation
+	* *Revise*
+		* Verification of the solution by computer simulation
+		* Verification/evaluation of the real solution
+	* *Criteria for revision*
+		* Correctness of the solution
+		* Quality of the solution
+	* *Retain*
+		* What ca be learned from the query example?
+			*  *New experience* to be retained as new case 
+			* *Improved similarity assessment*, importance of features 
+			* *Organization* / Indexing of the case base to improve efficiency 
+			* Knowledge for *solution adaptation* 
+			* Forgetting cases (*learn to forget*) 
+				* For efficiency or because out of date
+				* Deleting an old case 
+					* Old is not necessarily bad
+	* *Advantages*
+		* solutions are *quickly* proposed 
+		* *derivation* from scratch is avoided 
+		* domains do *not need to be completely understood*
+		* cases *useful for open-ended/ill-defined* concepts 
+		* highlights *important features*
+	* *Disadvantages*
+		* *old cases may be poor* 
+		* library may be *biased*
+		* most appropriate cases *may not be retrieved* 
+		* *retrieval/adaptation knowledge* still needed
+	* *Advantages of CBR over other techniques*
+		* Reduces the knowledge acquisition effort 
+		* Requires less maintenance effort 
+		* Improves problem solving performance through reuse 
+		* Makes use of existing data, e.g., in databases 
+		* Improve over time and adapt to changes in the environment 
+		* High user acceptance
 
 
 
