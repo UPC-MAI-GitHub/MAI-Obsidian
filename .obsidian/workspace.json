@@ -1,125 +1,67 @@
 {
   "main": {
-    "id": "dc2446b14ff9bb7e",
+    "id": "6d35804bf09cc224",
     "type": "split",
     "children": [
       {
-        "id": "02498e81159aa2f9",
+        "id": "b5d92443cada9fa3",
         "type": "tabs",
         "children": [
-          {
-            "id": "20971e66df917043",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Slides/CI/Lab/PRACTICA-2b-CNN.pdf"
-              }
-            }
-          },
-          {
-            "id": "ea38bfe081245724",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Slides/CI/Lab/LAB-EXERCISE1-MLP.pdf"
-              }
-            }
-          },
-          {
-            "id": "d2c979dfe853aaca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fuzzy Experts Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "45cfe7631df446fe",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tips for Experimental Work.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2959ddf3786b05da",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Slides/PAR/FuzzyES- MESIIA - MatLab.pdf"
+                "file": "Slides/CI/ESs.pdf"
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
-        "id": "41289eea233bd5d2",
+        "id": "8ed0f611a6d339da",
         "type": "tabs",
         "children": [
           {
-            "id": "b8878fc840304e99",
+            "id": "62e38865760249a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syntactic Parsing - Parsers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ca23d13012614dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Feature Selection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afe0a4420dae5b02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8b984aef81dcd2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fuzzy Experts Systems.md",
+                "file": "Tips for Experimental Work.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ba76dd047cb568b6",
+    "id": "4965777dd6d4466f",
     "type": "split",
     "children": [
       {
-        "id": "fc26d3df466f2107",
+        "id": "818c1e2f48d7061a",
         "type": "tabs",
         "children": [
           {
-            "id": "59c8f470247a5464",
+            "id": "7020a2805084c8df",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -129,7 +71,7 @@
             }
           },
           {
-            "id": "4146d7481bcdc1b4",
+            "id": "2d520d80825483e6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -144,7 +86,7 @@
             }
           },
           {
-            "id": "2bd0217442be3079",
+            "id": "21893bd8866e8662",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -159,15 +101,15 @@
     "collapsed": true
   },
   "right": {
-    "id": "0662226c37db8bb2",
+    "id": "1052aa35fa7f045f",
     "type": "split",
     "children": [
       {
-        "id": "597898daf435e90a",
+        "id": "7067e08637679b1d",
         "type": "tabs",
         "children": [
           {
-            "id": "0aa36ebf78cb05eb",
+            "id": "fa53cddc49512966",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -175,12 +117,12 @@
             }
           },
           {
-            "id": "a161f17113c209d0",
+            "id": "99ebc1891792c463",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fuzzy Experts Systems.md",
+                "file": "Tips for Experimental Work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,19 +134,19 @@
             }
           },
           {
-            "id": "99e86b85f61c62a0",
+            "id": "cf07bb6de143959f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fuzzy Experts Systems.md",
+                "file": "Tips for Experimental Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "76ac166f6ac410c7",
+            "id": "d6a52c87e464c77a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -215,7 +157,7 @@
             }
           },
           {
-            "id": "9d57243a9e75129b",
+            "id": "31bc9c9e2542c58b",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -225,12 +167,12 @@
             }
           },
           {
-            "id": "cc87cd574f00c0ee",
+            "id": "663ae39fdf0d595f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fuzzy Experts Systems.md"
+                "file": "Tips for Experimental Work.md"
               }
             }
           }
@@ -258,39 +200,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8b984aef81dcd2d",
+  "active": "62e38865760249a0",
   "lastOpenFiles": [
-    "Pasted image 20231122130843.png",
-    "Pasted image 20231122130321.png",
-    "Excalidraw/Fuzzy Experts Systems 2023-11-22 12.18.51.excalidraw.md",
+    "Pasted image 20231123121402.png",
+    "Pasted image 20231123121244.png",
+    "Computational Intelligence (CI).md",
+    "Tips for Experimental Work.md",
+    "Evolution Strategies.md",
+    "Pasted image 20231123112617.png",
+    "Pasted image 20231123112307.png",
+    "Slides/CI/ESs.pdf",
+    "Pasted image 20231123111950.png",
+    "Pasted image 20231123111445.png",
+    "Pasted image 20231123111108.png",
+    "Pasted image 20231123110945.png",
+    "Pasted image 20231123105328.png",
+    "Pasted image 20231123105302.png",
+    "Pasted image 20231123104640.png",
+    "Slides/CI/Exp_Tips.pdf",
+    "Slides/CI/IntroEC.pdf",
+    "Master in Artificial Intelligence (MAI).md",
+    "Slides/PAR/FuzzyES- MESIIA - MatLab.pdf",
     "Fuzzy Experts Systems.md",
+    "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
+    "Slides/IML/T8_2023_students.pdf",
+    "Feature Selection.md",
+    "Face Detection.md",
+    "Exercises about Syntactic Parsers.md",
+    "Excalidraw/Fuzzy Experts Systems 2023-11-22 12.18.51.excalidraw.md",
     "Excalidraw/Fuzzy Experts Systems 2023-11-22 12.16.15.excalidraw.md",
     "Excalidraw/Fuzzy Experts Systems 2023-11-22 11.58.01.excalidraw.md",
-    "Pasted image 20231122115113.png",
     "Planning and Approximate Reasoning.md",
-    "Slides/PAR/FuzzyES- MESIIA - MatLab.pdf",
     "Fuzzy Logic.md",
     "Probability Model.md",
     "Introduction to Approximate Reasoning.md",
     "Linguistic variables.md",
     "Excercise Washing Machine Rules.md",
     "Slides/PAR/Readings/Exercise-FuzzyES matlab.pdf",
-    "Master in Artificial Intelligence (MAI).md",
-    "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
-    "Pasted image 20231121150622.png",
-    "Pasted image 20231121150527.png",
-    "Pasted image 20231121145948.png",
     "Computational Vision.md",
-    "Feature Selection.md",
     "Slides/CV/2023-2024_Class8_Visualization_and_Interpretability.pdf",
-    "Pasted image 20231121103033.png",
-    "Pasted image 20231121102213.png",
-    "Pasted image 20231116152742.png",
-    "Pasted image 20231115125943.png",
-    "Pasted image 20231115125914.png",
-    "Slides/PAR/Introd-ApproxReas - MESIIA.pdf",
-    "Slides/IML/Lab/SuportWork3_2023_session1.pdf",
-    "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
-    "Slides/IML/Lab/Lab Readings/Demsar_2006.pdf"
+    "Introduction to Machine Learning.md",
+    "Syntactic Parsing - Parsers.md",
+    "Image Features (HoG).md",
+    "Face Recognition.md",
+    "Lab Assignment 1.md",
+    "Slides/CI/Lab/LAB-EXERCISE1-MLP.pdf",
+    "Slides/CI/Lab/PRACTICA-2b-CNN.pdf",
+    "Excalidraw/Exercises about Syntactic Parsers 2023-11-18 00.33.07.excalidraw.md",
+    "Slides/PAR/Introd-ApproxReas - MESIIA.pdf"
   ]
 }

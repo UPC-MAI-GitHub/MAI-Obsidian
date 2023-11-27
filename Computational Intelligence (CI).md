@@ -6,7 +6,8 @@ Welcome to the Computational Intelligence course. The course begins on Thursday 
 - [[Neural Networks - Experimental Issues]]
 - [[Introduction to Evolutionary Computation]]
 - [[Introduction to Genetic Algorithms]]
-
+- [[Evolution Strategies]]
+- [[Tips for Experimental Work]]
 ## Lab Sessions
 - [[Lab-NN-Class-2023-24.pdf|Laboratory Neural Networks]]
 

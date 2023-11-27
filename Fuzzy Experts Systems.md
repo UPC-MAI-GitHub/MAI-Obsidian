@@ -68,10 +68,10 @@
 		* A large number of rules must be defined 
 		* Changes in the domain must invalidate some rules 
 		* The systems are not easily adaptable  Experts spend many time in defining the system
-	* Hierarchical fuzzy systems 
+	* *Hierarchical fuzzy systems*
 		* The conclusions of one level are used in the following one 
 		* In this case, the total number of rules decreases, and also the difficulty of defining the rule blocks. 
 		* ![[Pasted image 20231122130843.png]]
-	* Difficulties in Hierarchical fuzzy systems: }
+	* Difficulties in Hierarchical fuzzy systems: 
 		* Define the hierarchy of rules 
-		* Defuzzify or not the conc
+		*  Defuzzify or not the conclusion before being used in the following rule block
