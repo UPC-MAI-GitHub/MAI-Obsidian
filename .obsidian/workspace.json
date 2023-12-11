@@ -44,26 +44,22 @@
             }
           },
           {
-            "id": "aeec68345baf74e5",
+            "id": "10201e9cdba32ef4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "IHLT Exercises.md",
-                "mode": "source",
-                "source": false
+                "file": "Slides/IHLT/Readings/S12-1051.pdf"
               }
             }
           },
           {
-            "id": "cd12286d9edb4068",
+            "id": "436c7091faa86b76",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "Opening Talk IML.md",
-                "mode": "source",
-                "source": false
+                "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md"
               }
             }
           }
@@ -118,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 213.5,
     "collapsed": true
   },
   "right": {
@@ -143,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Opening Talk IML.md",
+                "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Opening Talk IML.md",
+                "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Opening Talk IML.md"
+                "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md"
               }
             }
           }
@@ -219,23 +215,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd12286d9edb4068",
+  "active": "436c7091faa86b76",
   "lastOpenFiles": [
-    "Introduction to Machine Learning.md",
+    "Introduction to Human Language Technologies (IHLT).md",
+    "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
+    "Slides/IHLT/Readings/S12-1051.pdf",
+    "Making Group Decision I.md",
     "Computational Vision.md",
-    "CV Lab Intro.md",
     "IHLT Exercises.md",
+    "2023-12-11.md",
+    "Untitled.md",
+    "Deductive Reasoning Agents.md",
+    "Coreference Resolution.md",
+    "Convolutional Neural Networks.md",
+    "CNNs.md",
+    "Slides/IMAS/MAS_Lec2-IntelligentAgents.pdf",
+    "Slides/IHLT/Readings",
+    "Master in Artificial Intelligence (MAI).md",
+    "Introduction to Machine Learning.md",
+    "Opening Talk IML.md",
+    "CV Lab Intro.md",
     "Excalidraw/IHLT Exercises 2023-11-30 15.51.08.excalidraw.md",
     "Excalidraw/Drawing 2023-11-30 16.18.11.excalidraw.md",
-    "Making Group Decision I.md",
     "Introduction to Multi-agent Systems.md",
-    "Master in Artificial Intelligence (MAI).md",
     "Excalidraw/IHLT Exercises 2023-11-30 14.08.57.excalidraw.md",
     "Excalidraw/Drawing 2023-11-30 15.50.59.excalidraw.md",
     "Lexical Semantics, Semantic Resources.md",
     "Pasted Image 20231130163147_163.png",
     "Pasted Image 20231130163130_150.png",
-    "Introduction to Human Language Technologies (IHLT).md",
     "Pasted image 20231129152538.png",
     "Pasted image 20231129152120.png",
     "Pasted image 20231129151117.png",
@@ -252,20 +259,8 @@
     "Slides/IMAS/Readings/durfee-dps.pdf",
     "Excalidraw/Certainty Factors 2023-11-29 12.32.24.excalidraw.md",
     "Planning and Approximate Reasoning.md",
-    "Certainty Factors.md",
-    "Excalidraw/Certainty Factors 2023-11-29 14.19.38.excalidraw.md",
-    "Excalidraw/Certainty Factors 2023-11-29 11.21.19.excalidraw.md",
-    "Slides/PAR/Readings/exercisesCF.pdf",
-    "Slides/PAR/Readings/The-Certainty-Factor-Model.pdf",
-    "Slides/CV/CV-2324_Class8_Object detection.pdf",
-    "JADE messaging and special agents.md",
-    "Object detection.md",
-    "Computational Intelligence (CI).md",
-    "Model Evaluation.md",
     "Pasted image 20231128112855.png",
     "Pasted image 20231128112616.png",
-    "Tips for Experimental Work.md",
-    "Pasted image 20231123121402.png",
-    "Evolution Strategies.md"
+    "Pasted image 20231123121402.png"
   ]
 }

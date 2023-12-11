@@ -32,3 +32,6 @@ All theoretical content materials for this class can be found at:
 * [Session 5](https://github.com/MarioROT/IHLT-MAI/blob/main/Session5_MarioRosas_AlamLopez.ipynb)
 * [Session 6](https://github.com/MarioROT/IHLT-MAI/blob/main/Session6_MarioRosas_AlamLopez.ipynb)
 * [Session 7](https://github.com/MarioROT/IHLT-MAI/blob/main/Session7_MarioRosas_AlamLopez.ipynb)
+## Papers
+- [[S12-1051.pdf|SemEval-2012 Task 6: A Pilot on Semantic Textual Similarity]]
+- [[SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity]]
