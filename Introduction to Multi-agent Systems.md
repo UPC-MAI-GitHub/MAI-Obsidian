@@ -33,6 +33,15 @@ Here can be found the slides of the [[AssIMAS-23-24.pdf|IMAS Course Presentation
 		- [FIPA website](http://www.fipa.org/)
 		- [OWL 2 web Ontology Language Quick Reference Guide](https://www.w3.org/TR/owl2-quick-reference/)
 		- [An introduction to OWL](https://videolectures.net/iswc08_hendler_ittsw/)
+- [[Working Together]]
+	- **Readings
+		- [[durfee-dps.pdf|Distributed Problem Solving and Planning]]
+		- [[doran97cooperation.pdf|On Cooperation in Multi-Agent Systems]]
+		- [[PGP.pdf|Partial Global Planning: A Coordination Framework for Distributed Hypothesis Formation]]
+- [[Making Group Decision I]]
+	- **Readings**
+		- [[Voting-Chen-Harvard-2011.pdf|Voting Protocols]]
+		- [[Voting-Larson-Waterloo.pdf|Multiagent Systems - Introduction to Social Choice]]
 ## Lab Sessions
 
 - [[IMAS Course Labs Intro]]

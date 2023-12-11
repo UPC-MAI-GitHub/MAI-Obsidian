@@ -4,34 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "b5d92443cada9fa3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "45cfe7631df446fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tips for Experimental Work.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2959ddf3786b05da",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Slides/CI/ESs.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "8ed0f611a6d339da",
         "type": "tabs",
         "children": [
@@ -41,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips for Experimental Work.md",
+                "file": "Object detection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a860bf2e8dcabdfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computational Vision.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "222c9206754ac780",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Making Group Decision I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aeec68345baf74e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IHLT Exercises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd12286d9edb4068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Opening Talk IML.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tips for Experimental Work.md",
+                "file": "Opening Talk IML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tips for Experimental Work.md",
+                "file": "Opening Talk IML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips for Experimental Work.md"
+                "file": "Opening Talk IML.md"
               }
             }
           }
@@ -190,8 +211,6 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "templater-obsidian:Templater": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "notion-like-tables:Create loom": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -200,53 +219,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62e38865760249a0",
+  "active": "cd12286d9edb4068",
   "lastOpenFiles": [
-    "Pasted image 20231123121402.png",
-    "Pasted image 20231123121244.png",
-    "Computational Intelligence (CI).md",
-    "Tips for Experimental Work.md",
-    "Evolution Strategies.md",
-    "Pasted image 20231123112617.png",
-    "Pasted image 20231123112307.png",
-    "Slides/CI/ESs.pdf",
-    "Pasted image 20231123111950.png",
-    "Pasted image 20231123111445.png",
-    "Pasted image 20231123111108.png",
-    "Pasted image 20231123110945.png",
-    "Pasted image 20231123105328.png",
-    "Pasted image 20231123105302.png",
-    "Pasted image 20231123104640.png",
-    "Slides/CI/Exp_Tips.pdf",
-    "Slides/CI/IntroEC.pdf",
-    "Master in Artificial Intelligence (MAI).md",
-    "Slides/PAR/FuzzyES- MESIIA - MatLab.pdf",
-    "Fuzzy Experts Systems.md",
-    "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
-    "Slides/IML/T8_2023_students.pdf",
-    "Feature Selection.md",
-    "Face Detection.md",
-    "Exercises about Syntactic Parsers.md",
-    "Excalidraw/Fuzzy Experts Systems 2023-11-22 12.18.51.excalidraw.md",
-    "Excalidraw/Fuzzy Experts Systems 2023-11-22 12.16.15.excalidraw.md",
-    "Excalidraw/Fuzzy Experts Systems 2023-11-22 11.58.01.excalidraw.md",
-    "Planning and Approximate Reasoning.md",
-    "Fuzzy Logic.md",
-    "Probability Model.md",
-    "Introduction to Approximate Reasoning.md",
-    "Linguistic variables.md",
-    "Excercise Washing Machine Rules.md",
-    "Slides/PAR/Readings/Exercise-FuzzyES matlab.pdf",
-    "Computational Vision.md",
-    "Slides/CV/2023-2024_Class8_Visualization_and_Interpretability.pdf",
     "Introduction to Machine Learning.md",
-    "Syntactic Parsing - Parsers.md",
-    "Image Features (HoG).md",
-    "Face Recognition.md",
-    "Lab Assignment 1.md",
-    "Slides/CI/Lab/LAB-EXERCISE1-MLP.pdf",
-    "Slides/CI/Lab/PRACTICA-2b-CNN.pdf",
-    "Excalidraw/Exercises about Syntactic Parsers 2023-11-18 00.33.07.excalidraw.md",
-    "Slides/PAR/Introd-ApproxReas - MESIIA.pdf"
+    "Computational Vision.md",
+    "CV Lab Intro.md",
+    "IHLT Exercises.md",
+    "Excalidraw/IHLT Exercises 2023-11-30 15.51.08.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-30 16.18.11.excalidraw.md",
+    "Making Group Decision I.md",
+    "Introduction to Multi-agent Systems.md",
+    "Master in Artificial Intelligence (MAI).md",
+    "Excalidraw/IHLT Exercises 2023-11-30 14.08.57.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-30 15.50.59.excalidraw.md",
+    "Lexical Semantics, Semantic Resources.md",
+    "Pasted Image 20231130163147_163.png",
+    "Pasted Image 20231130163130_150.png",
+    "Introduction to Human Language Technologies (IHLT).md",
+    "Pasted image 20231129152538.png",
+    "Pasted image 20231129152120.png",
+    "Pasted image 20231129151117.png",
+    "Pasted image 20231129150659.png",
+    "Pasted image 20231129150114.png",
+    "Excalidraw/Making Group Decision I 2023-11-29 14.45.11.excalidraw.md",
+    "Working Together.md",
+    "Slides/IMAS/Readings/Voting-Larson-Waterloo.pdf",
+    "Slides/IMAS/Readings/Voting-Chen-Harvard-2011.pdf",
+    "Slides/IMAS/MAS_Lec7-Making-Group-Decision.pdf",
+    "Slides/IMAS/Readings/PGP.pdf",
+    "Slides/IMAS/Readings/doran97cooperation.pdf",
+    "Slides/IMAS/MAS_Lec6-WorkingTogether.pdf",
+    "Slides/IMAS/Readings/durfee-dps.pdf",
+    "Excalidraw/Certainty Factors 2023-11-29 12.32.24.excalidraw.md",
+    "Planning and Approximate Reasoning.md",
+    "Certainty Factors.md",
+    "Excalidraw/Certainty Factors 2023-11-29 14.19.38.excalidraw.md",
+    "Excalidraw/Certainty Factors 2023-11-29 11.21.19.excalidraw.md",
+    "Slides/PAR/Readings/exercisesCF.pdf",
+    "Slides/PAR/Readings/The-Certainty-Factor-Model.pdf",
+    "Slides/CV/CV-2324_Class8_Object detection.pdf",
+    "JADE messaging and special agents.md",
+    "Object detection.md",
+    "Computational Intelligence (CI).md",
+    "Model Evaluation.md",
+    "Pasted image 20231128112855.png",
+    "Pasted image 20231128112616.png",
+    "Tips for Experimental Work.md",
+    "Pasted image 20231123121402.png",
+    "Evolution Strategies.md"
   ]
 }

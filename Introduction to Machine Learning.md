@@ -30,6 +30,11 @@ To register at the *campus virtual (**tj4n**)* of **UB** you can follow the step
 - [[Feature Selection]]
 	- **Readings**
 		- [[guyon03a-2.pdf|An Introduction to Variable and Feature Selection]]
+- [[Model Evaluation]]
+	- **Readings**
+		- [[evaluating-machine-learning-models.pdf|Evaluating Machine Learning Models]]
+		- [[haibohe2009.pdf|Learning from Imbalanced Data]]
+		- [[Kohavi-IJCAI-95.pdf|A Study of Cross-Validation & Bootstrap for Accuracy Estimation and Model Selection]]
 ## Lab Sessions
 * [[Session1_Support_Work1_2023.pdf|IML Lab Session 1]]
 	* [[IML Lab 1 notes|Notes]]

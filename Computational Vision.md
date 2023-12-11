@@ -12,6 +12,7 @@ This is the start of the Computational Vision class at UB. Here you can find the
 - [[Object recognition by bag-of-words]]
 - [[CNNs]]
 - [[Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability]]
+- [[Object detection]]
 ## Lab Sessions
 - [[CV Lab Intro]]
 * [CV Lab Session 1](https://github.com/MarioROT/CV-MAI/tree/main/Session%201)

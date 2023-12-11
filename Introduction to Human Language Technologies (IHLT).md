@@ -22,6 +22,7 @@ All theoretical content materials for this class can be found at:
 	- [[Exercises about Syntactic Parsers]]
 - [[Coreference Resolution]]
 	- [[Exercises about Coreference Resolution]]
+- [[IHLT Exercises]]
 
 ## Lab Sessions 
 * [Session 1](https://github.com/MarioROT/IHLT-MAI/blob/main/Session1_MarioRosas_AlamLopez.ipynb)

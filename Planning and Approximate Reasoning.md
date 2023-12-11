@@ -44,6 +44,11 @@ For more information about ACIA ask to Dr. Aida Valls
 		* [[razaprox.pdf|Book:Introducción al razonamiento aproximado]]
 * [[Fuzzy Experts Systems]]
 	* [[Excercise Washing Machine Rules]]
+* [[Certainty Factors]]
+	* **Readings**
+		* [[The-Certainty-Factor-Model.pdf|The Certainty Factor Model]]
+	* **Exercises**
+		* [[exercisesCF.pdf|Certainty Factors Exercises]]
 ## Lab Sessions
 - [[General Readings]]
 - [[Blocks Worlds]]
