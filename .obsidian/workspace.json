@@ -62,9 +62,29 @@
                 "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md"
               }
             }
+          },
+          {
+            "id": "12cb03562f816f58",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Slides/IML/Lab/Work3_IML_2023_v1.pdf"
+              }
+            }
+          },
+          {
+            "id": "cc86b148fc6bc5fd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Feature Selection Tutorial with Python Examples.md"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -114,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "1052aa35fa7f045f",
@@ -139,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
+                "file": "Feature Selection Tutorial with Python Examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
+                "file": "Feature Selection Tutorial with Python Examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md"
+                "file": "Feature Selection Tutorial with Python Examples.md"
               }
             }
           }
@@ -215,10 +234,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "436c7091faa86b76",
+  "active": "cc86b148fc6bc5fd",
   "lastOpenFiles": [
-    "Introduction to Human Language Technologies (IHLT).md",
+    "Introduction to Machine Learning.md",
+    "Feature Selection Tutorial with Python Examples.md",
+    "Master in Artificial Intelligence (MAI).md",
+    "Introduction and Planning Definition.md",
+    "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
+    "Slides/IML/Readings/2106.06437.pdf",
     "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
+    "Introduction to Human Language Technologies (IHLT).md",
     "Slides/IHLT/Readings/S12-1051.pdf",
     "Making Group Decision I.md",
     "Computational Vision.md",
@@ -231,8 +256,6 @@
     "CNNs.md",
     "Slides/IMAS/MAS_Lec2-IntelligentAgents.pdf",
     "Slides/IHLT/Readings",
-    "Master in Artificial Intelligence (MAI).md",
-    "Introduction to Machine Learning.md",
     "Opening Talk IML.md",
     "CV Lab Intro.md",
     "Excalidraw/IHLT Exercises 2023-11-30 15.51.08.excalidraw.md",
@@ -255,10 +278,7 @@
     "Slides/IMAS/MAS_Lec7-Making-Group-Decision.pdf",
     "Slides/IMAS/Readings/PGP.pdf",
     "Slides/IMAS/Readings/doran97cooperation.pdf",
-    "Slides/IMAS/MAS_Lec6-WorkingTogether.pdf",
-    "Slides/IMAS/Readings/durfee-dps.pdf",
     "Excalidraw/Certainty Factors 2023-11-29 12.32.24.excalidraw.md",
-    "Planning and Approximate Reasoning.md",
     "Pasted image 20231128112855.png",
     "Pasted image 20231128112616.png",
     "Pasted image 20231123121402.png"

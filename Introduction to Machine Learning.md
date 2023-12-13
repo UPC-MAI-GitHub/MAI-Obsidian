@@ -64,6 +64,7 @@ To register at the *campus virtual (**tj4n**)* of **UB** you can follow the step
 * [[SuportWork3_2023_session1.pdf|IML Lab Session 6]]
 	* **Readings**
 		* [[Demsar_2006.pdf|Statistical Comparisons of Classifiers over Multiple Data Set]]
+		* [[Feature Selection Tutorial with Python Examples]]
 ## Project deliveries
 * [[Work 1 Clustering Exercise]]
 	* [[How to deliver.pdf|How to deliver Work 1]]

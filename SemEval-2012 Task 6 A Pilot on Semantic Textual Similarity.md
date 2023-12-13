@@ -253,3 +253,17 @@ annotation-target: "[[S12-1051.pdf]]"
 >%%TAGS%%
 >
 ^glff56xls08
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T08:23:15.711Z","updated":"2023-12-13T08:23:15.711Z","document":{"title":"SemEval-2012 Task 6: A Pilot on Semantic Textual Similarity","link":[{"href":"urn:x-pdf:9661dd46ee8d8c5497db6682ca100cbc"},{"href":"vault:/Slides/IHLT/Readings/S12-1051.pdf"}],"documentFingerprint":"9661dd46ee8d8c5497db6682ca100cbc"},"uri":"vault:/Slides/IHLT/Readings/S12-1051.pdf","target":[{"source":"vault:/Slides/IHLT/Readings/S12-1051.pdf","selector":[{"type":"TextPositionSelector","start":30970,"end":31045},{"type":"TextQuoteSelector","exact":"The top scoring systems tended to use most ofthe resources and tools listed","prefix":"e used by three or less systems.","suffix":" (UKP, Takelab), withsome notabl"}]}]}
+>```
+>%%
+>*%%PREFIX%%e used by three or less systems.%%HIGHLIGHT%% ==The top scoring systems tended to use most ofthe resources and tools listed== %%POSTFIX%%(UKP, Takelab), withsome notabl*
+>%%LINK%%[[#^32tula4jznj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^32tula4jznj
