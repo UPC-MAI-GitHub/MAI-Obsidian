@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "1052aa35fa7f045f",
@@ -236,11 +237,11 @@
   },
   "active": "cc86b148fc6bc5fd",
   "lastOpenFiles": [
-    "Introduction to Machine Learning.md",
+    "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
     "Feature Selection Tutorial with Python Examples.md",
+    "Introduction to Machine Learning.md",
     "Master in Artificial Intelligence (MAI).md",
     "Introduction and Planning Definition.md",
-    "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
     "Slides/IML/Readings/2106.06437.pdf",
     "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
     "Introduction to Human Language Technologies (IHLT).md",
@@ -278,7 +279,6 @@
     "Slides/IMAS/MAS_Lec7-Making-Group-Decision.pdf",
     "Slides/IMAS/Readings/PGP.pdf",
     "Slides/IMAS/Readings/doran97cooperation.pdf",
-    "Excalidraw/Certainty Factors 2023-11-29 12.32.24.excalidraw.md",
     "Pasted image 20231128112855.png",
     "Pasted image 20231128112616.png",
     "Pasted image 20231123121402.png"
