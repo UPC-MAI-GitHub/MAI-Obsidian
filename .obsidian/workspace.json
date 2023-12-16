@@ -44,17 +44,7 @@
             }
           },
           {
-            "id": "10201e9cdba32ef4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Slides/IHLT/Readings/S12-1051.pdf"
-              }
-            }
-          },
-          {
-            "id": "436c7091faa86b76",
+            "id": "37991b1e2214006b",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -64,7 +54,7 @@
             }
           },
           {
-            "id": "12cb03562f816f58",
+            "id": "978ac742a5d79231",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -74,7 +64,7 @@
             }
           },
           {
-            "id": "cc86b148fc6bc5fd",
+            "id": "91c38cefe6a2e7c0",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -82,9 +72,19 @@
                 "file": "Feature Selection Tutorial with Python Examples.md"
               }
             }
+          },
+          {
+            "id": "f807b96a5bc81ec7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Slides/IML/Lab/SuportWork3_2023_session1.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Feature Selection Tutorial with Python Examples.md",
+                "file": "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Feature Selection Tutorial with Python Examples.md",
+                "file": "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feature Selection Tutorial with Python Examples.md"
+                "file": "Slides/IML/Lab/Work3_IML_2023_v1.pdf"
               }
             }
           }
@@ -235,19 +235,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc86b148fc6bc5fd",
+  "active": "978ac742a5d79231",
   "lastOpenFiles": [
-    "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
-    "Feature Selection Tutorial with Python Examples.md",
+    "Slides/IML/Lab/SuportWork3_2023_session1.pdf",
     "Introduction to Machine Learning.md",
     "Master in Artificial Intelligence (MAI).md",
-    "Introduction and Planning Definition.md",
-    "Slides/IML/Readings/2106.06437.pdf",
+    "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
+    "Feature Selection Tutorial with Python Examples.md",
     "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
+    "Object detection.md",
+    "Computational Vision.md",
+    "Making Group Decision I.md",
+    "Work 1 Clustering Exercise.md",
+    "Slides/IML/Readings/2106.06437.pdf",
     "Introduction to Human Language Technologies (IHLT).md",
     "Slides/IHLT/Readings/S12-1051.pdf",
-    "Making Group Decision I.md",
-    "Computational Vision.md",
     "IHLT Exercises.md",
     "2023-12-11.md",
     "Untitled.md",
@@ -273,7 +275,6 @@
     "Pasted image 20231129150659.png",
     "Pasted image 20231129150114.png",
     "Excalidraw/Making Group Decision I 2023-11-29 14.45.11.excalidraw.md",
-    "Working Together.md",
     "Slides/IMAS/Readings/Voting-Larson-Waterloo.pdf",
     "Slides/IMAS/Readings/Voting-Chen-Harvard-2011.pdf",
     "Slides/IMAS/MAS_Lec7-Making-Group-Decision.pdf",

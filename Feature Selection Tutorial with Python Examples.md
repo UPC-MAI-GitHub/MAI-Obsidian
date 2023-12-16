@@ -603,3 +603,199 @@ annotation-target: "[[2106.06437.pdf]]"
 >%%TAGS%%
 >
 ^1kwl9800kdr
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T19:31:18.606Z","updated":"2023-12-13T19:31:18.606Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":18091,"end":18215},{"type":"TextQuoteSelector","exact":"nformation gain is an alternative information-theoretic measure quantifying the information a featurecontains about a class ","prefix":", in (b) there is a dependence.I","suffix":"[16]. In Figure 8 (b) by knowing"}]}]}
+>```
+>%%
+>*%%PREFIX%%, in (b) there is a dependence.I%%HIGHLIGHT%% ==nformation gain is an alternative information-theoretic measure quantifying the information a featurecontains about a class== %%POSTFIX%%[16]. In Figure 8 (b) by knowing*
+>%%LINK%%[[#^mw5vzmka35i|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^mw5vzmka35i
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T19:43:09.444Z","updated":"2023-12-13T19:43:09.444Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":18648,"end":18771},{"type":"TextQuoteSelector","exact":"As with the Chi-square statistic, information gain (I-Gain) allows us to rank features for the purposeof feature selection.","prefix":"D) − ∑v∈values(f)|Sv|S H(Dv) (3)","suffix":" This is illustrated in Figure 9"}]}]}
+>```
+>%%
+>*%%PREFIX%%D) − ∑v∈values(f)|Sv|S H(Dv) (3)%%HIGHLIGHT%% ==As with the Chi-square statistic, information gain (I-Gain) allows us to rank features for the purposeof feature selection.== %%POSTFIX%%This is illustrated in Figure 9*
+>%%LINK%%[[#^5gtipaf84a6|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^5gtipaf84a6
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T19:54:06.180Z","updated":"2023-12-13T19:54:06.180Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":20138,"end":20294},{"type":"TextQuoteSelector","exact":"Thissuggests a hybrid Filter/Wrapper strategy whereby a Filter is used to rank the features and then aWrapper is used to identify the optimum feature subset","prefix":"eatures may damage performance. ","suffix":".This hybrid strategy is shown i"}]}]}
+>```
+>%%
+>*%%PREFIX%%eatures may damage performance.%%HIGHLIGHT%% ==Thissuggests a hybrid Filter/Wrapper strategy whereby a Filter is used to rank the features and then aWrapper is used to identify the optimum feature subset== %%POSTFIX%%.This hybrid strategy is shown i*
+>%%LINK%%[[#^ncp4p5w1lw|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ncp4p5w1lw
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T19:55:57.287Z","updated":"2023-12-13T19:55:57.287Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":20932,"end":21094},{"type":"TextQuoteSelector","exact":"The Relief family of algorithms deserve mention because, as Filter methods, they have the advantageof speed while scoring features in the context of other feature","prefix":".2 Relief Algorithm and Variants","suffix":"s [17, 18]. Relief algorithms be"}]}]}
+>```
+>%%
+>*%%PREFIX%%.2 Relief Algorithm and Variants%%HIGHLIGHT%% ==The Relief family of algorithms deserve mention because, as Filter methods, they have the advantageof speed while scoring features in the context of other feature== %%POSTFIX%%s [17, 18]. Relief algorithms be*
+>%%LINK%%[[#^7cy2tk6k8ye|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^7cy2tk6k8ye
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T19:56:55.504Z","updated":"2023-12-13T19:56:55.504Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":21429,"end":21648},{"type":"TextQuoteSelector","exact":"For the nearMiss (nM) increment the feature weights; weights for unmatching featureswill be incremented more.• For the nearHit (nH) decrement the feature weights; weights for unmatching features willbe decremented more.","prefix":"Then the general principle is:• ","suffix":"The idea is that this will pull "}]}]}
+>```
+>%%
+>*%%PREFIX%%Then the general principle is:•%%HIGHLIGHT%% ==For the nearMiss (nM) increment the feature weights; weights for unmatching featureswill be incremented more.• For the nearHit (nH) decrement the feature weights; weights for unmatching features willbe decremented more.== %%POSTFIX%%The idea is that this will pull*
+>%%LINK%%[[#^i57o19dyov|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^i57o19dyov
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T19:57:36.423Z","updated":"2023-12-13T19:57:36.423Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":21212,"end":21426},{"type":"TextQuoteSelector","exact":"he idea is to takeeach sample in the dataset (or a subset) and find its nearest neighbour of the same class and nearestunlike neighbour - these are termed the nearHit and the nearMiss. Then the general principle is","prefix":"d to score or weight features. T","suffix":":• For the nearMiss (nM) increme"}]}]}
+>```
+>%%
+>*%%PREFIX%%d to score or weight features. T%%HIGHLIGHT%% ==he idea is to takeeach sample in the dataset (or a subset) and find its nearest neighbour of the same class and nearestunlike neighbour - these are termed the nearHit and the nearMiss. Then the general principle is== %%POSTFIX%%:• For the nearMiss (nM) increme*
+>%%LINK%%[[#^xos6128khgf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xos6128khgf
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T19:58:09.062Z","updated":"2023-12-13T19:58:09.062Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":21648,"end":21751},{"type":"TextQuoteSelector","exact":"The idea is that this will pull matching instances closer together and push unmatching instances apart.","prefix":"eatures willbe decremented more.","suffix":"This is illustrated in the 2D ex"}]}]}
+>```
+>%%
+>*%%PREFIX%%eatures willbe decremented more.%%HIGHLIGHT%% ==The idea is that this will pull matching instances closer together and push unmatching instances apart.== %%POSTFIX%%This is illustrated in the 2D ex*
+>%%LINK%%[[#^e77tgvm1fhq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^e77tgvm1fhq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T19:58:39.618Z","updated":"2023-12-13T19:58:39.618Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":22376,"end":22537},{"type":"TextQuoteSelector","exact":"with the following update function where x is the query, nM is the nearMiss, nH is the nearHitand wf is the weight for feature f.wf ←wf −(xf −nHf)2 + (xf −nMf)2 ","prefix":"ture subset is marked with an X.","suffix":"(4)This achieves what we want be"}]}]}
+>```
+>%%
+>*%%PREFIX%%ture subset is marked with an X.%%HIGHLIGHT%% ==with the following update function where x is the query, nM is the nearMiss, nH is the nearHitand wf is the weight for feature f.wf ←wf −(xf −nHf)2 + (xf −nMf)2== %%POSTFIX%%(4)This achieves what we want be*
+>%%LINK%%[[#^wv4nagirokb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wv4nagirokb
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T20:12:00.192Z","updated":"2023-12-13T20:12:00.192Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":22847,"end":22963},{"type":"TextQuoteSelector","exact":"This process is repeated multiple times to produce a set of feature weights with ‘good’ features havinghigh weights.","prefix":" f1 should be preferred over f2.","suffix":" Implementation details of the R"}]}]}
+>```
+>%%
+>*%%PREFIX%%f1 should be preferred over f2.%%HIGHLIGHT%% ==This process is repeated multiple times to produce a set of feature weights with ‘good’ features havinghigh weights.== %%POSTFIX%%Implementation details of the R*
+>%%LINK%%[[#^jj8tcx8m6k|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^jj8tcx8m6k
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T20:12:42.538Z","updated":"2023-12-13T20:12:42.538Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":23889,"end":24139},{"type":"TextQuoteSelector","exact":"Correlation Based feature selection (CFS) is a filter strategy that relies on the principle that \"Agood feature subset is one that contains features highly correlated with (predictive of) the class,yet uncorrelated with (not predictive of) each other","prefix":"relation-Based Feature Selection","suffix":"\" [12]. The feature-class correl"}]}]}
+>```
+>%%
+>*%%PREFIX%%relation-Based Feature Selection%%HIGHLIGHT%% ==Correlation Based feature selection (CFS) is a filter strategy that relies on the principle that "Agood feature subset is one that contains features highly correlated with (predictive of) the class,yet uncorrelated with (not predictive of) each other== %%POSTFIX%%" [12]. The feature-class correl*
+>%%LINK%%[[#^77um3cssvdj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^77um3cssvdj
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T20:14:09.294Z","updated":"2023-12-13T20:14:09.294Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":24147,"end":24491},{"type":"TextQuoteSelector","exact":"The feature-class correlation indicateshow representative of the class that feature is while the feature-feature correlation indicates anyredundancies between the features. CFS works by assigning a merit value based on feature-class andfeature-feature correlations to each feature subset which becomes the measure by which subsets areevaluated.","prefix":"redictive of) each other\" [12]. ","suffix":" The merit score for a feature s"}]}]}
+>```
+>%%
+>*%%PREFIX%%redictive of) each other" [12].%%HIGHLIGHT%% ==The feature-class correlation indicateshow representative of the class that feature is while the feature-feature correlation indicates anyredundancies between the features. CFS works by assigning a merit value based on feature-class andfeature-feature correlations to each feature subset which becomes the measure by which subsets areevaluated.== %%POSTFIX%%The merit score for a feature s*
+>%%LINK%%[[#^kr75mugr79|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kr75mugr79
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T20:19:33.477Z","updated":"2023-12-13T20:19:33.477Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":42412,"end":42827},{"type":"TextQuoteSelector","exact":"Preliminary Analysis: Use RF feature importance to rank all features (e.g. as shown inFigure 17). This will provide some insight into what features are important and it may alsoindicate features that can be dropped from further consideration. We recommend the RFmethod as it considers features in context. If the objective of the exercise is to gain an insightinto the data then the analysis may stop at this point.","prefix":"e selection on a new dataset.1. ","suffix":"2. Subset Selection: If the obje"}]}]}
+>```
+>%%
+>*%%PREFIX%%e selection on a new dataset.1.%%HIGHLIGHT%% ==Preliminary Analysis: Use RF feature importance to rank all features (e.g. as shown inFigure 17). This will provide some insight into what features are important and it may alsoindicate features that can be dropped from further consideration. We recommend the RFmethod as it considers features in context. If the objective of the exercise is to gain an insightinto the data then the analysis may stop at this point.== %%POSTFIX%%2. Subset Selection: If the obje*
+>%%LINK%%[[#^ol5i9igp77|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ol5i9igp77
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T20:19:50.084Z","updated":"2023-12-13T20:19:50.084Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":42830,"end":43015},{"type":"TextQuoteSelector","exact":"Subset Selection: If the objective is to identify an effective subset for classification then asubset selection strategy is required. The main argument against a Wrapper strategy is the","prefix":"lysis may stop at this point.2. ","suffix":"17computational cost. With advan"}]}]}
+>```
+>%%
+>*%%PREFIX%%lysis may stop at this point.2.%%HIGHLIGHT%% ==Subset Selection: If the objective is to identify an effective subset for classification then asubset selection strategy is required. The main argument against a Wrapper strategy is the== %%POSTFIX%%17computational cost. With advan*
+>%%LINK%%[[#^5gdfv6d4yy|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^5gdfv6d4yy
+
+
+>%%
+>```annotation-json
+>{"created":"2023-12-13T20:19:58.272Z","updated":"2023-12-13T20:19:58.272Z","document":{"title":"2106.06437.pdf","link":[{"href":"urn:x-pdf:34083b2a9ef4286148b97fd42201dcbc"},{"href":"vault:/Slides/IML/Readings/2106.06437.pdf"}],"documentFingerprint":"34083b2a9ef4286148b97fd42201dcbc"},"uri":"vault:/Slides/IML/Readings/2106.06437.pdf","target":[{"source":"vault:/Slides/IML/Readings/2106.06437.pdf","selector":[{"type":"TextPositionSelector","start":43017,"end":43402},{"type":"TextQuoteSelector","exact":"computational cost. With advances in computing resources this is now less of an issue sowe recommend a Wrapper strategy as described in Section 4. If the number of features stillin consideration is not high then BE should be considered. If the set of possible features islarge then SFS may be the pragmatic choice. The hybrid strategy described in Section 5.1.1could also be considered","prefix":"inst a Wrapper strategy is the17","suffix":".So our overall recommendation f"}]}]}
+>```
+>%%
+>*%%PREFIX%%inst a Wrapper strategy is the17%%HIGHLIGHT%% ==computational cost. With advances in computing resources this is now less of an issue sowe recommend a Wrapper strategy as described in Section 4. If the number of features stillin consideration is not high then BE should be considered. If the set of possible features islarge then SFS may be the pragmatic choice. The hybrid strategy described in Section 5.1.1could also be considered== %%POSTFIX%%.So our overall recommendation f*
+>%%LINK%%[[#^rbnop5ptrda|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^rbnop5ptrda
