@@ -20,6 +20,9 @@ This is the start of the Computational Vision class at UB. Here you can find the
 * [CV Lab Session 3](https://github.com/MarioROT/CV-MAI/tree/main/Session%203)
 * [CV Lab Session 4](https://github.com/MarioROT/CV-MAI/tree/main/Session%204)
 
+## Paper presentation
+-[[Rosetta Neurons Mining the Common Units in a Model Zoo]]
+
 
 
 
