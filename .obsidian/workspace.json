@@ -23,6 +23,18 @@
             "id": "a860bf2e8dcabdfa",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computational Vision.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "222c9206754ac780",
+            "type": "leaf",
+            "state": {
               "type": "pdf-annotator",
               "state": {
                 "file": "Rosetta Neurons Mining the Common Units in a Model Zoo.md"
@@ -30,7 +42,49 @@
             }
           },
           {
-            "id": "f807b96a5bc81ec7",
+            "id": "10201e9cdba32ef4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Slides/IHLT/Readings/S12-1051.pdf"
+              }
+            }
+          },
+          {
+            "id": "436c7091faa86b76",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md"
+              }
+            }
+          },
+          {
+            "id": "12cb03562f816f58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Opening Talk IML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc86b148fc6bc5fd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Feature Selection Tutorial with Python Examples.md"
+              }
+            }
+          },
+          {
+            "id": "fa5bdeaf41f946c9",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -38,9 +92,21 @@
                 "file": "Slides/IML/Lab/SuportWork3_2023_session1.pdf"
               }
             }
+          },
+          {
+            "id": "b9ea0cea2f21d859",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CV Lab Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -90,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "1052aa35fa7f045f",
@@ -114,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rosetta Neurons Mining the Common Units in a Model Zoo.md",
+                "file": "Opening Talk IML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rosetta Neurons Mining the Common Units in a Model Zoo.md",
+                "file": "Opening Talk IML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rosetta Neurons Mining the Common Units in a Model Zoo.md"
+                "file": "Opening Talk IML.md"
               }
             }
           }
@@ -190,20 +257,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a860bf2e8dcabdfa",
+  "active": "12cb03562f816f58",
   "lastOpenFiles": [
-    "Slides/CV/LAB/2306.09346.pdf",
+    "CV Lab Intro.md",
     "Computational Vision.md",
     "Rosetta Neurons Mining the Common Units in a Model Zoo.md",
-    "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
-    "Slides/IML/Lab/SuportWork3_2023_session1.pdf",
-    "Introduction to Machine Learning.md",
     "Master in Artificial Intelligence (MAI).md",
-    "Feature Selection Tutorial with Python Examples.md",
-    "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
-    "Object detection.md",
     "Making Group Decision I.md",
-    "Work 1 Clustering Exercise.md",
+    "Opening Talk IML.md",
+    "Slides/CV/LAB/2306.09346.pdf",
+    "Introduction to Machine Learning.md",
+    "Introduction to ML.md",
+    "Slides/IML/Lab/Work3_IML_2023_v1.pdf",
+    "SemEval-2012 Task 6 A Pilot on Semantic Textual Similarity.md",
+    "Slides/IML/Lab/SuportWork3_2023_session1.pdf",
+    "Feature Selection Tutorial with Python Examples.md",
+    "Introduction and Planning Definition.md",
     "Slides/IML/Readings/2106.06437.pdf",
     "Introduction to Human Language Technologies (IHLT).md",
     "Slides/IHLT/Readings/S12-1051.pdf",
@@ -216,8 +285,6 @@
     "CNNs.md",
     "Slides/IMAS/MAS_Lec2-IntelligentAgents.pdf",
     "Slides/IHLT/Readings",
-    "Opening Talk IML.md",
-    "CV Lab Intro.md",
     "Excalidraw/IHLT Exercises 2023-11-30 15.51.08.excalidraw.md",
     "Excalidraw/Drawing 2023-11-30 16.18.11.excalidraw.md",
     "Introduction to Multi-agent Systems.md",
@@ -234,7 +301,6 @@
     "Slides/IMAS/Readings/Voting-Larson-Waterloo.pdf",
     "Slides/IMAS/Readings/Voting-Chen-Harvard-2011.pdf",
     "Slides/IMAS/MAS_Lec7-Making-Group-Decision.pdf",
-    "Slides/IMAS/Readings/PGP.pdf",
     "Pasted image 20231128112855.png",
     "Pasted image 20231128112616.png",
     "Pasted image 20231123121402.png"
