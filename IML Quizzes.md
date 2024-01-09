@@ -120,9 +120,9 @@
 
 3. *Select the correct statement*
    - [ ] a. ICA applies orthogonal linear transformation for unmixing the original signals
-   - [x] b. ICA focuses on independent and Gaussian components to find the directions of maximum independence ✅ 2024-01-09
+   - [ ] b. ICA focuses on independent and Gaussian components to find the directions of maximum independence
    - [ ] c. ICA finds the directions of maximum variance
-   - [ ] d. ICA uses higher-order statistics
+   - [x] d. ICA uses higher-order statistics ✅ 2024-01-09
 
 4. *In PCA, when estimating the first or the second principal component:*  
    - [ ] a. The first principal component accounts for the greatest possible statistical non-Gaussianity in the data 
@@ -137,9 +137,9 @@
    - [ ] d. PCA determines the direction of maximum independence
 
 6. *Select the correct statement. The goal in ICA is ..*
-   - [ ] a. Maximize non-Gaussianity
+   - [x] a. Maximize non-Gaussianity ✅ 2024-01-09
    - [ ] b. Maximize variance
-   - [x] c. Maximize Euclidean distance ✅ 2024-01-09
+   - [ ] c. Maximize Euclidean distance
    - [ ] d. Maximize Gaussianity
 
 7. *Select the correct statement about PCA*
@@ -150,8 +150,8 @@
 
 8. *Select the statement that best suits Factor Analysis (FA)*
    - [ ] a. FA is commonly used to visualize low dimensionality data
-   - [ ] b. FA is a technique used to explore data for patterns
-   - [x] c. All of the answers are correct ✅ 2024-01-09
+   - [x] b. FA is a technique used to explore data for patterns ✅ 2024-01-09
+   - [ ] c. All of the answers are correct
    - [ ] d. FA helps to magnify the complexity of the data for further analysis
 
 **T5 QUESTIONNAIRE (2023-2024)**
@@ -229,185 +229,200 @@
 5. *Some of the problems below are best addressed using a supervised learning algorithm, and the others with an unsupervised learning algorithm. Which of the following would you apply supervised learning to? (Select all that apply). In each case, assume some appropriate dataset is available for your algorithm to learn from.*
    - [ ] a. Given a large dataset of medical records from patients suffering from heart disease, try to learn whether there might be different clusters of such patients from which we might tailor separate treatments.
    - [ ] b. Given data on how 100 medical patients respond to an experimental drug (such as effectiveness of the treatment, side effects, etc.), discover whether there are different categories or “types” of patients in terms of how they respond to the drug, and if so what these categories are.
-   - [ ] c. Have a computer examine an audio clip of a piece of music, and classify whether or not there are vocals (i.e., a human voice singing) in that audio clip, or if it is a clip of only musical instruments (and no vocals).
-   - [ ] d. Given genetic (DNA) data from a person, predict the odds of him/her developing diabetes over the next 10 years.
+   - [x] c. Have a computer examine an audio clip of a piece of music, and classify whether or not there are vocals (i.e., a human voice singing) in that audio clip, or if it is a clip of only musical instruments (and no vocals). ✅ 2024-01-09
+   - [x] d. Given genetic (DNA) data from a person, predict the odds of him/her developing diabetes over the next 10 years. ✅ 2024-01-09
 
 6. *Suppose you are working on stock market prediction. Typically tens of millions of shares of Microsoft stock are traded (i.e., bought/sold) each day. You would like to predict the number of Microsoft shares that will be traded tomorrow. Would you treat this as a _____________ problem? (Fill in the blank with the correct answer)*
    - [ ] a. None of the responses is correct.
-   - [ ] b. Regression
+   - [x] b. Regression ✅ 2024-01-09
    - [ ] c. Classification
    - [ ] d. Clustering
 
 7. *Which statement is true about machine learning.*
    - [ ] a. We cannot treat time series with Machine Learning.
    - [ ] b. After performing the evaluation of the model, we know that the model will predict correctly the new data of the exploitation.
-   - [ ] c. Machine learning is used when we cannot pin the data down mathematically.
+   - [x] c. Machine learning is used when we cannot pin the data down mathematically. ✅ 2024-01-09
    - [ ] d. The steepest descent direction of linear regression is given by Δx = ∇f(x).
 
 **T7 QUESTIONNAIRE (Course 2023-2024)**
 
-1. Select ALL that apply. Considering the phases of the CBR, which one is a phase and it is correctly defined.
-   - [ ] a. Revise: we make sure that the suggested solution is plausible, with an expert or another system.
+1. *Select ALL that apply. Considering the phases of the CBR, which one is a phase and it is correctly defined.*
+   - [x] a. Revise: we make sure that the suggested solution is plausible, with an expert or another system. ✅ 2024-01-09
    - [ ] b. Reuse: we process the new problem into a format compatible with the case base.
-   - [ ] c. Retain: we store the generated, confirmed solution for future use.
+   - [x] c. Retain: we store the generated, confirmed solution for future use. ✅ 2024-01-09
    - [ ] d. Retrieve: from a set of cases, we generate a solution.
 
-2. Select the correct statement. kNN algorithm does more computation ...
-   - [ ] a. On test time rather than training time.
+2. *Select the correct statement. kNN algorithm does more computation ...*
+   - [x] a. On test time rather than training time. ✅ 2024-01-09
    - [ ] b. On training time rather than test time.
    - [ ] c. None of the answers is correct.
    - [ ] d. Equal in test time and training time.
 
-3. Select the correct statement. What is eager learning?
+3. *Select the correct statement. What is eager learning?*
    - [ ] a. Machine Learning process that defers the majority of computation to the consultation time.
    - [ ] b. Machine Learning process that has a fast training time.
    - [ ] c. Machine Learning process that must create a local approximation.
-   - [ ] d. Machine Learning process that defers the majority of computation to the training time.
+   - [x] d. Machine Learning process that defers the majority of computation to the training time. ✅ 2024-01-09
 
-4. Select the correct statement. Below two statements are given, which of the following will be true?
+4. *Select the correct statement. Below two statements are given, which of the following will be true?*
+	1. *k-NN is a memory-based approach that the classifier immediately adapts as we collect new training data.* 
+	2. *The computational complexity for classifying new samples grows linearly with the number of samples in the training dataset in the worst-case scenario. (We assume an implementation based on flat vectors. )*
    - [ ] a. None of these.
-   - [ ] b. 1 and 2.
+   - [x] b. 1 and 2. ✅ 2024-01-09
    - [ ] c. 2.
    - [ ] d. 1.
 
-5. Select the correct statement. When you find noise in the data, which of the following options would you consider in kNN?
+5. *Select the correct statement. When you find noise in the data, which of the following options would you consider in kNN?*
    - [ ] a. None of the answers is correct.
    - [ ] b. Noise cannot be dependent on the value of k.
    - [ ] c. I will decrease the value of k.
-   - [ ] d. I will increase the value of k.
+   - [x] d. I will increase the value of k. ✅ 2024-01-09
 
-6. Select the correct statement. Which of the following statements is true about the k-NN algorithm?
+6. *Select the correct statement. Which of the following statements is true about the k-NN algorithm?*
+	1. *k-NN performs much better if all of the data have the same scale*
+	2. *k-NN works well with a small number of input variables (p), but struggles when the number of inputs is very large*
+	3. *k-NN makes no assumptions about the functional form of the problem that is being solved*
+
    - [ ] a. 1 and 2.
-   - [ ] b. Only 1.
+   - [x] b. Only 1. ✅ 2024-01-09
    - [ ] c. All of them: 1, 2, and 3.
-   - [ ] d. 1 and 3.
+   - [x] d. 1 and 3. ✅ 2024-01-09
 
 
 **T8 QUESTIONNAIRE (Course 2023-2024)**
 
-1. Select the correct statement.
+1. *Select the correct statement.*
    - [ ] a. Sequential Backward Generation is an iterative method that starts with the best performing variable against the target. Next, selects another variable that gives the best performance in combination with the first selected variable. This process continues until the preset criterion is achieved.
    - [ ] b. Bidirectional Generation begins the search using sequential forward generation and if it does not find a good subset then it uses sequential backward generation. The backward generation process continues until the preset criterion is achieved.
-   - [ ] c. None of the answers are correct.
+   - [x] c. None of the answers are correct. ✅ 2024-01-09
    - [ ] d. Sequential Forward Generation starts with all the features available and removes one at a time, the one that is the least important feature. This process continues until the preset criterion is achieved.
 
-2. Select the correct statement. Considering filter methods.
+2. *Select the correct statement. Considering filter methods.*
    - [ ] a. Filter methods are slower but less computationally expensive than wrapper methods.
-   - [ ] b. When dealing with high-dimensional data, it is computationally cheaper to use filter methods instead of wrapper methods.
+   - [x] b. When dealing with high-dimensional data, it is computationally cheaper to use filter methods instead of wrapper methods. ✅ 2024-01-09
    - [ ] c. Filter methods pick up the intrinsic properties of the features measured via cross-validation performance instead of univariate statistics.
    - [ ] d. None of the answers is correct.
 
-3. Select the correct statement.
+3. *Select the correct statement.*
    - [ ] a. None of the answers is correct.
-   - [ ] b. In a wrapper algorithm, the performance of the classifier is used to evaluate the feature subsets.
+   - [x] b. In a wrapper algorithm, the performance of the classifier is used to evaluate the feature subsets. ✅ 2024-01-09
    - [ ] c. In a wrapper algorithm, some feature evaluation function is used rather than optimizing the classifier’s performance.
    - [ ] d. Wrappers and Embedded systems select features that can be used efficiently in any other machine learning algorithm.
 
-4. Select the correct statement. The curse of dimensionality…
+4. *Select the correct statement. The curse of dimensionality…*
    - [ ] a. The classifier’s performance increases when the number of variables also increases in a dataset.
    - [ ] b. None of the answers is correct.
    - [ ] c. When the number of features increases, it is not necessary to increase the number of examples to achieve the same accuracy.
-   - [ ] d. The required number of instances grows exponentially with the number of variables to achieve the same accuracy.
+   - [x] d. The required number of instances grows exponentially with the number of variables to achieve the same accuracy. ✅ 2024-01-09
 
-5. Select the correct statement. Which statement is true about filters?
+5. *Select the correct statement. Which statement is true about filters?*
    - [ ] a. They are model-aware and easy to estimate.
    - [ ] b. They are slow and model-ignorant.
    - [ ] c. They are slow and non-intuitive.
-   - [ ] d. They are easy to estimate and intuitive.
+   - [x] d. They are easy to estimate and intuitive. ✅ 2024-01-09
 
-6. Select the correct statement. Considering a dataset that is described with 10 features, an exhaustive search would require analyzing
+6. *Select the correct statement. Considering a dataset that is described with 10 features, an exhaustive search would require analyzing*
    - [ ] a. 2048 subsets to guarantee optimality.
    - [ ] b. None of the answers is correct.
-   - [ ] c. 1024 subsets to guarantee optimality.
+   - [x] c. 1024 subsets to guarantee optimality. ✅ 2024-01-09
    - [ ] d. In that particular dataset, the number of features is too large, and it is impractical to use exhaustive search, it would be better to guarantee optimality to use a heuristic search.
 
-7. Select the correct statement. Which search strategy does not explore all possible subsets to find a subset of features and obtains the subsets with the least amount of features and in the least amount of computational time?
-   - [ ] a. Sequential Forward Generation.
+7. *Select the correct statement. Which search strategy does not explore all possible subsets to find a subset of features and obtains the subsets with the least amount of features and in the least amount of computational time?*
+   - [x] a. Sequential Forward Generation. ✅ 2024-01-09
    - [ ] b. Bidirectional Generation.
    - [ ] c. Sequential Backward Generation.
    - [ ] d. Exhaustive Search.
 
 **T9 QUESTIONNAIRE (2023-2024)**
 
-1. Select the most correct statement. Which of the following metrics are used to evaluate classification models?
+1. *Select the most correct statement. Which of the following metrics are used to evaluate classification models?*
    - [ ] a. F1 score
    - [ ] b. Area under the ROC curve
    - [ ] c. Confusion matrix metrics
-   - [ ] d. All of the options are correct
+   - [x] d. All of the options are correct ✅ 2024-01-09
 
-2. Select the correct statement. Regarding bias and variance, which of the following statements are true?
-   - [ ] a. Models that overfit are more likely to have high bias.
-   - [ ] b. Models that overfit are more likely to have low bias.
-   - [ ] c. Models that overfit are more likely to have high variance.
-   - [ ] d. Models that overfit are more likely to have low variance.
+2. *Select the correct statement. Regarding bias and variance, which of the following statements are true?*
+   - a. Models that overfit are more likely to have high bias.
+   - b. Models that overfit are more likely to have low bias.
+   - c. Models that overfit are more likely to have high variance. ✅ 2024-01-09
+   - d. Models that overfit are more likely to have low variance.
+   - [ ] a. a. 3 and 4
+   - [ ] b. None of the answers is correct
+   - [ ] c. 1 and 2
+   - [x] d. 2 and 3 ✅ 2024-01-09
 
-3. Select the correct statement.
+3. *Select the correct statement.*
    - [ ] a. The larger a dataset, the bigger the number of folds should be when performing cross-validation.
    - [ ] b. Overfitted models can generalize well data, fitting the noise in the training examples.
    - [ ] c. ROC curve plots the TP-rate vs. the TN-rate as a threshold on the confidence of an instance being positive is varied.
-   - [ ] d. For unbalanced data, when down-sampling, a random subset of the majority class is used.
+   - [x] d. For unbalanced data, when down-sampling, a random subset of the majority class is used. ✅ 2024-01-09
 
-4. Select the correct statement. If I am using all features of my dataset and I achieve 100% accuracy on my training set, but approximately 70% on the validation set, what should I look out for?
+4. *Select the correct statement. If I am using all features of my dataset and I achieve 100% accuracy on my training set, but approximately 70% on the validation set, what should I look out for?*
    - [ ] a. Underfitting
    - [ ] b. Nothing, the model is perfect.
-   - [ ] c. Overfitting
+   - [x] c. Overfitting ✅ 2024-01-09
 
-5. Select the correct statement. False negatives are...
+5. *Select the correct statement. False negatives are...*
    - [ ] a. Predicted positives that are actually negatives.
    - [ ] b. Predicted negatives that are actually negatives.
-   - [ ] c. Predicted negatives that are actually positives.
+   - [x] c. Predicted negatives that are actually positives. ✅ 2024-01-09
    - [ ] d. Predicted positives that are actually positives.
 
-6. State whether the statements are True or False.
-   - [ ] Statement A: When the hypothesis space is richer, overfitting is more likely.
-   - [ ] Statement B: When the feature space is larger, overfitting is more likely.
+6. *State whether the statements are True or False.*
+	   - *Statement A: When the hypothesis space is richer, overfitting is more likely.*
+	   -  *Statement B: When the feature space is larger, overfitting is more likely.*
+- [ ] a. True, True
+- [ ] b. False, False
+- [x] c. False, True ✅ 2024-01-09
+- [ ] d. True, False
+
 
 **T10 QUESTIONNAIRE (Group 2023-2024)**
 
-1. Select the correct statement. If our data is linearly separable and w^T x+b=0 is the hyperplane we use to separate it, the closest two points can be is:
+1. *Select the correct statement. If our data is linearly separable and $w^Tx+b=0$ is the hyperplane we use to separate it, the closest two points can be is:*
    - [ ] a. ||W||
    - [ ] b. 2||W||
-   - [ ] c. 1/||W||
-   - [ ] d. 2/||W||
+   - [x] c. 1/||W|| ✅ 2024-01-09
+   - [x] d. 2/||W|| ✅ 2024-01-09
 
-2. Select the correct statement. What would happen when you use a very small C (C~0)?
+2. *Select the correct statement. What would happen when you use a very small $C$ ($C\approx 0$)?*
    - [ ] a. Can't say
    - [ ] b. Data will be correctly classified because C makes constraints hard to ignore.
    - [ ] c. None of the answers is correct.
-   - [ ] d. Misclassification would happen because C allows constraints to be easily ignored.
+   - [x] d. Misclassification would happen because C allows constraints to be easily ignored. ✅ 2024-01-09
 
-3. The SVM's are less effective when:
+3. *The SVM's are less effective when:*
    - [ ] a. The data is linearly separable.
-   - [ ] b. The data is noisy and contains overlapping points.
+   - [x] b. The data is noisy and contains overlapping points. ✅ 2024-01-09
    - [ ] c. The data is clean and ready to use.
    - [ ] d. None of the answers is correct.
 
-4. Select the correct statement. What are hyperplanes?
+4. *Select the correct statement. What are hyperplanes?*
    - [ ] a. None of the answers is correct.
-   - [ ] b. Decision boundaries.
+   - [x] b. Decision boundaries. ✅ 2024-01-09
    - [ ] c. Mapping functions.
    - [ ] d. Decision functions.
 
-5. Select ALL the correct statements about the Vapnik-Chervonenkis dimension h.
-   - [ ] a. The optimal h for a linear classifier is h= m + 1, where m is the number of instances.
-   - [ ] b. h quantifies the complexity of the model.
+5. *Select ALL the correct statements about the Vapnik-Chervonenkis dimension h.*
+   - [x] a. The optimal h for a linear classifier is h= m + 1, where m is the number of instances. ✅ 2024-01-09
+   - [x] b. h quantifies the complexity of the model. ✅ 2024-01-09
    - [ ] c. An h lower than optimal has overfitting.
-   - [ ] d. An h lower than optimal has underfitting.
+   - [x] d. An h lower than optimal has underfitting. ✅ 2024-01-09
 
-6. Select the correct statement about SVM.
+6. *Select the correct statement about SVM.*
    - [ ] a. SVM belongs to the category of non-linear classifiers.
    - [ ] b. None of the answers is correct.
-   - [ ] c. SVM can be used for regression or classification problems.
+   - [x] c. SVM can be used for regression or classification problems. ✅ 2024-01-09
    - [ ] d. SVM can only be used for regression problems.
 
-7. Select the correct statement.
+7. *Select the correct statement.*
    - [ ] a. Data points farthest to the hyperplane are support vectors.
-   - [ ] b. Support vectors are the data points that lie closest to the decision surface.
+   - [x] b. Support vectors are the data points that lie closest to the decision surface. ✅ 2024-01-09
    - [ ] c. The decision function is not specified by the support vectors.
    - [ ] d. None of the answers is correct.
 
-8. Select the correct statement. In soft-margin classification in SVM:
+8. *Select the correct statement. In soft-margin classification in SVM:*
    - [ ] a. The slack variables are lower than one in not separable examples that are misclassified.
    - [ ] b. None of the answers is correct.
    - [ ] c. The slack variables are lower than zero in not separable examples that are misclassified.
-   - [ ] d. The slack variables are equal to zero in perfectly separable examples.
+   - [x] d. The slack variables are equal to zero in perfectly separable examples. ✅ 2024-01-09

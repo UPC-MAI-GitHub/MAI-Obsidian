@@ -47,7 +47,7 @@
 * **Self-Organizing Maps**
 	* SOM- --> simplified models of cortical maps in the brain
 	* *Artificial Neural Network* with only two layers that works in a *unsupervised* way. Belongs to *competitive learning* networks
-		* Cooperative learning
+		* Cooperative learning (through neighbourhood function)
 		* Competitive learning
 		* Discretization
 		* Capability to generalize
