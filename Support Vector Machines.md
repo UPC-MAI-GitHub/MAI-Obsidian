@@ -1,0 +1,110 @@
+![[T10_2023_students.pdf]]
+## Summary
+- **Linear SVM**
+	- The classifier is a *separating hyperplane*. 
+	- Most “important” training points are *support vectors*; they *define the hyperplane*.
+	- *Quadratic optimization* algorithms can *identify which training points* $x_i$ *are support vectors* with non-zero Lagrangian multipliers $\alpha_i$.
+- **Non-linear SVM Concept**
+    - *High-Dimensional Transformation*: Transforms data to a higher-dimensional space for *easier separability*, differentiating between *input space (original)* and *feature space (transformed)*.
+    - *Kernel Trick*: Solves high-dimensionality issues by *using inner products in feature space without explicit mapping*, enabling *polynomial time optimization*.
+- **Application and Types of Kernels**
+    - *Purpose of Kernels*: They make non-separable problems separable and map data into a more effective representational space.
+    - *Common Kernels*: Includes linear, polynomial, Gaussian (RBF), and sigmoidal kernels, each with specific parameters like λ, τ, and p for flexibility in data representation.
+## Notes
+### Introduction to Support Vector Machine
+- Supervised machine learning used for *classification* or *regression*
+- *Objective:* find the *best splitting boundary* between data
+- It is a *Linnear Classifier*
+- *Hyperplane:* is an affine subspace of dimension $n-1$, which *divides the space into two half spaces which correspond to the inputs of 2 distinct classes*
+- Several scenarios of classification are tried to be handled by SVMs
+- *Definition:* system for efficiently training *linear learning machine*s in *kernel-induced feature spaces*, while respecting the insights of *generalization* theory and exploiting *optimization* theory. 
+- *Goal:* Learning good separating hyperplanes in a high dimensional feature space.
+- Find $a, b, c$ such that 
+	- $ax+by\geq c$
+	- $ax+by \leq$ (or $< c$) for green points
+- Compared to other methods, *SVM finds the optimal separating hyperplane* according a criterion of expected goodness
+	- *Maximizes the distance between the hyperplane* and the *closer points to the decision boundary*
+	- Generalization bounds
+		- *Optimize the maximal margin* (the simplest)
+			- Only works with *linearly separable data*
+			- The generalization does not depend on the dimensionality space, so can be done in any kernel-induced feature space
+		- *Margin distribution*
+		- *Number of support vectors*
+		- *Minimizing the norm of the weight vector* (most common and well stablished)
+- The *decision function is fully specified by* a subset of training samples, the **support vectors**.
+- SVMs are a quadratic programming problem 
+- *Distance from example data $x$ to the separator is* $r=\frac{w^Tx+b}{||w||}$
+- *Margin $\rho$* of the separator is the *width of separation between classes*
+- Under this method only support vectors are important other training points are ignorable
+### Linear SVM Mathematically
+- **Statistical Learning theory**
+	- Guidance to *prevent overfitting*
+		- Misclassification error and the function complexity bound generalization error. 
+		- Maximizing margins minimizes complexity. Thus,  “Eliminates” overfitting.
+- **Optimization theory**
+	- Mathematical techniques to find hyperplanes
+	- Solution depends only on Support Vectors, not on the number of attributes
+- *Skinny margin* is more flexible thus *more complex*
+- *Vapnik-Chervonenkis Dimension*
+	- Model complexity determines the performance/cost on training and test set.
+	- ![[Pasted image 20240108134331.png]]
+		- $h$ quantifies the *complexity of the model*
+		- $N$ training data size
+	- *Model complexity vs. Risk error*
+		- ![[Pasted image 20240108134535.png|400]]
+	- For Linear classifiers
+		- $m$ is the number for dimensions/features
+		- then $h=m+1$
+		- maximal margin hyperplane is realized by $\rho = \frac{1}{||w||}$
+		- Assume that all data is at least *distance $1$ from the hyperplane*, then for a training set ${(x_i,y_i)}$
+			- $w^Tx_i+b\geq1\;\;if\;\;y_i=1$
+			- $w^Tx_i+b\leq1\;\;if\;\;y_i=-1$
+			- Each example distance from the hyperplane is given by $r=\frac{w^T+b}{||w||}$
+			- Margin is given by $\rho = \frac{1}{||w||}$
+			- The margin can be increased by  scaling $w,b$
+			- *Functional margin of dataset is twice the minimum functional margin for any point*
+			- ![[Pasted image 20240108135634.png|400]]
+- *The optimization problem
+	- *Find $w$ and $b$ shuch that $\rho$ is maximized*
+	- The *optimization theory* establishes that an optimization problem, called *primal*, has a *DUAL form* if the function to be optimized and the restrictions are strictly convex
+	- STEPS to transform our optimization problem: 
+		1. We build an optimization problem without restrictions using Lagrange function 
+		2. We apply Karush-Kuhn-Tucker (KKT) conditions
+		3. Then we can formulate the quadratic optimization problem: (*Find $w$ and $b$ shuch that $\rho$ is maximized) $$\rho=\frac{1}{||w||} \longrightarrow \Phi(w)=\frac{1}{2}w^{T}w$$
+		4. The *classifying function* will have the form $f(x)=\sum\alpha_iy_ix_i^Tx+b$
+			- Thus inner product between the test point $x$ and the support vectors $x_i$
+			- Solving the optimization problem involved computing the inner products xiTxj between all pairs of training points!
+- *Soft margin classification*
+	- *Slack variables* $ξ_i$ can be added to allow misclassification of difficult or noisy examples
+	- *Allow some errors*, so the new formulation (minimized) including slack variables $$\Phi(w)=\frac{1}{2}w^{T}w \longrightarrow \Phi(w)=\frac{1}{2}w{^{T}w+C\sum\limits\xi_i}$$
+		- Parameter $C$ can be view a a regularizer to *control Overfitting*
+			- *Small* $C$ allows *constraints to be easily ignored* ⟶ *large margin* 
+			- *Large* $C$ makes *constraints hard to ignore* ⟶ *narrow margin* 
+			-  $C=\infty$ enforces all constraints: *hard margin*
+- *Consultation time:*
+	- Given a new point $x$, we can score its projection onto the hyperplane normal $w{^Tx+b=\sum\alpha_iy_ix_i^Tx+b}$ decide class on whether $> t$ or $< t$ Set confidence threshold $t$ usually $t = 0$
+### Non-linear SVM
+- *Key idea*: transform $x_i$ to a higher dimensional space to "make life easier"
+	- **Input space**: the space the point $x_i$ are located 
+	- **Feature space**: the space of $\phi(x_i)$ after transformation
+- What to do if data is nor linearly separable?
+	- *General idea*: the original feature space can always be *mapped to some higher-dimensional feature space where the training set is separable*:
+	- *Mapping data to a higher-dimensional space*
+	- ![[Pasted image 20240108144636.png|400|]]
+	- ![[Pasted image 20240108144713.png|400]]
+- *Kernel trick* used to mitigate the problem that *feature space can be costly because it is high dimensional*
+	- The data points only appear as inner product 
+	- *As long as we can calculate the inner product in the feature space, we do not need the mapping explicitly* 
+	- Many common geometric operations (angles, distances) can be expressed by inner products
+	- Define kernel function $K$ y $K(X_i,X_j)=\phi(X_i)^T\phi(X_j)$
+	- *Mercer function:* Every positive definite symmetric function is a kernel
+	- With this: optimization problem can be solved in *polynomial time*!
+- Why use kernels? 
+	- Make non-separable problem separable 
+	- Map data into better representational space
+- *Common kernels*
+	- The parameters $\lambda, \tau$ and $p$ are called the parameters of the kernel.
+	- *Lineal*: $K(x_i,x_j)=<x_i\cdot x_j>$
+	- *Polynomial of power p*: $K(x_i,x_{j)}= (\tau+\gamma x_i\cdot x_j)_p$
+	- *Gaussian (RBF function)*: $K(x_i,x_j)=e^{-\gamma||x_i-x_j||^2},\gamma>0$
+	- *Sigmoidal*: $K(x_i,x_j)= tanh(\gamma<x_ix_j>+\tau)$

@@ -1,0 +1,3 @@
+![[LabFuzzy.pdf]]
+
+## Notes

@@ -42,6 +42,12 @@ Here can be found the slides of the [[AssIMAS-23-24.pdf|IMAS Course Presentation
 	- **Readings**
 		- [[Voting-Chen-Harvard-2011.pdf|Voting Protocols]]
 		- [[Voting-Larson-Waterloo.pdf|Multiagent Systems - Introduction to Social Choice]]
+- [[Making Group Decision II - Forming Coalition]]
+	- **Readings**
+		- [[Algorithms for Coalition Formation in Multi-Agent Systems]]
+		- [[Coalition structure generation - A survey]]
+		- [[Methods for task allocation via agent coalition formation]]
+		- [[Anytime and Efficient Coalition Formation with Spatial and Temporal Constraints]]
 ## Lab Sessions
 
 - [[IMAS Course Labs Intro]]
@@ -49,9 +55,14 @@ Here can be found the slides of the [[AssIMAS-23-24.pdf|IMAS Course Presentation
 - [[Introduction to JADE]]
 - [[JADE Agents and behaviors]]
 - [[JADE messaging and special agents]]
+- [[Introduction to Dedale]]
+- [[Interaction Protocols]]
 
 ## Practical Work
 * [[MAS-practical_work_23-24.pdf|MAS Practical Work]]
+
+## Exams
+- [[IMASExam.pdf|IMAS Exam Example]]
 ## Class bibliography
 - [[DEIM_Report_05_001.pdf|Guia de programació de Sistemes Multiagent en JADE 3.3]]
 - [[programmersguide.pdf|JADE Programmers Guide]]

@@ -51,11 +51,47 @@
 - **Similarity distance measures**
 	- *Types*
 		- Cosine
-		- Euclidean
-		- Manhattan
-		- etc
+		- **Minkowsky metrics** ---> $(\sum_{i=1}^{p}|x_i-y_i|^r)^{\frac{1}{r}}$
+			- Euclidean, r= 2
+			- Manhattan, r=1
+			- "Sup" distance, r = +$\infty$
 	- *Measure properties*
 		- Symmetry --> $D(A,B) = D(B,A)$
 		- Constancy of self-similarity --> $D(A,A)=0$
 		- Positivity separation --> $D(A,B) = 0 | if a=B$
 		- Triangular Inequality
+	- *Pearson correlation coefficient*
+### Hierarchical Clustering
+- Build a *tree-based hierarchical taxonomy* (dendrogram) from a set of *unlabeled examples*
+- Recursive application of a standard clustering algorithm can produce a hierarchical clustering
+- *Dendogram*: Decompose data objects into a several levels of nested partitioning (tree of clusters), called a dendrogram. A clustering of the data objects is obtained by cutting the dendrogram at the desired level, then each connected component forms a cluster
+- **Hierarchical clustering appraches**
+	- Agglomerative (*botom-up*)
+		-  Methods start with each example in its own cluster
+		- Iteratively combine them to form larger and larger clusters
+	- Divisive (*partitional, top-down*)
+		- Methods start with all the examples in a single cluster 
+		- Consider all the possible way to divide the cluster into two. Choose the best division 
+		- Recursively operate on both sides
+	- *Basic Hierarchical Agglomerative Clustering (HAC)*
+		- Steps
+			- Compute the similarity matrix between the input data points 
+			- Start with all instances in their own cluster 
+			- Repeat 
+				- Among the current clusters, determine the two clusters, $c_i$ and $c_j$, that are most similar 
+				- Merge them and replace $c_i$ and $c_j$ with a single cluster $c_{i}\cup c_j$  
+				- Update the similarity matrix 
+			- until there is only one single cluster
+		- *Key operation* is the computation of the *similarity* between two clusters 
+			- *Different definitions of the similarity* between clusters lead to *different algorithms*
+		- How to compute similarity of two clusters each possibly containing multiple instances? 
+			- *Single Link*: two most similar members 
+				- Can result in “straggly” (long and thin) clusters due to chaining effect. 
+				- Appropriate in some domains, such as clustering islands
+			- *Complete Link*: two least similar members 
+				- Makes more “tight” spherical clusters that are typically preferable
+			- *Group Average*: Average similarity between members 
+				- Use average similarity across all pairs within the merged cluster to measure the similarity of two clusters
+				- Compromise between Single and Complete link.
+				- Compute similarity of clusters in constant time
+			- *Centroid*: clusters whose centroids are the most cosine similar

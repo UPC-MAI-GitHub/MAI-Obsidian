@@ -27,7 +27,13 @@
 	- Learn *how*
 	- *Improve* something previously *learned*
 - *Helbert Simon* **(Learning)**: system improve performance from experience.
-
+- *Tom Mitchell*: Study **algorithms** that, at some **task T**, improve their **performace P** based on **experience E**.
+	- Well defined learning-task <T,P,E>
+- *Desingning a Learning System:*
+	- Choose the training experience
+	- Choose the target function (What is to be learned?)
+	- Target function representation
+	  Choose the learning algorithm
 ### Concepts
 - **Task**
 	- Classification (defined finite set of categories)
@@ -89,19 +95,6 @@
 	- Statistical relational learning
 	- Transfer learning
 	- Beginning of DL
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

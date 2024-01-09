@@ -35,11 +35,19 @@ To register at the *campus virtual (**tj4n**)* of **UB** you can follow the step
 		- [[evaluating-machine-learning-models.pdf|Evaluating Machine Learning Models]]
 		- [[haibohe2009.pdf|Learning from Imbalanced Data]]
 		- [[Kohavi-IJCAI-95.pdf|A Study of Cross-Validation & Bootstrap for Accuracy Estimation and Model Selection]]
-## Lab Sessions
-* [[Session1_Support_Work1_2023.pdf|IML Lab Session 1]]
-	* [[IML Lab 1 notes|Notes]]
-* [[Session2_Support_Work1_2023.pdf|IML Lab Session 2]]
-	* [[IML Lab 2 notes|Notes]]
+- [[Support Vector Machines]]
+	- **Readings**
+		- [[A Tutorial on Support Vector Machines for Pattern Recognition]]
+- [[Recommender Systems]]
+	- **Readings**
+		- [[An Introduction to Recommender Systems]]
+- [[Bias and Fairness in Machine Learning]]
+## Lab session & Project deliveries
+* [[Work 1 Clustering Exercise]]
+	* [[IML W1 Lab Session 1]]
+	* [[IML W1 Lab Session2]]
+	* [[IML W1 Lab Session 3]]
+	* [[How to deliver.pdf|How to deliver Work 1]]
 	* **Readings**
 		* [[Celebi_1209.1960.pdf|A Comparative Study of Efficient Initialization Methods for the K-Means Clustering Algorithm]]
 		* [[CLARANS.pdf|CLARANS: A Method for Clustering Objects for Spatial Data Mining]]
@@ -54,22 +62,27 @@ To register at the *campus virtual (**tj4n**)* of **UB** you can follow the step
 		* [[KMedoids_1987_Clustering_by_medoids_L1Norm.pdf|Clustering by Means of Medoids]]
 		* [[KModes_0603120.pdf|Approximation Algorithms for K-Modes Clustering]]
 		* [[kmodes_full_paper.pdf|K-Modes clustering]]
-* [[Support_Work1_2023_COURSE_session3.pdf|IML Lab session 3]]
-	* [[IML Lab 3 Notes|Notes]]
-	* **Readings**
 		* [[1905.05667.pdf|Evaluation Metrics for Unsupervised Learning Algorithms]]
-* [[IML Lab Session 4]]
-* [[Support_Work2_2023_2024_students.pdf|IML Lab Session 5]]
-	* [[IML Lab 5 Notes|Notes]]
-* [[SuportWork3_2023_session1.pdf|IML Lab Session 6]]
-	* **Readings**
-		* [[Demsar_2006.pdf|Statistical Comparisons of Classifiers over Multiple Data Set]]
-		* [[Feature Selection Tutorial with Python Examples]]
-## Project deliveries
-* [[Work 1 Clustering Exercise]]
-	* [[How to deliver.pdf|How to deliver Work 1]]
 * [[Work 2 Dimensionality Reduction and Visualization]]
+	* [[IML W2 Lab session 1]]
+	* [[IML W2 Lab session 2]]
 * [[Work3_IML_2023_v1.pdf|Work 3 Lazy Learning]]
+	* [[IML W3 Lab session 1]]
+	* [[IML W3 Lab session 2]]
+	* **Readings**
+		* [[Demsar_2006.pdf|Statistical Comparisons of Classifiers over Multiple Datasets]]
+		* [[Feature Selection Tutorial with Python Examples]]
+		* [[Instance-Based Learning Algorithms]]
+		* [[Reduction Techniques for Instance-Based Learning Algorithms]]
+		* [[An Algorithm for a Selective Nearest Neighbor Decision Rule]]
+		* [[Two Modifications of CNN]]
+		* [[An incremental prototype set building technique]]
+		* [[Asymptotic Properties of Nearest Neighbor Rules Using Edited Data]]
+		* [[An Experiment with the Edited Nearest-Neighbor Rule]]
+		* [[A new edited k-nearest neighbor rule in the pattern classification problem]]
+		* [[Advances in Instance Selection for Instance-Based Learning Algorithms]]
+## Quizzes
+- [[IML Quizzes]]
 
 
 

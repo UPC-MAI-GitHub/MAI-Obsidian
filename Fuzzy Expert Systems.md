@@ -1,0 +1,1 @@
+![[Fuzzy Expert Systems lab.pdf]]

@@ -33,7 +33,7 @@ For more information about ACIA ask to Dr. Aida Valls
 	* **Readings**
 		* [[Planning under uncertainty.pdf|An Overview of Planning Under Uncertainty]]
 		* [[3-doorplanner_icra10.pdf|Planning for Autonomous Door Opening with a Mobile Manipulator]]
-		* [[5-Reading-06aamas-policy-reuse.pdf|Probabilistic Policy Reuse in a Reinforcement Learning Agen]]
+		* [[5-Reading-06aamas-policy-reuse.pdf|Probabilistic Policy Reuse in a Reinforcement Learning Agent]]
 		* [[5-Reading-Playing Atari with Deep Reinforcement Learning.pdf|Playing Atari with Deep Reinforcement Learning]]
 * [[Introduction to Approximate Reasoning]]
 * [[Probability Model]]
@@ -48,7 +48,11 @@ For more information about ACIA ask to Dr. Aida Valls
 	* **Readings**
 		* [[The-Certainty-Factor-Model.pdf|The Certainty Factor Model]]
 	* **Exercises**
-		* [[exercisesCF.pdf|Certainty Factors Exercises]]
+		* [[Certainty Factors Exercises]]
+* [[Bayesian Networks]]
+	* [[Exercise 1 with Bayesian Networks]]
+* [[Dempster-Shafer model]]
+	* [[Demper-Shafer exercise]]
 ## Lab Sessions
 - [[General Readings]]
 - [[Blocks Worlds]]
@@ -60,12 +64,20 @@ For more information about ACIA ask to Dr. Aida Valls
 - [[A robot to catch a moving target implementation]]
 - [[Linguistic variables]]
 	- [Fuzzy Logic Designer](https://es.mathworks.com/help/fuzzy/fuzzylogicdesigner-app.html)
+- [[Fuzzy Expert Systems]]
+- [Bayer Networks Online](https://online.bayesserver.com/)
+- [[ExerciseEnvironmental-long (2).xlsx|Environmental risk with Bayesian]]
+- [[Exercises Dempster-Shafer model]]
 ## Practical Assignments
 1. [[Cleaner Robot Task]]
 2. [[Waiter Robotic Task]]
+3. [[A Fuzzy Expert System to Estimate Basketball Player’s Performance]]
 
 ## Example exams
 - [[Exam1 2019-20.pdf|Planning Exam Nov 2019]]
 - [[Planning Exam-the second round 24-01.pdf|Planning Exam Jan 2022]]
 - [[prova1 2022-23.pdf|Planning Exam Nov 2022]]
 - [[prova1 2022-23 -2call .pdf|Planning Exam Jan 2023]]
+- [[Exam2020-21-Solved.pdf|Approximate Reasoning Exam Example]]
+- [[prova-AppReas 2021-22.pdf|Approximate Reasoning Exam Jan 2022]]
+- [[exam-AppReas 2022-23.pdf|Approximate Reasoning Exam Jan 2023]]
