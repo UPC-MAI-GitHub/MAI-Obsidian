@@ -11,37 +11,38 @@
             "id": "b9ea0cea2f21d859",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/IHLT Exercises 2023-11-30 14.08.57.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "3b6c5b330326c0e8",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "IML Quizzes.md",
+                "file": "Coreference Resolution.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5574da0ef75eaa9c",
+            "id": "16d4bb86f520fc5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Support Vector Machines.md",
+                "file": "Exercises about Syntactic Parsers.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ceeeb4796e109cca",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Slides/IML/T10_2023_students.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IML Quizzes.md",
+                "file": "Coreference Resolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IML Quizzes.md",
+                "file": "Coreference Resolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IML Quizzes.md"
+                "file": "Coreference Resolution.md"
               }
             }
           }
@@ -195,47 +196,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9ea0cea2f21d859",
+  "active": "3b6c5b330326c0e8",
   "lastOpenFiles": [
-    "Support Vector Machines.md",
-    "IML Quizzes.md",
-    "Slides/IML/T10_2023_students.pdf",
-    "Introduction to Machine Learning.md",
-    "Model Evaluation.md",
-    "Slides/IML/T7_2023_students.pdf",
-    "Lazy Learning.md",
-    "Introduction to visualization.md",
-    "Slides/IML/T5_2023_students.pdf",
-    "Factor Analysis.md",
-    "Introduction to unsupervised learning and cluster analysis (part II).md",
-    "Master in Artificial Intelligence (MAI).md",
-    "Excalidraw/Drawing 2023-11-30 16.18.11.excalidraw.md",
-    "IHLT Exercises.md",
-    "Excalidraw/IHLT Exercises 2023-11-30 14.08.57.excalidraw.md",
-    "Excalidraw/IHLT Exercises 2023-11-30 15.51.08.excalidraw.md",
     "Introduction to Human Language Technologies (IHLT).md",
-    "Introduction to ML.md",
-    "Bias and Fairness in Machine Learning.md",
+    "Named Entity Recognition and Classification, Noun Phrase Recognition.md",
+    "Word Sense Disambiguation.md",
+    "POS Tagging, Hidden Markov Model.md",
+    "Lexical Semantics, Semantic Resources.md",
+    "Syntactic Parsing - Grammars.md",
+    "Morphology, Finite States Automata.md",
+    "Text selection, Tokenization, Sentence Splitting, Language Identification.md",
+    "Excalidraw/IHLT Exercises 2023-11-30 14.08.57.excalidraw.md",
+    "Exercises about Syntactic Parsers.md",
+    "Exercises about CFGs.md",
+    "IHLT Exercises.md",
+    "Excalidraw/IHLT Exercises 2023-11-30 15.51.08.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-30 16.18.11.excalidraw.md",
+    "Master in Artificial Intelligence (MAI).md",
+    "Coreference Resolution.md",
+    "Introduction to Machine Learning.md",
+    "Syntactic Parsing - Parsers.md",
+    "Exercises about Coreference Resolution.md",
+    "Introduction HLT definition, drawbacks, applications.md",
+    "Excalidraw/Introduction HLT definition, drawbacks, applications 2024-01-10 10.28.08.excalidraw.md",
+    "Pasted image 20240110101618.png",
+    "IML Quizzes.md",
+    "Feature Selection.md",
+    "Factor Analysis.md",
+    "Lazy Learning.md",
+    "Introduction to unsupervised learning and Cluster Analysis (Part I).md",
+    "Slides/IML/T10_2023_students.pdf",
+    "Slides/IML/T7_2023_students.pdf",
+    "Slides/IML/T5_2023_students.pdf",
     "Pasted image 20240109002408.png",
     "Pasted image 20240108235623.png",
     "Pasted image 20240108234536.png",
     "Pasted image 20240108234309.png",
     "Pasted image 20240108234238.png",
-    "Recommender Systems.md",
     "Pasted image 20240108200416.png",
     "Pasted image 20240108200000.png",
     "Pasted image 20240108173342.png",
     "Pasted image 20240108172636.png",
-    "Pasted image 20240108144713.png",
-    "A Gentle Introduction to Supervised Machine Learning.md",
-    "Feature Selection.md",
-    "Face Recognition.md",
-    "Excalidraw/A Gentle Introduction to Supervised Machine Learning 2023-11-07 10.13.36.excalidraw.md",
-    "Introduction to unsupervised learning and Cluster Analysis (Part I).md",
-    "Introduction to Dedale.md",
     "Slides/IMAS/Lab/05 - Introduction to Dedale.pdf",
-    "Introduction to Multi-agent Systems.md",
-    "Interaction Protocols.md",
     "Slides/IMAS/Lab/06 - Interaction protocols.pdf",
     "05 - Introduction to Dedale.pdf",
     "Slides/IMAS/Readings/CoalForm-TesiRahwan_2007.pdf",

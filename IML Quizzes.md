@@ -382,7 +382,7 @@
 1. *Select the correct statement. If our data is linearly separable and $w^Tx+b=0$ is the hyperplane we use to separate it, the closest two points can be is:*
    - [ ] a. ||W||
    - [ ] b. 2||W||
-   - [x] c. 1/||W|| ✅ 2024-01-09
+   - [ ] c. 1/||W||
    - [x] d. 2/||W|| ✅ 2024-01-09
 
 2. *Select the correct statement. What would happen when you use a very small $C$ ($C\approx 0$)?*
@@ -426,3 +426,42 @@
    - [ ] b. None of the answers is correct.
    - [ ] c. The slack variables are lower than zero in not separable examples that are misclassified.
    - [x] d. The slack variables are equal to zero in perfectly separable examples. ✅ 2024-01-09
+
+
+
+## Last year questions
+
+**I) Which one of the following is not a clustering algorithm:**
+
+- [ ]  A. Dbscanp
+- [ ]  B. Expectation-Maximization model
+- [ ]  C. Principal component analysis
+- [ ]  D. K-Means
+
+**II) In how many ways can a set of four elements be clustered?**
+
+- [ ]  A. 2
+- [ ]  B. 4
+- [ ]  C. 12
+- [ ]  D. 14
+
+**III) Which of the following is a property that a good similarity measure must have?**
+
+- [ ]  A. Symmetry
+- [ ]  B. Positivity Separation
+- [ ]  C. Triangular Inequality
+- [ ]  D. All of the above
+
+**IV) The basic agglomerative hierarchical clustering agglomerative ends when:**
+
+- [ ]  A. There is a cluster for every element
+- [ ]  B. All the elements belong to a cluster
+- [ ]  C. There is only one cluster
+- [ ]  D. None of the above
+
+**V) If we compute the similarity of two clusters taking into consideration the most similar elements of these clusters, what of the following techniques are we using?**
+
+- [ ]  A. Single link
+- [ ]  B. Complete link
+- [ ]  C. Group average
+- [ ]  D. Centroid

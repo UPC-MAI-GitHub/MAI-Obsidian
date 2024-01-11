@@ -34,13 +34,10 @@
 - *Finite-state transducers*
 ### Spell checkers and spell correctors
 
-The use of different tokenizers (NLTK and spaCy) can impact the results when comparing sentence pairs, as they may perform differently depending on the input text data. Jaccard similarity proved to be an effective metric for comparing the similarity of sentence pairs after word tokenization. With the inversion of this metric we get a distance to measure the dissimilarity between sets of tokens, making it suitable for the task we were trying to solve. The Pearson correlation coefficient provided us a quantitative measure of how well our results align with the gold-standard, so the effectiveness.
-The results indicate that spaCy slightly outperformed NLTK in the task of sentence pair comparison using Jaccard distance.The Pearson correlation coefficient values obtained for NLTK (0.4505) and spaCy (0.4609) suggest a moderate positive correlation between the computed distances and the benchmark (gold-standard) distances.
-An improvement of our best result could be achieved by experimenting with different tokenization strategies or exploring other NLP techniques to enhance the performance.
 
 |     |     | c   | o   | m   | e   |
 | --- | --- | --- | --- | --- | --- |
 |     | 0   | 1   | 2   | 3   | 4   |
-| d   | 1   | 0.1 |     |     |     |
-| o   | 2   |     |     |     |     |
-| m   | 3   |     |     |     |  1.1   |
+| d   | 1   | 0.1 | 1.1    | 2.1    | 3.1    |
+| o   | 2   | 1.1    | 0.1    | 1.1    | 2.1    |
+| m   | 3   | 2.1    | 1.1    | 0.1    |  1.1   |
