@@ -1,3 +1,150 @@
 ![[2023-2024_Class10_Transformers.pdf]]
 
 ## Notes
+- *Restrictrions with ANN and CNN*
+	- We want to have the output (re prediction) but we also want to understand how the network is making ins decision, were the network is focusing to take one or another decision.
+	- Can *Grad-CAM* help me to improve my Neural Network?
+		- No until now
+	- Humans to take decisions in its prediction focus its attention in the "important" information, and discard the information that we consider is not useful to take our decisions.
+- **Attention mechanisms in Neural Networks**
+	- The attention mechanism in Neural Networks tends to *mimic the cognitive attention* possessed by human beings.
+	- *Emphasize the important parts* of the information and try to de- emphasize the non-relevant parts.
+	- Due to *limited memory*, this process is key to *not overwhelming a system's memory*
+	- In *deep learning*, *attention* can be interpreted as a *vector of importance weights*.
+- **Attention in Images**
+	- When we predict an element, which could be a *pixel in an image or a word in a sentence,* we use the *attention vector to infer how much is it related to the other elements*.
+	- Make CV models to focus on important parts, for this is important to *interpret the model*
+	- We need a *trainable attention mechanism*. *Grad-CAM is not trainable
+- *VGG-16 with attention*
+	- Two attention modules are applied (the gray blocks) after pool3 and pool5. Why?
+		- The *output of intermediate feature maps* (pool-3 and pool-4) are used to *infer attention maps.* 
+		- Output of *pool-5 serves as a form of global-guidance* because the last stage feature contains the most abstract and compressed
+		- *The intermediate feature vector (F)* is the output of pool-3 or pool-4 and the global feature vector (output of pool-5) *is fed as input to the attention layer*.
+		- ![[Pasted image 20240114110535.png|400]]
+	- Both the feature vectors pass through a convolution layer. When the spatial size of global and intermediate features are different, feature upsampling is done via bilinear interpolation.
+	- The *up_factor determines by what factor the convoluted global feature vector has to be upscaled*. After that an element wise sum is done followed by a convolution operation that just reduces the 256 channels to 1. 
+	- This is then fed into a *Softmax layer,* which *gives us a normalized Attention map (A)*. Each scalar *element in A represents the degree of attention* to the corresponding spatial *feature vector in F*. 
+	- The new *feature vector $F$*  is then computed by *pixel-wise multiplication*. So, the *attention map A and the new feature vector $F$ are the outputs* of the *Attention Layer*.
+		- 
+		- ![[Pasted image 20240114111350.png]]
+- S basically computing the *attention mechanism in the middle of the Convolutional processing* and use that information to help the CNN to *improve its learning process*
+- Working with text, attention mechanism help to identify whats is the relation of words in the text. In images we try to **estimate** using the attention vector *which and how* **elements in an image have a high correlation.** 
+- **RNN** (Recurrent Neural Network)
+	- Based on taking into account the *temporality  the data is associated with*, the order the data has, and what is the meaning of that.
+	- Manage states so the to estimate a output for the next word, the previous context (words) is strongly taken into account for each next work prediction. 
+	- ![[Pasted image 20240114112615.png|400]]
+	- Decoder to revisit the input sequence at every step. Decoder should selectively focus on particular parts
+	- The key is to make this process for *assigning the weights differentiable* so that *it can be learned along* with all of the other neural network parameters.
+- **Seq2seq**
+	- *Transform an input sequence (source) to a new one (target)*. Transformation could be *machine translation between multiple languages in either text or audio*, *question-answer dialog generation*, or even *parsing sentences into grammar trees*. 
+	- It has an *encoder-decoder architecture*, composed of: 
+		- *Encoder*: processes the *input sequence* and c*ompresses* the information *into a context vector* (also known as sentence embedding or “thought” vector) of a fixed length. This will should be *good summary of the meaning of the whole source sequence*.  $\longleftarrow$ **Attention mechanism**
+		- *Decoder:* is initialized with the context vector to *emit the transformed output*. 
+			- *Disadvantage:*  *fixed-length context vector* design is *incapability of remembering long sentences*. Often it has forgotten the first part once it completes processing the whole input.
+			- ![[Pasted image 20240114113645.png]]
+	- **Atention mechanism**
+		- Help the model to memorize long source sentences in Machine Translation, the idea is *create shortcuts between the context vector and the entire source input*.
+		- The alignment between the source and target is learned and controlled by the context vector.
+		- The *context vector* consumes three pieces of information:
+			- encoder hidden states;
+			- decoder hidden states; 
+			- alignment between source and target.
+		- The hidden states $h$ help us to identify the correlations $\alpha$ in the sequence with this we form the context vector
+			- ![[Pasted image 20240114114345.png]]
+		- ![[Pasted image 20240114114048.png|400]]
+		- ![[Pasted image 20240114114413.png]]
+		- Matrix of correlations in the sequence
+			- ![[Pasted image 20240114114722.png]]
+- *Self-attention,* also known as *intra-attention*, is an *attention mechanism relating different positions of a single sequence in order to compute a representation of the same sequence*.
+	- ![[Pasted image 20240114115122.png|300]]
+- *Soft and Hard attention*
+	- Based on whether the a*ttention has access to the entire image or only a patch*.
+	- *Soft*: the alignment weights are learned and placed “softly” over all patches in the source image
+	- *Hard:* only selects one patch of the image to attend to at a time. (More difficult to train as the model is not differentiable)
+	- Apply *attention mechanism to images to generate captions*
+		1. The image is encoded by a *CNN to extract features*. 
+		2. A *RNN decoder* consumes the convolution features to *produce descriptive words one by one*, where the weights are learned through attention.
+		3. ![[Pasted image 20240114115424.png|300]]
+	- The visualization of the *attention weights clearly demonstrates which regions of the image the model is paying attention* to so as to output a certain word.
+		- ![[Pasted image 20240114115602.png|300]]
+- **Attention is all you need**
+	- It presented a lot of *improvements to the soft attention*
+		- seq2seq modeling *without recurrent network units*.
+	- *Transformer:* entirely built on the *self-attention mechanisms without using sequence-aligned recurrent architecture*.
+	- The *major component* in the transformer is the *unit of multi-head self-attention mechanism*. 
+	- The transformer views the encoded representation of the *input as a set of key-value pairs*, $(K,V)$, both of dimension $n$ (input sequence length); 
+		- in the context of NMT, both the *keys and values are the encoder hidden states*. 
+		- In the *decoder*, the previous *output is compressed into a query ($Q$ of dimension $m$)* and the *next output is produced by mapping this query and the set of keys and values*. 
+	- The transformer adopts the *scaled dot-product attention*: the output is a *weighted sum of the values*, where the *weight assigned to each value is determined by the dot-product of the query with all the keys*
+		- ![[Pasted image 20240114120426.png]]
+	- We can *design queries $q$ that operate on $(k,v)$ pairs in such a manner as to be valid regardless of the database size.* 
+	- The *same query can receive different answers, according to the contents of the database*. 
+	- The “code” being executed for operating on a large state space (the database) can be quite simple (e.g., exact match, approximate match, top-k). 
+		- ![[Pasted image 20240114121159.png|350]]
+		- ![[Pasted image 20240114121240.png|300]]
+		- ![[Pasted image 20240114121330.png|300]]
+		- We are representing $K$, $V$ and $Q$ as matrices and we get their correlation, this why is called *self-attention*
+		- We need to *compute a score to determine how mush focus to place on other parts of the input*
+			- ![[Pasted image 20240114121707.png|500]]
+			- ![[Pasted image 20240114121838.png|500]]
+	- *Multi-heads elf attention*
+		- Learn several $Q, K, V$.
+		- Rather than only computing the attention once, the *multi-head mechanism runs through the scaled dot-product attention multiple times in parallel*.
+			- The *independent attention* outputs are simply *concatenated and linearly transformed into the expected dimensions*.
+			- Now we can *attend to information from different representation subspaces* at different positions.
+				- ![[Pasted image 20240114122219.png|400]]
+				- ![[Pasted image 20240114122325.png|300]]
+				- ![[Pasted image 20240114122347.png|350]]
+	- *Encoder*: 
+		- Generates an *attention-based representation with capability to locate a specific piece of information from a potentially infinitely-large context*
+		- Each layer has a multi-head self-attention layer and a simple position-wise fully connected feed-forward network.
+		- Each sub-layer adopts a residual connection and a layer normalization.
+		- ![[Pasted image 20240114122705.png|250]]
+		- ![[Pasted image 20240114122734.png|350]]
+		- ![[Pasted image 20240114122851.png|300]]
+	- *Decoder:*
+		- *Each layer has two sub-layers of multi-head attention mechanisms* and one sub-layer of fully-connected feed- forward network.
+			- Each sub-layer adopts a *residual connection* and a *layer normalization*.
+			- For the sequence generation, the *first multi-head attention sub-layer is modified to prevent positions from attending to subsequent positions*
+			- The decoder generates the output taking in to account the information to the encoder and the sentece processed at the moment
+				- ![[Pasted image 20240114124525.png|400]]
+	- **Full architecture overview**
+		- Both the source and target sequences *first go through embedding layers* to produce data of the same dimension dmodel=512. 
+		- To *preserve the position information, a sinusoid- wave-based positional encoding is applied and summed with the embedding output.*
+		- ![[Pasted image 20240114123215.png|500]]
+		- Representing the input order (*positional encoding*)
+			- The *transformer adds a vector to each input embedding*. These vectors follow a specific pattern that the model learns, which helps it determine *the position of each word*, or the *distance between different words* in the sequence. The intuition here is that adding these values to the embeddings *provides meaningful distances between the embedding vectors once they are projected into $Q/K/V$ vectors and during dot-product attention.*
+			- ![[Pasted image 20240114123612.png|400]]
+		- The reason why we see *two source inputs in the Transformer* overview, is because is *receives the new input* and process it, the input in the left, but *in the next iteration*, the transformer process the new input and *also process what it  just trasnlated before* (the input to the right)
+		- *Attention visualization*
+			- ![[Pasted image 20240114124831.png|500]]
+	- *Loss function:*
+		- We can use cross *Entropy*. 
+		- We can also optimize two words at a time: using *BEAM search*: keep a few alternatives for the first word.
+			- ![[Pasted image 20240114124711.png|400]]
+			- ![[Pasted image 20240114124932.png|400]]
+			- *Cross Entropy* and *KL (Kullback-Leibler) divergence*
+- **Transformer for Image Recognition**
+	- The idea is instead of using sentences, we images
+	- The *queries* are parts or *sections of the images*
+		- ![[Pasted image 20240114125238.png]]
+		- ![[Pasted image 20240114125245.png]]
+	- where $\alpha(q_ik_i)\in R (i=1,..,m)$ are *scalar attention weights*. 
+	- The operation itself is typically referred to as *attention pooling.*
+	-  The *attention mechanism* computes a *linear combination over values $v_i$ via attention pooling*, where weights are derived according to the compatibility between a query $q$ and keys $k_i$.
+		- ![[Pasted image 20240114125521.png|400]]
+		- We *divide our image in blocks* and each block will act as the words in the sentences
+			- $image \equiv sentence$
+				- $block \equiv word$
+		- ![[Pasted image 20240114125710.png|500]]
+		- ![[Pasted image 20240114125809.png|400]]
+		- ![[Pasted image 20240114125951.png|500]]
+	- *Limitations*
+		- Transformers *lack some of the inductive biases inherent to CNNs*, such as translation equivariance and locality, 
+		- Do *not generalize well when trained on insufficient amounts of data*.
+	- *Results*
+		- *“Attention” models outperform recurrent models and convolutional models for sequence processing*. They allow long range interactions.
+		- These models do best with *LOTS of training data* 
+		- Surprisingly, they seem to *outperform convolutional networks for image processing tasks*. 
+		- Naïve attention mechanisms have *quadratic complexity with the number of input tokens*, but there are often workarounds for this.
+		- By design, the *attention mechanism provides a differentiable means of control by which a neural network can select elements from a set* and to *construct an associated weighted sum over representations*.

@@ -1,83 +1,124 @@
 ![[CV-2324_Class2_Edges.pdf]]
 
+
+## Summary
+- Compute a *function of the local neighborhood* at each pixel in the image 
+	- Function specified by a “*filter*” or mask saying how to *combine values from neighbors*. 
+- **Uses of filtering**: 
+	- *Enhance an image* (denoise, resize, etc) 
+	- *Extract information* (texture, edges, etc) 
+	- *Detect patterns* (feature detection and matching)
 ## Notes
 
-* **General Summary**
-	* *Filters allow local image neighborhood to influence* our description and *features *
-		* *Smoothing* to *reduce noise*
-		* *Derivatives* to *locate contrast, high image gradient* 
-	* Different *edge detectors*: 
-		* **Sobel & Prewitt**: *fast but sensitive to noise* 
-		* **Convolution with Derivative** of Gaussian: 
-			* *Less fast but more robust*
-			* Using different *sigma allows to smooth more or less* 
-			* Zero-crossing with a *Laplacian* – *assures closed contours* 
-		* *Canny edge detector*: classical edge detector 
-			* Assures  c*ontinuous and thin contours* due to the hysteresis and the thinning steps. 
-			* Needs parameters
-- **Edge detection**
-	- *Goal*: map image from 2D array of pixels to a set of curves or line segments or contours. Locating structural features.
+### General summary
+* *Filters allow local image neighborhood to influence* our description and *features*
+	* *Smoothing* to *reduce noise*
+	* *Derivatives* to *locate contrast, high image gradient* 
+* Different *edge detectors*: 
+	* **Sobel & Prewitt**: *fast but sensitive to noise* 
+	* **Convolution** + **Derivative of **Gaussian**: 
+		* *Less fast but more robust*
+		* Using different *sigma allows to smooth more or less* 
+			* Also the definition of the *edge detection* (more or less detail)
+		* Zero-crossing with a *Laplacian* – *assures closed contours* 
+	* **Canny edge detector**: classical edge detector 
+		* Assures  *continuous and thin contours* due to the hysteresis and the thinning steps. 
+		* Needs parameters
+### Edge detection
+- *Goal*: *map image from 2D* array of pixels *to* a set of *curves* or *line segments* or *contours*. Locating structural features.
 	- Define the silhouette and are *very informative about the content of the image*.
-	- *Causes of an edge*
-		- Depth discontinuity: object boundary
-		- Reflectance change: appearance information, texture
-		- Cast shadows
-		- Change in surface orientation: shape
+- *Causes of an edge*
+	- *Depth discontinuity*: object boundary
+	- *Reflectance change*: appearance information, texture
+	- *Cast shadows*
+	- *Change in surface orientation*: shape
+- **Edges/gradients and invariance**
 	- Use *gradients to measure the changes* in an image and *detect edges*
 	- An *edge* is a *place of rapid change* in the image *intensity* function.
 	- We use derivatives to detect changes in an image
-	- ![[Pasted image 20231003144243.png]]
-	- 
-	- The gradient of an image is the vector: And points in the direction of most rapid change in intensity. Change in X or Y or in both.
-	- ![[Pasted image 20231003144209.png]]
-	- *Partial derivatives* to measure changes en *X* or *Y* axis
-	- *Finite difference filters*:
-		- Common operators
-		- ![[Pasted image 20231003144529.png]]
-		- Sobel, by using non-uniform weights, gives more importance to the closest neighbors.
-	- The *edge strength* is given by the *gradient magnitude*
+	- ![[Pasted image 20240112020236.png]]
+	- The *gradient* of an image is the vector: And points in the direction of most rapid change in intensity. *Change in X or Y or in both.*
+	- ![[Pasted image 20240112020531.png]]
+	* **First Derivatives**
+		- *Partial derivatives* to measure changes en *X* or *Y* axis
+		- For discrete data (as images) $\longrightarrow$ *Finite difference filters*:
+			- Common operators
+			- ![[Pasted image 20240112021127.png|250]]
+			- *Capturin finite differences by using*: **Filters**
+			- ![[Pasted image 20231003144529.png|300]]
+			- *Prewitt* filters uses uniform weights
+			- *Sobel filter*, by *using non-uniform weights*, gives *more importance to the closest neighbors*
+		- The gradient direction is given by the inverse of *tangent* of the gradients
+			- ![[Pasted image 20240112021719.png]]
+		- The *edge strength* is given by the *gradient magnitude*
+			- ![[Pasted image 20240112021735.png]]
+		- Which aspect (*magnitude* or *direction*) is *invariant* to image contrast?
+			- Direction
 	- **Second derivatives**
-		- Given an edge, the first derivative has an extreme, and the second one has a zero-crossing in the edge and extremes before and after the edge.
-		- ![[Pasted image 20231003145452.png]]
+		- Given an *edge*, the first derivative has an extreme, and the *second derivative has a zero-crossing* in the edge and *extremes before and after* the edge.
+		- ![[Pasted image 20240112021843.png]]
 		- Helps to *detect diagonal neighbors*
-	- **Histogram of edge maps**
-		- For $x$ and $y$
-		- ![[Pasted image 20231003145746.png]]
+		- To *apply in discrete data* (such an images): **Laplacian**
+			- ![[Pasted image 20240112022125.png|500]]
+			- Including *diagonal neighbors*
+				- ![[Pasted image 20240112022317.png|150]]
+- **Histogram of edge maps**
+	- For $x$ and $y$
+	- ![[Pasted image 20240112022411.png]]
+- Why are they *positive* and *negative*? 
+	- Because there are gradients in different (oposite) directions
+- Why the maxima is in 0?
+	- Most of the image reflect no changes (not the hole image is changes)
+- **Improving edge identification**
 	- We can use *filters to smooth and remove noise* to process the signal of edges detection to *better identify the edges*
-	- First Gaussian filter an then derivatives
+		- ![[Pasted image 20240112023005.png|500]]
+		- ![[Pasted image 20240112023245.png|500]]
+		- *For discrete data, Derivative of Gaussian is a simple filter:*
+			- ![[Pasted image 20240112023525.png|400]]
 	- *Even better identification of edges with the Laplacian of Gaussian (LoG)*
-	- ![[Pasted image 20231003150218.png]]
-	- Sigma parameter on the derivatives for edge detection influence:
-		- **Larger sigma values** --> *Large scale edges detected*
-		- **Smaller $\sigma$ values** --> *finer features detected*
-	- **Steps to get the edges**
-		1. *Smoothing*: suppress noise (e.g. by applying a *Gaussian filter*) 
-		2. *Edge enhancement*: filter for contrast detection (e.g. applying finite difference *filters as Sobel*)
-		3. *Edge localization* 
-			-  Determine which *local maxima from filter output* are actually edges vs. noise. 
-			- *Binarization (thresholding)*: all pixels with output value 
-				- higher than a threshold --> 1, 
-				-  lower than the threshold --> 0.
-	- **Canny Edge Detector**
-		- **Steps**
-			- Filter image with Derivative of *Gaussian filter* 
-			- Find *magnitude and orientation* of gradient 
-			- *Non-maximum suppression*: 
-				- Thin wide “ridges” down to single pixel width 
-			- *Linking and thresholding* (hysteresis): 
-				- Define two thresholds: low and high
-				- *Hysteresis thresholding*: Use a *high threshold to start* edge curves, and a *low threshold to continue them*.
-		- *Low level edges vs perceived contours*
-		- ![[Pasted image 20231003151904.png]]
+	- ![[Pasted image 20240112023753.png|500]]
+	- ![[Pasted image 20240112023635.png|500]]
+- **Sigma parameter** on the derivatives for edge detection *influence*:
+	- **Larger sigma values** --> *Large scale edges detected* (less definition in the identification)
+	- **Smaller $\sigma$ values** --> *finer features detected*
+- **Steps to get the edges**
+	1. *Smoothing*: suppress noise (e.g. by applying a *Gaussian filter*) 
+	2. *Edge enhancement*: filter for contrast detection (e.g. applying finite difference *filters as Sobel*)
+	3. *Edge localization* 
+		-  Determine which *local maxima from filter output* are actually edges vs. noise. 
+		- *Binarization (thresholding)*: all pixels with output value 
+			- higher than a threshold --> 1, 
+			-  lower than the threshold --> 0.
+- **Canny Edge Detector**
+	- **Steps**
+		- Filter image with *Derivative of Gaussian filter* 
+		- Find *magnitude and orientation* of gradient 
+		- *Non-maximum suppression*: 
+			- Thin wide “ridges” down to single pixel width 
+		- *Linking and thresholding* (hysteresis): 
+			- Define two thresholds: low and high
+			- *Hysteresis thresholding*: Use a *high threshold to start* edge curves, and a *low threshold to continue them*.
+	- **Limitations of Canny**
 		- *Canny* detector only *focuses on local changes* and it *has no semantic understanding*.
-
+		- *Low level edges vs perceived contours*
+		- ![[Pasted image 20231003151904.png|550]]
+	- *Hysteresis thresholding*
+		- ![[Pasted image 20240112025108.png|550]]
+- The *canny edge operator* is probably quite sensitive to noise?
+	- True - derivatives accentuate noise
+	- False - the gradient is computed using a derivative of Gaussian operator which removes noise
+	- Mostly false - it depends upon the chosen value of sigma (Correct)
+- ![[Image gradients and edges 2023-10-04 11.04.47.excalidraw]]
+**Relation of filters with CNNs**
+	- ![[Pasted image 20240112025817.png]]
 ## Udacity videos notes
 
 - ![[Image gradients and edges 2023-10-03 22.47.16.excalidraw]]
+- ![[Pasted image 20240112030227.png]]
 - The Max operator is not linear, cause the outputs does not increment linearly according to the input
 - **Inpulse function**
 	- considered as the bulding block of functions
-	- small simple signar whose area is 1
+	- small simple signal whose area is 1
 	- having an black box with an impulse at the input of the box, we can see which are the output impulses
 	- we can use impulses to process images
 	- *Impulse filter*
@@ -142,7 +183,7 @@ imshow(imfilter(img, filter,'circular'))
 		- *edge* is a place of *rapid change*
 		- Finding *edges* is like finding *peaks in the derivatives*
 		- Differential operators --> kernel that compute the gradient function over an image
-		- Derivatives measures hcanges in the $x$ and $y$ directions
+		- Derivatives measures changes in the $x$ and $y$ directions
 		- ![[Pasted image 20231004003211.png]]
 		- ![[Pasted image 20231004003238.png]]
 		- ![[Image gradients and edges 2023-10-04 00.38.46.excalidraw]]

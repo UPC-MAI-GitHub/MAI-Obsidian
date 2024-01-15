@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "15f94d8c763c4a1c",
+        "id": "5e24abcf1c424da4",
         "type": "tabs",
         "children": [
           {
-            "id": "b9ea0cea2f21d859",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/IHLT Exercises 2023-11-30 14.08.57.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "3b6c5b330326c0e8",
+            "id": "99aa616a640453c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coreference Resolution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16d4bb86f520fc5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exercises about Syntactic Parsers.md",
+                "file": "Image Segmentation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Linear discriminan",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 213.5,
     "collapsed": true
   },
   "right": {
@@ -118,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coreference Resolution.md",
+                "file": "Image Segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coreference Resolution.md",
+                "file": "Image Segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coreference Resolution.md"
+                "file": "Image Segmentation.md"
               }
             }
           }
@@ -196,53 +172,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b6c5b330326c0e8",
+  "active": "99aa616a640453c9",
   "lastOpenFiles": [
-    "Introduction to Human Language Technologies (IHLT).md",
-    "Named Entity Recognition and Classification, Noun Phrase Recognition.md",
-    "Word Sense Disambiguation.md",
-    "POS Tagging, Hidden Markov Model.md",
-    "Lexical Semantics, Semantic Resources.md",
-    "Syntactic Parsing - Grammars.md",
-    "Morphology, Finite States Automata.md",
-    "Text selection, Tokenization, Sentence Splitting, Language Identification.md",
-    "Excalidraw/IHLT Exercises 2023-11-30 14.08.57.excalidraw.md",
-    "Exercises about Syntactic Parsers.md",
-    "Exercises about CFGs.md",
-    "IHLT Exercises.md",
-    "Excalidraw/IHLT Exercises 2023-11-30 15.51.08.excalidraw.md",
-    "Excalidraw/Drawing 2023-11-30 16.18.11.excalidraw.md",
-    "Master in Artificial Intelligence (MAI).md",
-    "Coreference Resolution.md",
-    "Introduction to Machine Learning.md",
-    "Syntactic Parsing - Parsers.md",
-    "Exercises about Coreference Resolution.md",
-    "Introduction HLT definition, drawbacks, applications.md",
-    "Excalidraw/Introduction HLT definition, drawbacks, applications 2024-01-10 10.28.08.excalidraw.md",
-    "Pasted image 20240110101618.png",
+    "Computational Vision.md",
+    "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
+    "Face Detection.md",
+    "Image Features (SIFT).md",
+    "Face Recognition.md",
+    "Object recognition by bag-of-words.md",
+    "Object detection.md",
+    "Transformers.md",
     "IML Quizzes.md",
-    "Feature Selection.md",
-    "Factor Analysis.md",
-    "Lazy Learning.md",
-    "Introduction to unsupervised learning and Cluster Analysis (Part I).md",
-    "Slides/IML/T10_2023_students.pdf",
-    "Slides/IML/T7_2023_students.pdf",
-    "Slides/IML/T5_2023_students.pdf",
-    "Pasted image 20240109002408.png",
-    "Pasted image 20240108235623.png",
-    "Pasted image 20240108234536.png",
-    "Pasted image 20240108234309.png",
-    "Pasted image 20240108234238.png",
-    "Pasted image 20240108200416.png",
-    "Pasted image 20240108200000.png",
-    "Pasted image 20240108173342.png",
-    "Pasted image 20240108172636.png",
-    "Slides/IMAS/Lab/05 - Introduction to Dedale.pdf",
-    "Slides/IMAS/Lab/06 - Interaction protocols.pdf",
-    "05 - Introduction to Dedale.pdf",
-    "Slides/IMAS/Readings/CoalForm-TesiRahwan_2007.pdf",
-    "Slides/IMAS/Readings/SurveyCoalitionStructureGeneration.pdf",
-    "Slides/IMAS/Readings/shehory98methods.pdf",
-    "Slides/IMAS/Readings/Spatio-temporal efficient coalition formation EUMAS-2020.pdf"
+    "Slides/CV/CV-2324_Class3_HOG.pdf",
+    "Image Features (HoG).md",
+    "Image gradients and edges.md",
+    "Digital images, image properties & linear filters.md",
+    "What is computer vision.md",
+    "Image Segmentation.md",
+    "CNNs.md",
+    "Quizz SIFT.md",
+    "Quizz Face Detection & Recognition.md",
+    "Quizz - Template Matching and HOG.md",
+    "Quizz - Filters & Edges.md",
+    "CV-2324_Class4_SIFT.pdf",
+    "Slides/CV/CV-2324_Class2_Edges.pdf",
+    "Slides/CV/CV-2324_Class1_3IntroFilters.pdf",
+    "Introduction to Machine Learning.md",
+    "Master in Artificial Intelligence (MAI).md",
+    "Slides/CV/U-NET_unwrapped.pdf",
+    "Pasted image 20240115030746.png",
+    "Pasted image 20240115030730.png",
+    "Pasted image 20240115030625.png",
+    "Slides/CV/CV-2223_Class11_Image_Segmentation.pdf",
+    "Pasted image 20240115025927.png",
+    "Pasted image 20240115024243.png",
+    "Pasted image 20240115023641.png",
+    "Pasted image 20240115023323.png",
+    "Pasted image 20240115023008.png",
+    "Pasted image 20240115022519.png",
+    "Pasted image 20240115021414.png",
+    "Slides/CV/2023-2024_Class10_Transformers.pdf",
+    "Slides/CV/CV-2324_Class8_Object detection.pdf",
+    "Introduction to Dedale.md",
+    "Introduction to Multi-agent Systems.md",
+    "JADE Agents and behaviors.md",
+    "Introduction to JADE.md",
+    "Slides/CV/2023-2024_Class8_Visualization_and_Interpretability.pdf",
+    "Slides/CV/CV-2324_Class7_CNNs.pdf"
   ]
 }

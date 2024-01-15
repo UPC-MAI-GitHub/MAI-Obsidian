@@ -33,8 +33,12 @@ This is the start of the Computational Vision class at UB. Here you can find the
 ## Paper presentation
 - [[Rosetta Neurons Mining the Common Units in a Model Zoo]]
 
+## Quizzes
 
-
+* [[Quizz - Filters & Edges]]
+* [[Quizz - Template Matching and HOG]]
+* [[Quizz SIFT]]
+* [[Quizz Face Detection & Recognition]]
 
 
 
