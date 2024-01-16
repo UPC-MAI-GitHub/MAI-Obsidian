@@ -39,6 +39,7 @@ This is the start of the Computational Vision class at UB. Here you can find the
 * [[Quizz - Template Matching and HOG]]
 * [[Quizz SIFT]]
 * [[Quizz Face Detection & Recognition]]
+* [[Open questions]]
 
 
 

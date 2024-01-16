@@ -129,7 +129,7 @@
 				* Add convolutional feature layers to the end of the truncated base network, allowing *predictions of detections at multiple scales.*
 		* *Default boxes* are *similar* to the anchor boxes used in *Faster R-CNN*, but *applied to several feature maps of different resolutions*
 		* *Matching strategy*
-			* Difference training SSD vs Typical Detector withregion proposals, is that *ground truth information needs to be assigned to specific outputs* in the fixed set of detector outputs: -
+			* Difference training SSD vs Typical Detector with region proposals, is that *ground truth information needs to be assigned to specific outputs* in the fixed set of detector outputs
 			* Need to determine which default boxes correspond to a ground truth detection and train the network accordingly.
 			* *Matched* each ground truth box to the default box with the best *Jaccard overlap,* 
 				* Then match *default boxes to any ground truth with Jaccard overlap* higher than a threshold (0.5).
