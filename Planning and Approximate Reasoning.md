@@ -81,3 +81,4 @@ For more information about ACIA ask to Dr. Aida Valls
 - [[Exam2020-21-Solved.pdf|Approximate Reasoning Exam Example]]
 - [[prova-AppReas 2021-22.pdf|Approximate Reasoning Exam Jan 2022]]
 - [[exam-AppReas 2022-23.pdf|Approximate Reasoning Exam Jan 2023]]
+- [[PARExam21-Solved2.pdf]]

@@ -48,6 +48,7 @@ Here can be found the slides of the [[AssIMAS-23-24.pdf|IMAS Course Presentation
 		- [[Coalition structure generation - A survey]]
 		- [[Methods for task allocation via agent coalition formation]]
 		- [[Anytime and Efficient Coalition Formation with Spatial and Temporal Constraints]]
+- [[Making group Decision III - Auctions]]
 ## Lab Sessions
 
 - [[IMAS Course Labs Intro]]

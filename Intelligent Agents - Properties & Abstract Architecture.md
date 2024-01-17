@@ -3,24 +3,26 @@
 ## Notes
 - **What is an agent?**
 	- No commonly accepted definition
-	- *Agent* must be *autonomous*
-	- Possible definition: An *agent* is a *computer system* that is *situated in* some *environment*, and that is capable of *autonomous actions* in this environment in order *to meet its delegated objectives*.
+	- *Agent* must be *autonomous* to meet its *delegated activites*
 	- Agent must choose *what* and *when* to perform an action.
 - *Autonomy is adjustable* (spectrum from too much or too little autonomy)
+	- ![[Pasted image 20240116230152.png|200]]
 - **Examples of Agents**
-	- Simple agents
-		- Control systems
-			- Thermostat
+	- *Simple agents*
+		- *Control systems:* Thermostat (physical environment)
+			- *Goal*: maintain room temperature
+			- *Actions* on/off
 		- Software demons
-			- UNIX biff program
+			- *Goal*: monitor incoming email and flag it
+			- *Actions*: display GUI icons
 - **Agent & Environment**
-	- ![[Intelligent Agents - Properties & Abstract Architecture 2023-10-06 23.13.53.excalidraw]]
+	- ![[Intelligent Agents - Properties & Abstract Architecture 2023-10-06 23.13.53.excalidraw|300]]
 	- **Properties of Environments**
 		- The *environment affects* the *agents*
 		- Categories over different dimensions
 			- *Fully observable* vs *Partially observable* 
 				- *Fully*: agent can obtain *complete, accurate, up-to-date* info about the *environment's state*. 
-				- Most *moderately complex environments are partially observable* (e.g. the everyday physical world)
+				- *Partiially:* *moderately complex environments are partially observable* (e.g. the everyday physical world)
 				- The more accessible environment is, the simpler it is to build agents to operate in it.
 				- *Ex1: Agents playing a game card*, they can communicate with their team but not with the opponents, an agent can only see its own cards
 					- *I think* this is a *partially observable* for agents
@@ -32,25 +34,26 @@
 			- *Static* vs *Dynamic*
 				- *Static:* can be measured to remain *unchanged if no actions* are done *by the agents*.
 				- *Dynamic*: has other processes operating on it that *changes the state beyond the agent's control*.
+					- One possible reason to be dynamic is the *presence of other agents*
 			- *Discrete* vs *Continuous*
-				- *Discrete:* fixes and finite number of actions and precepts in the environment (e.g. chess game). For simplicity a discrete environment is often assumed.
+				- *Discrete:* fixes and *finite number of actions and precepts* in the environment (e.g. chess game). For simplicity a discrete environment is often assumed.
 				- *Continuous:* (e.g. taxi driving)
 			- *Episodic* vs *non-episodic*
 				- *Episode:* single *experience of the agent with* the *environment*.
-				- *Episodic:* *current agent decisions affect only the current episode*, not the future ones. No necessity to consider long-term consequences.
-				- *Non-episodic:* *agent decisions affect* the current a possible *future episodes*.
+				- *Episodic:* *current agent decisions affect only the current episode*, not the future ones. 
+				- *Non-episodic:* *agent decisions affect* the current a possible *future episodes*.  Necessity to consider long-term consequences.
 - **Intelligent Agents**
 	- It is difficult to define intelligence itself.
 	- An *intelligent agent* is expected to show
 		- *Reactivity*: agent must maintain an *ongoing interaction* with the environment and respond on time to changes in it. (e.g. stimulus -> response rules)
 		- *Proactivity:* taking the initiative to achieve goals, agents are means to do things for us.
 		- *Social abilities:* ability to *interact* with other agents and possibly humans via: 
-			- *Cooperation:* Achieve a *shared goal working together*. May be because an agent can achieve it alone or because cooperation leads to a *better result*.
+			- *Cooperation:* Achieve a *shared goal working together*. May be because an agent can't achieve it alone or because cooperation leads to a *better result*.
 			- *Coordination:* *management* of *interdependencies* between activities.
 			- *Negotiation:* reach *agreement* in matters of *common interest*.
 		- *Mobility:* in the environment
-		- *Learning:* *improve* over time.
-		- *Rationality:* act to achieve its goals and not to preven them to happen.
+		- *Learning:* *improve performance* over time.
+		- *Rationality:* act to achieve its goals and not to prevent them to happen.
 		- *Veracity:* not able to communicate false information.
 - **Abstract Architectures for Agents**
 	- Assume the environment (non-deterministic) may be in any of a finite set $E$ of discrete states: $$E=\{e,e',...\}$$ 

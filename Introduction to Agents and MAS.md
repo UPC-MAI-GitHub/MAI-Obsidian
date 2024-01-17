@@ -1,26 +1,29 @@
 ![[Lect01-Intro_to_Agents (1).pdf]]
 
 ## Notes
-- Trends in computer science
-	- *Ubiquity*: reduction in size and cost of computing capability
-	- Interconnection devices today are networked into large distributed systems.
-	- *Intelligence*: increase of the knowledge domain and inference capabilities to provide better user experiences.
-	- *Delegation*: computers doing more for us without our intervention. (Giving control to computers)
-	- *Human-orientation in programming methodologies*: Implement concepts and metaphors to reflect the way we understand the world.
+### Main trends ins Computer Science
+- **Ubiquity**: reduction in size and cost of computing capability (omnipresence)
+- **Ambient Intelligence**: increase of the knowledge domain and inference capabilities to provide better user experiences.
+- **Interconnection**: Computer systems are networked into large distributed systems (Internet) (Grid computing) (Peer-to-Peer computing)
+- **Intelligence:** more intelligent problem solving techniques as the complexity of the tasks we automate also increases
+- **Delegation**: computers doing more for us without our intervention. (*Giving control* to computers)
+- **Human-orientation in programming methodologies**: Implement concepts and metaphors to reflect the way we understand the world.
 - Programming progress
 	- ![[Introduction to Agents and MAS 2023-09-29 00.50.15.excalidraw]]
-- **Goal?** --> a intelligent computer system that can act on our behalf
+- **Goal?** --> a intelligent computer system that can *act on our behalf*
 	- *Independently*
 	- In a way that *represents our* best *interests*
-	- Interconnection and distribution to *cooperate*, *reach agreements* or *compete*
+	- Interconnection and distribution to *cooperate*, *reach agreements* or *compete* (compete with other systems)
+### Agent and Multi-agent systems
 - **Agent**
 	- *Computer system* able to *interact independently* in a *dynamic environment*.
+	- *Proactivity* from the *agent*
 	- Assumed to be *autonomous*, *synchronize* and *coordinate* their activities at run time.
 	- **Agent technologies**
-		- *Agent-level*: refer to the individuals
-		- *Interaction-level*: communication between agents
+		- *Agent-level*: refer to the individuals (reasoning and learning)
+		- *Interaction-level*: communication between agents (languages, protocols, allocation mechanisms)
 		- *Organization-level*: agent societies (structure, trust, norms, obligations, etc.)
-	- *Systems taking the initiative when necessary*
+	- Systems *taking the initiative* when necessary, *cooperating* to solve problems
 	- Agents *cooperating to solve a task*
 	- Take into account *social aspects*, these are important part of *intelligent activity in real-world*-settings.
 	- **Agents vs Objects**
@@ -28,27 +31,34 @@
 			- Encapsulates some state, 
 			- Communicates via message passing 
 			- Has methods (operations to be performed on a given state)
-			- *A method is always executed when called*.
+			- Pasive/reactive -> *A method is always executed when called*.
+		- *Expert systems*
+			- Disembodied expertise (not practical, mostly abstract)
+			- Typically work alone
+			- Not aware of the environment (just ask info to the user)
+			- Don't perform actions
+			- Some expert systems can be *agentified*
 		- *Agent*
 			- Notion of autonomy (*decides whether to act or not on request from another agent*)
 			- Intelligent
-			- Flexible
-			- Reactive
-			- *Proactive*
-			- Social
+			- Flexible (reactive, proactive, social)
+			- Always Active (*Multi-threaded systems*)
+			- They can get an economic profit
 	- **Considerations**
 		- Balance *reaction-deliberation*
 		- *Learning* from an about other agents in the environment
 		- Electing upon user *preferences*
 		- Find ways to *negotiate* and *cooperate (coalitions)*
 		- Agents are no expert systems, but sometimes somo expert systems are agntified.
+		- *Interaction*: probably the mist important single characteristic of complex software
 	- **Some uses**
 		- Complex and dynamic real-world environments simulations
 		- A tool to get some light in the understanding  on various kinds of social processes.
 		- *Agent-oriented software engineering* allows to structure applications with autonomous components.
 - **Multi-agent system**
-	- X number of agents interacting with each other. usually, each has a different goal and motivation.
-	- *Cooperate*
-	- *Negotiate*
-	- *Coordinate*
-	- ![[Introduction to Agents and MAS 2023-09-29 01.05.06.excalidraw]]
+	- *X number of agents interacting with each other*. usually, each has a different goal and motivation.
+		- *Simple case* -> programmed by the same and collaborate to complete a task
+		- *General case* -> act on behalf of users with different goals and motivations
+	- *Succesful interation* ---> *Cooperate*, *Negotiate*, *Coordinate*
+	- ![[Introduction to Agents and MAS 2023-09-29 01.05.06.excalidraw|250]]
+

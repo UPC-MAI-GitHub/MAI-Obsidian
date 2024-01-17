@@ -4,50 +4,60 @@
     "type": "split",
     "children": [
       {
-        "id": "15f94d8c763c4a1c",
-        "type": "tabs",
+        "id": "53f30078dbcba76d",
+        "type": "split",
         "children": [
           {
-            "id": "16d4bb86f520fc5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Object recognition by bag-of-words.md",
-                "mode": "source",
-                "source": false
+            "id": "eece315dee589f27",
+            "type": "tabs",
+            "dimension": 57.94117647058824,
+            "children": [
+              {
+                "id": "4aa0cc29ce252746",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Making group Decision III - Auctions.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ccb708cce7ad3d17",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Slides/PAR/Exams/PARExam21-Solved2.pdf"
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "6c0afa7c37a700c1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Slides/CV/CV-2324_Class1_3IntroFilters.pdf"
+            "id": "8adbc60d634aa94c",
+            "type": "tabs",
+            "dimension": 42.05882352941177,
+            "children": [
+              {
+                "id": "fc3f78b94c4e8d0b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Making group Decision III - Auctions.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           }
-        ]
-      },
-      {
-        "id": "eece315dee589f27",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4aa0cc29ce252746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Open questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -123,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Open questions.md",
+                "file": "Slides/PAR/Exams/PARExam21-Solved2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Open questions.md",
+                "file": "Slides/PAR/Exams/PARExam21-Solved2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open questions.md"
+                "file": "Slides/PAR/Exams/PARExam21-Solved2.pdf"
               }
             }
           }
@@ -201,32 +211,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4aa0cc29ce252746",
+  "active": "ccb708cce7ad3d17",
   "lastOpenFiles": [
-    "Object recognition by bag-of-words.md",
-    "Computational Vision.md",
-    "Object detection.md",
-    "Open questions.md",
-    "Face Recognition.md",
-    "Image Features (HoG).md",
-    "Digital images, image properties & linear filters.md",
-    "Image gradients and edges.md",
-    "Slides/CV/CV-2324_Class1_3IntroFilters.pdf",
-    "Transformers.md",
-    "Image Segmentation.md",
-    "Quizz - Filters & Edges.md",
-    "Quizz SIFT.md",
-    "CNNs.md",
-    "Quizz - Template Matching and HOG.md",
-    "Image Features (SIFT).md",
-    "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
-    "Face Detection.md",
-    "What is computer vision.md",
-    "Quizz Face Detection & Recognition.md",
+    "Planning and Approximate Reasoning.md",
+    "Bayesian Networks.md",
+    "Slides/PAR/Exams/PARExam21-Solved2.pdf",
+    "Slides/PAR/Exams/PARExam21-Solved2.pdf.crdownload",
+    "Slides/PAR/Exams/PARExam2022.pdf",
+    "Slides/PAR/Exams/PARExam2022.pdf.crdownload",
+    "Slides/PAR/Exams/PARExam21-Solved.pdf",
+    "Slides/PAR/Exams/PARExam21-Solved.pdf.crdownload",
+    "Slides/PAR/Exams/PARExam2021.pdf",
+    "Slides/PAR/Exams/PARExam2021.pdf.crdownload",
+    "Dempster-Shafer model.md",
+    "Demper-Shafer exercise.md",
+    "Certainty Factors.md",
+    "Probability Model.md",
+    "Introduction to Approximate Reasoning.md",
+    "Fuzzy Experts Systems.md",
+    "Fuzzy Logic.md",
     "Master in Artificial Intelligence (MAI).md",
-    "Exercises about Syntactic Parsers.md",
-    "Excalidraw/IHLT Exercises 2023-11-30 14.08.57.excalidraw.md",
-    "Coreference Resolution.md",
+    "Making group Decision III - Auctions.md",
+    "Slides/IMAS/MAS-Making-Group-Decision_3.pdf",
+    "Introduction to Multi-agent Systems.md",
+    "Making Group Decision II - Forming Coalition.md",
+    "Slides/IMAS/MAS_Lec8-Making-Group-Decision_2.pdf",
+    "Making Group Decision I.md",
+    "Working Together.md",
+    "Ontologies & Communication.md",
+    "Reactive & Hybrid Agents.md",
+    "Practical Reasoning Agents.md",
+    "Deductive Reasoning Agents.md",
+    "Intelligent Agents - Properties & Abstract Architecture.md",
+    "Pasted image 20240116230152.png",
+    "Introduction to Agents and MAS.md",
+    "Computational Vision.md",
+    "All multiple.md",
+    "Quizz Face Detection & Recognition.md",
+    "Quizz SIFT.md",
     "Pasted image 20240115030746.png",
     "Pasted image 20240115030730.png",
     "Pasted image 20240115030625.png",
@@ -235,19 +257,6 @@
     "Pasted image 20240115023641.png",
     "Pasted image 20240115023323.png",
     "Pasted image 20240115023008.png",
-    "Pasted image 20240115022519.png",
-    "Pasted image 20240115021414.png",
-    "Introduction to Human Language Technologies (IHLT).md",
-    "Named Entity Recognition and Classification, Noun Phrase Recognition.md",
-    "Word Sense Disambiguation.md",
-    "Slides/IML/T10_2023_students.pdf",
-    "Slides/IML/T7_2023_students.pdf",
-    "Slides/IML/T5_2023_students.pdf",
-    "Slides/IMAS/Lab/05 - Introduction to Dedale.pdf",
-    "Slides/IMAS/Lab/06 - Interaction protocols.pdf",
-    "05 - Introduction to Dedale.pdf",
-    "Slides/IMAS/Readings/CoalForm-TesiRahwan_2007.pdf",
-    "Slides/IMAS/Readings/SurveyCoalitionStructureGeneration.pdf",
-    "Slides/IMAS/Readings/shehory98methods.pdf"
+    "Pasted image 20240115022519.png"
   ]
 }
