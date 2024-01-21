@@ -13,6 +13,7 @@ Welcome to the Computational Intelligence course. The course begins on Thursday 
 		- [[Evolutionary Computation - Comments on the History and Current State]]
 - [[Tips for Experimental Work]]
 - [[Introduction to Fuzzy Computation]]
+- 
 ## Lab Sessions
 - [[Lab-NN-Class-2023-24.pdf|Laboratory Neural Networks]]
 - [[Laboratory Fuzzy Logic]]
@@ -37,5 +38,7 @@ Welcome to the Computational Intelligence course. The course begins on Thursday 
 		- [[Evolutionary convolutional neural networks - An application to handwriting recognition.]]
 		- [[Evolving Deep Neural Networks]]
 - [[Lab Assignment 3]]
+	- **Readings**
+		- [[Energy and buildings]]
 	- **Readings**
 		- [[Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools]]
