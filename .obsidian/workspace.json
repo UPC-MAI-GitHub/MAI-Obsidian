@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eece315dee589f27",
+        "id": "5e24abcf1c424da4",
         "type": "tabs",
-        "dimension": 65.26442307692308,
         "children": [
           {
-            "id": "ccb708cce7ad3d17",
+            "id": "99aa616a640453c9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "pdf-annotator",
               "state": {
-                "file": "Slides/CI/ESs.pdf"
+                "file": "Energy and buildings.md"
               }
             }
           }
@@ -66,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Linear discriminan",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,12 +82,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 213.5,
     "collapsed": true
   },
   "right": {
@@ -113,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neural Networks - Multilayer Percentrons.md",
+                "file": "Energy and buildings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neural Networks - Multilayer Percentrons.md",
+                "file": "Energy and buildings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neural Networks - Multilayer Percentrons.md"
+                "file": "Energy and buildings.md"
               }
             }
           }
@@ -191,47 +189,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5140bad70107395d",
+  "active": "99aa616a640453c9",
   "lastOpenFiles": [
-    "Slides/CI/ESs.pdf",
-    "Evolution Strategies.md",
-    "Computational Intelligence (CI).md",
-    "Introduction to Genetic Algorithms.md",
-    "Slides/CI/IntroGAs_DEF.pdf",
-    "Introduction to Evolutionary Computation.md",
-    "Slides/CI/IntroEC.pdf",
-    "Neural Networks - Experimental Issues.md",
-    "Slides/CI/slides-ExperimentalIssues-NeuralNetworks.pdf",
-    "Convolutional Neural Networks.md",
-    "Slides/CI/slides-MultilayerPerceptrons.pdf",
-    "Neural Networks - Multilayer Percentrons.md",
-    "Master in Artificial Intelligence (MAI).md",
-    "Excalidraw/Neural Networks - Multilayer Percentrons 2023-09-21 10.24.25.excalidraw.md",
-    "Pasted image 20240117235301.png",
-    "Pasted image 20240117235231.png",
-    "Introduction to Fuzzy Computation.md",
-    "Planning and Approximate Reasoning.md",
-    "Slides/PAR/Exams/Exam2020-21-Solved.pdf",
-    "Certainty Factors.md",
-    "Slides/PAR/Exams/exam-AppReas 2022-23.pdf",
-    "Slides/PAR/Exams/prova-AppReas 2021-22.pdf",
     "Slides/PAR/Exams/PARExam21-Solved2.pdf",
-    "Dempster-Shafer model.md",
-    "Slides/PAR/Exams/Planning Exam-the second round 24-01.pdf",
-    "Slides/PAR/Exams/prova1 2022-23 -2call .pdf",
-    "Introduction to Multi-agent Systems.md",
-    "Making group Decision III - Auctions.md",
-    "Bayesian Networks.md",
-    "Demper-Shafer exercise.md",
-    "Probability Model.md",
-    "Introduction to Approximate Reasoning.md",
-    "Fuzzy Experts Systems.md",
-    "Fuzzy Logic.md",
-    "Making Group Decision II - Forming Coalition.md",
-    "Making Group Decision I.md",
-    "Working Together.md",
-    "Ontologies & Communication.md",
+    "Slides/PAR/Exams/PARExam21-Solved.pdf",
+    "Slides/PAR/Exams/PARExam2022.pdf",
+    "Slides/PAR/Exams/PARExam2021.pdf",
+    "Slides/IMAS/MAS-Making-Group-Decision_3.pdf",
     "Pasted image 20240116230152.png",
+    "Open questions.md",
+    "Making group Decision III - Auctions.md",
+    "All multiple.md",
+    "Computational Intelligence (CI).md",
+    "Energy and buildings.md",
+    "Lab Assignment 3.md",
+    "Slides/CI/Lab/PracticaFL-v1.pdf",
+    "Master in Artificial Intelligence (MAI).md",
+    "Image Segmentation.md",
+    "Computational Vision.md",
+    "Visualisation and Interpretation Methods for Image Classification - UMAP, Saliency Maps, Class Activation Maximization and Interpretability.md",
+    "Face Detection.md",
+    "Image Features (SIFT).md",
+    "Face Recognition.md",
+    "Object recognition by bag-of-words.md",
+    "Object detection.md",
+    "Transformers.md",
+    "IML Quizzes.md",
+    "Slides/CV/CV-2324_Class3_HOG.pdf",
+    "Image Features (HoG).md",
+    "Image gradients and edges.md",
+    "Digital images, image properties & linear filters.md",
+    "What is computer vision.md",
+    "CNNs.md",
+    "Quizz SIFT.md",
+    "Quizz Face Detection & Recognition.md",
+    "Quizz - Template Matching and HOG.md",
+    "CV-2324_Class4_SIFT.pdf",
+    "Slides/CV/CV-2324_Class2_Edges.pdf",
+    "Slides/CV/CV-2324_Class1_3IntroFilters.pdf",
+    "Slides/CV/U-NET_unwrapped.pdf",
     "Pasted image 20240115030746.png",
     "Pasted image 20240115030730.png",
     "Pasted image 20240115030625.png",
