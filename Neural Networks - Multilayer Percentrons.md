@@ -2,6 +2,11 @@
 
 ## Notes
 ### Introduction
+* **Multiple Types of Neural Networks**
+	* ![[Pasted image 20240117235231.png|300]] ![[Pasted image 20240117235301.png|300]]
+* **Neural Networks**
+	* Set of *connected units* (neurons)
+	* Set of connections *synapses ot weights* among this unit
 ### Linear Regresion
 ### General Machine Learning Issues
 ### Single-layer Perceptrons
